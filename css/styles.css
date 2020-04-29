@@ -1,0 +1,280 @@
+*:not(i) {
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  text-transform: capitalize;
+}
+
+input, textarea {
+  text-transform: none;
+}
+
+a {
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* FontAwesome Brand Colors */
+.fa-facebook-square,
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-twitter-square,
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-instagram {
+  color: #e1306c;
+}
+
+.fa-youtube-square,
+.fa-youtube {
+  color: #f00;
+}
+
+.fa-behance-square,
+.fa-behance {
+  color: #1769ff;
+}
+
+.fa-linkedin,
+.fa-linkedin-in {
+  color: #0077b5;
+}
+
+.fa-github-square,
+.fa-github-alt,
+.fa-github {
+  color: #4078c0;
+}
+
+.fa-stack-overflow {
+  color: #f48024;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 85vw;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 95vw;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 95vw;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 95vw;
+  }
+}
+
+a,
+button {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s opacity ease-in-out !important;
+}
+a:hover,
+button:hover {
+  color: inherit;
+  opacity: 0.7;
+}
+
+a,
+span,
+img,
+i {
+  display: inline-block;
+}
+
+body {
+  background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%) no-repeat;
+  min-height: 100vh;
+  padding: 100px 0;
+}
+body .app-con {
+  background: #ececec;
+  box-shadow: 0 32px 99px #ececec33;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: calc(100vh - 200px);
+  position: relative;
+  padding-bottom: 83px;
+}
+body .app-con > .navbar {
+  background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
+  padding: 10px 60px;
+}
+body .app-con > .navbar .navbar-brand {
+  width: 340px;
+  padding: 0;
+  margin: 0;
+}
+body .app-con > .navbar .navbar-collapse .navbar-nav {
+  margin-inline-start: auto;
+  padding: 0;
+}
+body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-of-type) {
+  margin-inline-end: 30px;
+}
+body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  color: #f5f5f5;
+}
+body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.register-btn {
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+body .app-con .page-content {
+  padding: 80px 0;
+}
+body .app-con .page-content .welcoming h1 {
+  color: #363062;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+body .app-con .page-content .statistics {
+  margin: 80px 0;
+}
+body .app-con .page-content .statistics .statistic-box {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-top: 100%;
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  box-shadow: 0 0 8px #36306266;
+  border-radius: 24px;
+  overflow: hidden;
+}
+body .app-con .page-content .statistics .statistic-box.rotated .box-content .box-bg {
+  transform: rotate(180deg);
+}
+body .app-con .page-content .statistics .statistic-box .statistic-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+body .app-con .page-content .statistics .statistic-box .statistic-content .box-bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url("../images/Path 255.png") no-repeat center;
+  background-size: cover;
+}
+body .app-con .page-content .statistics .statistic-box .statistic-content .text {
+  position: relative;
+  z-index: 2;
+  margin-top: 50%;
+  transform: translate(0, -50%);
+}
+body .app-con .page-content .statistics .statistic-box .statistic-content .text p {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #f5f5f5;
+}
+body .app-con .page-content .statistics .statistic-box .statistic-content .text p:first-of-type {
+  margin-bottom: 25px;
+}
+body .app-con .page-content .steps h2 {
+  color: #363062;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+body .app-con .page-content .steps .step-box {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-top: 100%;
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  box-shadow: 0 0 8px #36306266;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .app-con .page-content .steps .step-box .step-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 50%;
+  transform: translate(0, -45%);
+  height: 100%;
+}
+body .app-con .page-content .steps .step-box .step-content h3 {
+  font-size: 32px;
+  color: #363062;
+  width: 70%;
+  margin: 50px auto 15px auto;
+  height: 76px;
+  overflow: hidden;
+}
+body .app-con .page-content .steps .btn-con {
+  text-align: center;
+  margin-top: 60px;
+}
+body .app-con .page-content .steps .btn-con button {
+  font-size: 34px;
+  padding: 10px 80px;
+  font-weight: 700;
+  background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
+  border-radius: 100px;
+  color: #f5f5f5;
+  border: none;
+  box-shadow: none;
+}
+body .app-con footer {
+  background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
+  padding: 10px 60px;
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+body .app-con footer nav {
+  display: flex;
+}
+body .app-con footer nav .navbar-brand {
+  width: 225px;
+  margin: 0;
+}
+body .app-con footer nav .navbar-nav {
+  padding: 0;
+}
+body .app-con footer nav .navbar-nav .nav-item {
+  color: #f5f5f5;
+}
+body .app-con footer nav .navbar-nav .nav-item a {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

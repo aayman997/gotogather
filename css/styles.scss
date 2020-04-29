@@ -1,0 +1,323 @@
+// Colors
+$textDark    : #222831;
+$textWhite   : #f5f5f5;
+$primary     : #363062;
+$backGround  : #ececec;
+$shadowColor : #36306266;
+$gradient    : linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
+
+
+// Global Styles
+*:not(i) {
+  font-family : 'Cairo', sans-serif;
+  font-weight : 400;
+}
+
+* {
+  text-transform : capitalize;
+}
+
+input, textarea {
+  text-transform : none;
+}
+
+a {
+  text-transform : capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight    : 700;
+  text-transform : capitalize;
+}
+
+/* FontAwesome Brand Colors */
+
+.fa-facebook-square,
+.fa-facebook-f {
+  color : #3b5998;
+}
+
+.fa-twitter-square,
+.fa-twitter {
+  color : #1da1f2;
+}
+
+.fa-instagram {
+  color : #e1306c;
+}
+
+.fa-youtube-square,
+.fa-youtube {
+  color : #f00;
+}
+
+.fa-behance-square,
+.fa-behance {
+  color : #1769ff;
+}
+
+.fa-linkedin,
+.fa-linkedin-in {
+  color : #0077b5;
+}
+
+.fa-github-square,
+.fa-github-alt,
+.fa-github {
+  color : #4078c0;
+}
+
+.fa-stack-overflow {
+  color : #f48024;
+}
+
+.container {
+  @media (min-width : 1200px) {
+	max-width : 85vw;
+  }
+  
+  @media (min-width : 992px) {
+	max-width : 95vw;
+  }
+  
+  @media (min-width : 576px) {
+	max-width : 95vw;
+  }
+  
+  @media (max-width : 576px) {
+	max-width : 95vw;
+  }
+}
+
+a,
+button {
+  text-transform  : capitalize;
+  text-decoration : none;
+  color           : inherit;
+  transition      : 0.2s opacity ease-in-out !important;
+  
+  &:hover {
+	color   : inherit;
+	opacity : 0.7;
+  }
+}
+
+a,
+span,
+img,
+i {
+  display : inline-block;
+}
+
+body {
+  background : $gradient no-repeat;
+  min-height : 100vh;
+  padding    : 100px 0;
+  
+  .app-con {
+	background     : $backGround;
+	box-shadow     : 0 32px 99px #ececec33;
+	border-radius  : 16px;
+	overflow       : hidden;
+	min-height     : calc(100vh - 200px);
+	position       : relative;
+	padding-bottom : 83px; //	Footer Height
+	
+	> .navbar {
+	  background : $gradient;
+	  padding    : 10px 60px;
+	  
+	  .navbar-brand {
+		width   : 340px;
+		padding : 0;
+		margin  : 0;
+	  }
+	  
+	  .navbar-collapse {
+		.navbar-nav {
+		  margin-inline-start : auto;
+		  padding             : 0;
+		  
+		  .nav-item {
+			&:not(:last-of-type) {
+			  margin-inline-end : 30px;
+			}
+			
+			.nav-link {
+			  font-size : 18px;
+			  color     : $textWhite;
+			  
+			  &.register-btn {
+				border        : 1px solid $textWhite;
+				border-radius : 4px;
+				padding       : 5px 15px;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+	
+	.page-content {
+	  padding : 80px 0;
+	  
+	  .welcoming {
+		h1 {
+		  color         : $primary;
+		  font-size     : 50px;
+		  margin-bottom : 25px;
+		}
+	  }
+	  
+	  .statistics {
+		margin : 80px 0;
+		
+		.statistic-box {
+		  background-color : $textWhite;
+		  width            : 100%;
+		  padding-top      : 100%; /* 1:1 Aspect Ratio */
+		  position         : relative; /* If you want text inside of it */
+		  box-shadow       : 0 0 8px #36306266;
+		  border-radius    : 24px;
+		  overflow         : hidden;
+		  
+		  &.rotated {
+			.box-content {
+			  .box-bg {
+				transform : rotate(180deg);
+			  }
+			}
+		  }
+		  
+		  .statistic-content {
+			position : absolute;
+			top      : 0;
+			left     : 0;
+			bottom   : 0;
+			right    : 0;
+			
+			.box-bg {
+			  position        : absolute;
+			  left            : 0;
+			  bottom          : 0;
+			  right           : 0;
+			  z-index         : 1;
+			  width           : 100%;
+			  height          : 100%;
+			  background      : url('../images/Path 255.png') no-repeat center;
+			  background-size : cover;
+			}
+			
+			.text {
+			  position   : relative;
+			  z-index    : 2;
+			  margin-top : 50%;
+			  transform  : translate(0, -50%);
+			  
+			  p {
+				font-size     : 40px;
+				font-weight   : 700;
+				margin-bottom : 0;
+				color         : $textWhite;
+				
+				&:first-of-type {
+				  margin-bottom : 25px;
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	  
+	  .steps {
+		h2 {
+		  color         : $primary;
+		  font-size     : 40px;
+		  margin-bottom : 40px
+		}
+		
+		.step-box {
+		  background-color : $textWhite;
+		  width            : 100%;
+		  padding-top      : 100%; /* 1:1 Aspect Ratio */
+		  position         : relative; /* If you want text inside of it */
+		  box-shadow       : 0 0 8px #36306266;
+		  border-radius    : 50%;
+		  overflow         : hidden;
+		  
+		  .step-content {
+			position   : absolute;
+			top        : 0;
+			right      : 0;
+			bottom     : 0;
+			left       : 0;
+			margin-top : 50%;
+			transform  : translate(0, -45%);
+			height     : 100%;
+			
+			h3 {
+			  font-size : 32px;
+			  color     : $primary;
+			  width     : 70%;
+			  margin    : 50px auto 15px auto;
+			  height    : 76px;
+			  overflow  : hidden;
+			}
+		  }
+		}
+		
+		.btn-con {
+		  text-align : center;
+		  margin-top : 60px;
+		  
+		  button {
+			font-size     : 34px;
+			padding       : 10px 80px;
+			font-weight   : 700;
+			background    : $gradient;
+			border-radius : 100px;
+			color         : $textWhite;
+			border        : none;
+			box-shadow    : none;
+		  }
+		}
+	  }
+	}
+	
+	footer {
+	  background : $gradient;
+	  padding    : 10px 60px;
+	  position   : absolute;
+	  top        : auto;
+	  right      : 0;
+	  bottom     : 0;
+	  left       : 0;
+	  
+	  nav {
+		display : flex;
+		
+		.navbar-brand {
+		  width  : 225px;
+		  margin : 0;
+		}
+		
+		.navbar-nav {
+		  padding : 0;
+		  
+		  .nav-item {
+			color : $textWhite;
+			
+			a {
+			  text-decoration : underline;
+			}
+		  }
+		}
+	  }
+	}
+  }
+}
