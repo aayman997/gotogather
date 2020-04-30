@@ -5,7 +5,7 @@ $primary     : #363062;
 $backGround  : #ececec;
 $shadowColor : #36306266;
 $gradient    : linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
-
+$danger      : #dc3545;
 
 // Global Styles
 *:not(i) {
@@ -15,6 +15,7 @@ $gradient    : linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
 
 * {
   text-transform : capitalize;
+  color          : $textDark;
 }
 
 input, textarea {
@@ -23,6 +24,7 @@ input, textarea {
 
 a {
   text-transform : capitalize;
+  color          : inherit;
 }
 
 h1,
@@ -118,206 +120,427 @@ body {
   background : $gradient no-repeat;
   min-height : 100vh;
   padding    : 100px 0;
+  @media screen and (max-width : 767px) {
+	background : $backGround;
+	padding    : 0;
+  }
   
-  .app-con {
-	background     : $backGround;
-	box-shadow     : 0 32px 99px #ececec33;
-	border-radius  : 16px;
-	overflow       : hidden;
-	min-height     : calc(100vh - 200px);
-	position       : relative;
-	padding-bottom : 83px; //	Footer Height
-	
-	> .navbar {
-	  background : $gradient;
-	  padding    : 10px 60px;
-	  
-	  .navbar-brand {
-		width   : 340px;
-		padding : 0;
-		margin  : 0;
-	  }
-	  
-	  .navbar-collapse {
-		.navbar-nav {
-		  margin-inline-start : auto;
-		  padding             : 0;
-		  
-		  .nav-item {
-			&:not(:last-of-type) {
-			  margin-inline-end : 30px;
-			}
-			
-			.nav-link {
-			  font-size : 18px;
-			  color     : $textWhite;
-			  
-			  &.register-btn {
-				border        : 1px solid $textWhite;
-				border-radius : 4px;
-				padding       : 5px 15px;
-			  }
-			}
-		  }
-		}
-	  }
+  > .container {
+	@media screen and (max-width : 767px) {
+	  width     : 100vw;
+	  max-width : 100vw;
+	  padding   : 0;
+	  margin    : 0;
 	}
+  }
+  
+  .side-menu {
+	position                : fixed;
+	top                     : 0;
+	right                   : -100vw;
+	bottom                  : 0;
+	left                    : auto;
+	z-index                 : 99;
+	//background              : $textDark;
+	backdrop-filter         : blur(10px);
+	-webkit-backdrop-filter : blur(10px);
+	min-height              : 100vh;
+	width                   : 100vw;
+	overflow-x              : hidden;
+	overflow-y              : scroll;
+	height                  : 100%;
 	
-	.page-content {
-	  padding : 80px 0;
+	.side-menu-con {
+	  opacity    : 1;
+	  //opacity    : 0;
+	  position   : relative;
+	  min-height : 100%;
+	  background : $textWhite;
+	  box-shadow : -5px -5px 10px rgba(54, 48, 98, 0.4);
+	  width      : 80%;
+	  padding    : 0 20px 20px 20px;
 	  
-	  .welcoming {
-		h1 {
-		  color         : $primary;
-		  font-size     : 50px;
-		  margin-bottom : 25px;
+	  .close-menu {
+		background    : $primary;
+		text-align    : start;
+		padding       : 8px 20px;
+		margin-bottom : 15px;
+		position      : sticky;
+		top           : 0;
+		left          : 0;
+		z-index       : 999;
+		margin        : 0 -20px 20px -20px;
+		
+		button {
+		  color          : $textWhite;
+		  font-size      : 18px;
+		  cursor         : pointer;
+		  vertical-align : middle;
+		  
+		  i {
+			font-size      : 24px;
+			color          : #dc3545;
+			margin-left    : 5px;
+			width          : 24px;
+			height         : 24px;
+			vertical-align : middle;
+		  }
 		}
 	  }
 	  
-	  .statistics {
-		margin : 80px 0;
+	  .logo {
+		width  : 80%;
+		margin : auto;
 		
-		.statistic-box {
-		  background-color : $textWhite;
-		  width            : 100%;
-		  padding-top      : 100%; /* 1:1 Aspect Ratio */
-		  position         : relative; /* If you want text inside of it */
-		  box-shadow       : 0 0 8px #36306266;
-		  border-radius    : 24px;
-		  overflow         : hidden;
-		  
-		  &.rotated {
-			.box-content {
-			  .box-bg {
-				transform : rotate(180deg);
+		h4 {
+		  font-size  : 18px;
+		  text-align : center;
+		  padding    : 15px 20px;
+		}
+	  }
+	  
+	  .sections {
+		list-style : none;
+		padding    : 0;
+		margin     : 0;
+		text-align : start;
+		
+		.section-con {
+		  > a {
+			i {
+			  color             : $primary;
+			  width             : 40px;
+			  height            : 40px;
+			  font-size         : 40px;
+			  margin-inline-end : 10px;
+			  vertical-align    : middle;
+			  
+			  &.fa-users {
+				font-size : 32px;
 			  }
 			}
 		  }
 		  
-		  .statistic-content {
-			position : absolute;
-			top      : 0;
-			left     : 0;
-			bottom   : 0;
-			right    : 0;
+		  &:not(:last-child) {
+			margin-bottom : 15px;
+		  }
+		  
+		  .section-list {
+			list-style           : none;
+			padding              : 0;
+			margin               : 0;
+			padding-inline-start : 10px;
 			
-			.box-bg {
-			  position        : absolute;
-			  left            : 0;
-			  bottom          : 0;
-			  right           : 0;
-			  z-index         : 1;
-			  width           : 100%;
-			  height          : 100%;
-			  background      : url('../images/Path 255.png') no-repeat center;
-			  background-size : cover;
-			}
-			
-			.text {
-			  position   : relative;
-			  z-index    : 2;
-			  margin-top : 50%;
-			  transform  : translate(0, -50%);
+			li {
+			  &:first-child {
+				margin-top : 10px;
+			  }
 			  
-			  p {
-				font-size     : 40px;
-				font-weight   : 700;
-				margin-bottom : 0;
-				color         : $textWhite;
+			  &:not(:last-child) {
+				margin-bottom : 10px;
+			  }
+			  
+			  &.clearfix {
+				a {
+				  float          : right;
+				  vertical-align : middle;
+				}
 				
-				&:first-of-type {
-				  margin-bottom : 25px;
+				button {
+				  float : left;
+				}
+			  }
+			  
+			  button {
+				color          : $danger;
+				vertical-align : middle;
+				
+				i {
+				  transform         : rotateY(180deg);
+				  font-size         : 18px;
+				  margin-inline-end : 5px;
+				  color             : inherit;
+				  
+				  &.fa-plus {
+					font-size : 24px;
+				  }
+				}
+				
+				span {
+				  font-size   : 14px;
+				  font-weight : 700;
+				  color       : inherit;
 				}
 			  }
 			}
 		  }
 		}
+		
 	  }
 	  
-	  .steps {
-		h2 {
-		  color         : $primary;
-		  font-size     : 40px;
-		  margin-bottom : 40px
-		}
+	  .side-menu-footer {
+		font-size  : 14px;
+		text-align : center;
+		margin-top : 25px;
 		
-		.step-box {
-		  background-color : $textWhite;
-		  width            : 100%;
-		  padding-top      : 100%; /* 1:1 Aspect Ratio */
-		  position         : relative; /* If you want text inside of it */
-		  box-shadow       : 0 0 8px #36306266;
-		  border-radius    : 50%;
-		  overflow         : hidden;
-		  
-		  .step-content {
-			position   : absolute;
-			top        : 0;
-			right      : 0;
-			bottom     : 0;
-			left       : 0;
-			margin-top : 50%;
-			transform  : translate(0, -45%);
-			height     : 100%;
-			
-			h3 {
-			  font-size : 32px;
-			  color     : $primary;
-			  width     : 70%;
-			  margin    : 50px auto 15px auto;
-			  height    : 76px;
-			  //overflow  : hidden;
-			}
-		  }
-		}
-		
-		.btn-con {
-		  text-align : center;
-		  margin-top : 60px;
-		  
-		  button {
-			font-size     : 34px;
-			padding       : 10px 80px;
-			font-weight   : 700;
-			background    : $gradient;
-			border-radius : 100px;
-			color         : $textWhite;
-			border        : none;
-			box-shadow    : none;
-		  }
+		a {
+		  color           : $primary;
+		  text-decoration : underline;
 		}
 	  }
 	}
+  }
+}
+
+.app-con {
+  background     : $backGround;
+  box-shadow     : 0 32px 99px #ececec33;
+  border-radius  : 16px;
+  overflow       : hidden;
+  min-height     : calc(100vh - 200px);
+  position       : relative;
+  padding-bottom : 83px; //	Footer Height
+  @media screen and (max-width : 767px) {
+	box-shadow    : none;
+	border-radius : 0;
+	overflow      : auto;
+  }
+  
+  > .navbar {
+	background : $gradient;
+	padding    : 10px 60px;
+	@media screen and (max-width : 767px) {
+	  padding : 8px 15px;
+	}
 	
-	footer {
-	  background : $gradient;
-	  padding    : 10px 60px;
-	  position   : absolute;
-	  top        : auto;
-	  right      : 0;
-	  bottom     : 0;
-	  left       : 0;
-	  
-	  nav {
-		display : flex;
+	.navbar-brand {
+	  width   : 340px;
+	  padding : 0;
+	  margin  : 0;
+	  @media screen and (max-width : 767px) {
+		width : 150px;
+	  }
+	}
+	
+	.navbar-toggler {
+	  i {
+		font-size : 28px;
+		color     : $textWhite;
+	  }
+	}
+	
+	.navbar-collapse {
+	  .navbar-nav {
+		margin-inline-start : auto;
+		padding             : 0;
 		
-		.navbar-brand {
-		  width  : 225px;
-		  margin : 0;
-		}
-		
-		.navbar-nav {
-		  padding : 0;
+		.nav-item {
+		  &:not(:last-of-type) {
+			margin-inline-end : 30px;
+		  }
 		  
-		  .nav-item {
-			color : $textWhite;
+		  .nav-link {
+			font-size : 18px;
+			color     : $textWhite;
 			
-			a {
-			  text-decoration : underline;
+			&.register-btn {
+			  border        : 1px solid $textWhite;
+			  border-radius : 4px;
+			  padding       : 5px 15px;
 			}
 		  }
 		}
 	  }
 	}
   }
+  
+  .page-content {
+	padding : 80px 0;
+	
+	> .container {
+	  @media screen and (min-width : 768px) {
+		width     : 100%;
+		max-width : 100%;
+		padding   : 0;
+		margin    : 0;
+	  }
+	}
+	
+	.welcoming {
+	  h1 {
+		color         : $primary;
+		font-size     : 50px;
+		margin-bottom : 25px;
+	  }
+	}
+	
+	.statistics {
+	  margin : 80px 0;
+	  
+	  .statistic-box {
+		background-color : $textWhite;
+		width            : 100%;
+		padding-top      : 100%; /* 1:1 Aspect Ratio */
+		position         : relative; /* If you want text inside of it */
+		box-shadow       : 0 0 8px #36306266;
+		border-radius    : 24px;
+		overflow         : hidden;
+		
+		&.rotated {
+		  .statistic-content {
+			.box-bg {
+			  transform : rotate(180deg);
+			}
+			
+			.text {
+			  text-align           : end;
+			  padding-inline-end   : 15px;
+			  padding-inline-start : 0;
+			  top                  : 15px;
+			  bottom               : 0;
+			}
+		  }
+		}
+		
+		.statistic-content {
+		  position : absolute;
+		  top      : 0;
+		  left     : 0;
+		  bottom   : 0;
+		  right    : 0;
+		  
+		  .box-bg {
+			position        : absolute;
+			left            : 0;
+			bottom          : 0;
+			right           : 0;
+			z-index         : 1;
+			width           : 100%;
+			height          : 100%;
+			background      : url('../images/Path 255.png') no-repeat center;
+			background-size : cover;
+		  }
+		  
+		  .text {
+			position             : absolute;
+			z-index              : 2;
+			//margin-top           : 50%;
+			//transform            : translate(0, -50%);
+			padding-inline-start : 15px;
+			text-align           : start;
+			top                  : auto;
+			right                : 0;
+			bottom               : 15px;
+			left                 : 0;
+			
+			p {
+			  //font-size     : 150%;
+			  font-size     : 35px;
+			  font-weight   : 700;
+			  margin-bottom : 0;
+			  color         : $textWhite;
+			  //color         : $textDark;
+			  //width         : 80%;
+			  @media screen and (max-width : 992px) {
+				font-size : 24px;
+			  }
+			  
+			  &:first-of-type {
+				margin-bottom : 15px;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+	
+	.steps {
+	  h2 {
+		color         : $primary;
+		font-size     : 40px;
+		margin-bottom : 40px
+	  }
+	  
+	  h3 {
+		font-size   : 24px;
+		color       : $primary;
+		//width       : 80%;
+		margin      : 0 auto 5px auto;
+		height      : 65px;
+		line-height : 30px;
+		overflow    : hidden;
+	  }
+	  
+	  .step-box {
+		background-color : $textWhite;
+		width            : 100%;
+		padding-top      : 100%; /* 1:1 Aspect Ratio */
+		position         : relative; /* If you want text inside of it */
+		box-shadow       : 0 0 8px #36306266;
+		border-radius    : 50%;
+		overflow         : hidden;
+		
+		.step-content {
+		  position   : absolute;
+		  top        : 0;
+		  right      : 0;
+		  bottom     : 0;
+		  left       : 0;
+		  margin-top : 50%;
+		  transform  : translate(0, -30%);
+		  height     : 100%;
+		  
+		  
+		}
+	  }
+	  
+	  .btn-con {
+		text-align : center;
+		margin-top : 60px;
+		
+		a.btn {
+		  font-size     : 34px;
+		  padding       : 10px 80px;
+		  font-weight   : 700;
+		  background    : $gradient;
+		  border-radius : 100px;
+		  color         : $textWhite;
+		  border        : none;
+		  box-shadow    : none;
+		}
+	  }
+	}
+  }
+  
+  footer {
+	background : $gradient;
+	padding    : 10px 60px;
+	position   : absolute;
+	top        : auto;
+	right      : 0;
+	bottom     : 0;
+	left       : 0;
+	
+	nav {
+	  display : flex;
+	  
+	  .navbar-brand {
+		width  : 225px;
+		margin : 0;
+	  }
+	  
+	  .navbar-nav {
+		padding : 0;
+		
+		.nav-item {
+		  color : $textWhite;
+		  
+		  a {
+			text-decoration : underline;
+		  }
+		}
+	  }
+	}
+  }
 }
+
