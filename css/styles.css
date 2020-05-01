@@ -12,9 +12,24 @@ input, textarea {
   text-transform: none;
 }
 
-a {
+a,
+button {
   text-transform: capitalize;
+  text-decoration: none;
   color: inherit;
+  transition: 0.2s opacity ease-in-out !important;
+}
+a:hover,
+button:hover {
+  color: inherit;
+  opacity: 0.7;
+}
+
+a,
+span,
+img,
+i {
+  display: inline-block;
 }
 
 h1,
@@ -27,7 +42,7 @@ h6 {
   text-transform: capitalize;
 }
 
-/* FontAwesome Brand Colors */
+/* FontAwesome Brands Colors */
 .fa-facebook-square,
 .fa-facebook-f {
   color: #3b5998;
@@ -86,26 +101,6 @@ h6 {
   .container {
     max-width: 95vw;
   }
-}
-
-a,
-button {
-  text-transform: capitalize;
-  text-decoration: none;
-  color: inherit;
-  transition: 0.2s opacity ease-in-out !important;
-}
-a:hover,
-button:hover {
-  color: inherit;
-  opacity: 0.7;
-}
-
-a,
-span,
-img,
-i {
-  display: inline-block;
 }
 
 body {
@@ -251,6 +246,43 @@ body .side-menu .side-menu-con .side-menu-footer a {
   color: #363062;
   text-decoration: underline;
 }
+body .bottom-nav {
+  position: fixed;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding: 10px 0;
+  background: #363062;
+}
+@media screen and (min-width: 768px) {
+  body .bottom-nav {
+    display: none;
+  }
+}
+body .bottom-nav .nav {
+  place-content: space-between;
+}
+body .bottom-nav .nav a {
+  color: #f5f5f5;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #363062;
+  text-align: center;
+  padding: 0;
+}
+body .bottom-nav .nav a.active {
+  background: #f5f5f5;
+  color: #363062;
+}
+body .bottom-nav .nav a i {
+  font-size: 28px;
+  color: inherit;
+  margin-top: 50%;
+  transform: translate(0, -50%);
+}
 
 .app-con {
   background: #ececec;
@@ -323,6 +355,11 @@ body .side-menu .side-menu-con .side-menu-footer a {
   font-size: 50px;
   margin-bottom: 25px;
 }
+@media screen and (max-width: 767px) {
+  .app-con .page-content .welcoming h1 {
+    font-size: 32px;
+  }
+}
 .app-con .page-content .statistics {
   margin: 80px 0;
 }
@@ -389,10 +426,27 @@ body .side-menu .side-menu-con .side-menu-footer a {
 .app-con .page-content .statistics .statistic-box .statistic-content .text p:first-of-type {
   margin-bottom: 15px;
 }
+@media screen and (max-width: 767px) {
+  .app-con .page-content .statistics div[class^=col] div[class^=col]:last-child {
+    margin-top: 30px;
+  }
+  .app-con .page-content .statistics div[class^=col] div[class^=col]:last-child .statistic-box {
+    padding-top: 35%;
+    text-align: center;
+  }
+  .app-con .page-content .statistics div[class^=col] div[class^=col]:last-child .statistic-box .text {
+    text-align: center;
+  }
+}
 .app-con .page-content .steps h2 {
   color: #363062;
   font-size: 40px;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .steps h2 {
+    font-size: 28px;
+  }
 }
 .app-con .page-content .steps h3 {
   font-size: 24px;
@@ -423,6 +477,12 @@ body .side-menu .side-menu-con .side-menu-footer a {
   transform: translate(0, -30%);
   height: 100%;
 }
+@media screen and (max-width: 767px) {
+  .app-con .page-content .steps .step-box .step-content .img-con {
+    max-width: 80%;
+    margin: auto;
+  }
+}
 .app-con .page-content .steps .btn-con {
   text-align: center;
   margin-top: 60px;
@@ -437,6 +497,17 @@ body .side-menu .side-menu-con .side-menu-footer a {
   border: none;
   box-shadow: none;
 }
+@media screen and (max-width: 767px) {
+  .app-con .page-content .steps .btn-con a.btn {
+    padding: 8px 40px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .steps div[class^=col] div[class^=col]:last-child {
+    margin-top: 30px;
+  }
+}
 .app-con footer {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
   padding: 10px 60px;
@@ -445,6 +516,11 @@ body .side-menu .side-menu-con .side-menu-footer a {
   right: 0;
   bottom: 0;
   left: 0;
+}
+@media screen and (max-width: 767px) {
+  .app-con footer {
+    display: none;
+  }
 }
 .app-con footer nav {
   display: flex;
