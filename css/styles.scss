@@ -350,7 +350,8 @@ body {
 	background : $gradient;
 	padding    : 10px 60px;
 	@media screen and (max-width : 767px) {
-	  padding : 8px 15px;
+	  padding   : 8px 15px;
+	  direction : ltr;
 	}
 	
 	.navbar-brand {

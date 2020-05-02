@@ -311,6 +311,7 @@ body .bottom-nav .nav a i {
 @media screen and (max-width: 767px) {
   .app-con > .navbar {
     padding: 8px 15px;
+    direction: ltr;
   }
 }
 .app-con > .navbar .navbar-brand {
