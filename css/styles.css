@@ -517,6 +517,117 @@ body .bottom-nav .nav a i {
     margin-top: 30px;
   }
 }
+.app-con .page-content .register-page h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #363062;
+  margin-bottom: 40px;
+}
+.app-con .page-content .register-page .register-box {
+  background: #f5f5f5;
+  box-shadow: 0 0 8px #36306266;
+  padding: 40px;
+  border-radius: 16px;
+}
+.app-con .page-content .register-page .register-box h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #363062;
+}
+.app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .register-page .register-box form .input-group {
+  margin-bottom: 15px;
+}
+.app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
+  position: relative;
+  height: 38px;
+}
+.app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  margin-left: 0;
+}
+.app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
+  border: none;
+  background: none;
+}
+.app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
+  color: #363062;
+  font-size: 24px;
+}
+.app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
+  background: rgba(34, 40, 49, 0.1);
+  border-radius: 4px;
+  border: none;
+  color: #222831;
+  padding: 8px 15px;
+}
+.app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
+  box-shadow: 0 0 8px #36306266;
+}
+.app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender] {
+  padding: 0 15px;
+  color: #222831;
+}
+.app-con .page-content .register-page .register-box form .btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px 0;
+  background: #363062;
+  color: #f5f5f5;
+}
+.app-con .page-content .register-page .register-box .social-login .btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 0 8px #36306266;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+.app-con .page-content .register-page .register-box .social-login .btn i {
+  font-size: 24px;
+  color: inherit;
+  vertical-align: middle;
+  margin-inline-start: 20px;
+}
+.app-con .page-content .register-page .register-box .social-login .btn.google {
+  background: #4285f4;
+  margin-bottom: 25px;
+}
+.app-con .page-content .register-page .register-box .social-login .btn.facebook {
+  background: #3b5998;
+}
+.app-con .page-content .register-page .register-box .login-now {
+  margin-top: 25px;
+  text-align: center;
+  color: #222831;
+}
+.app-con .page-content .register-page .register-box .login-now a {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+.app-con .page-content .register-page .register-box .login-now a:first-of-type {
+  margin-bottom: 25px;
+}
 .app-con footer {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
   padding: 10px 60px;
