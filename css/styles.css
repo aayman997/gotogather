@@ -25,21 +25,62 @@ button:hover {
   opacity: 0.7;
 }
 
-a,
-span,
-img,
-i {
+a, span, img, i, label {
   display: inline-block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.app-con .page-content .home-page .search-box .search-form .form-group, .app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .home-page .search-box .search-form .input-group, .app-con .page-content .register-page .register-box form .input-group {
+  margin-bottom: 15px;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group.password, .app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .home-page .search-box .search-form .input-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
+  height: 38px;
+  position: relative;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
+  bottom: 0;
+  left: 0;
+  margin-left: 0;
+  position: absolute;
+  right: auto;
+  top: 0;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
+  background: none;
+  border: none;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
+  color: #363062;
+  font-size: 24px;
+  opacity: 0.75;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group .form-control, .app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .home-page .search-box .search-form .input-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
+  background: rgba(34, 40, 49, 0.1);
+  border: none;
+  border-radius: 4px;
+  color: #222831;
+  padding: 8px 15px;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
+  box-shadow: 0 0 8px #36306266;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
+  color: #222831;
+  padding: 0 15px;
 }
 
 /* FontAwesome Brands Colors */
@@ -105,6 +146,7 @@ h6 {
 
 body {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%) no-repeat;
+  line-height: 2;
   min-height: 100vh;
   padding: 100px 0;
 }
@@ -127,28 +169,28 @@ body > .container {
   }
 }
 body .side-menu {
-  position: fixed;
-  top: 0;
-  right: -100vw;
-  bottom: 0;
-  left: auto;
-  z-index: 99;
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  bottom: 0;
+  height: 100%;
+  left: auto;
   min-height: 100vh;
-  width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 100%;
+  position: fixed;
+  right: -100vw;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
 }
 body .side-menu .side-menu-con {
-  opacity: 1;
-  position: relative;
-  min-height: 100%;
   background: #f5f5f5;
-  box-shadow: -5px -5px 10px rgba(54, 48, 98, 0.4);
-  width: 80%;
+  box-shadow: -5px -5px 10px #36306266;
+  min-height: 100%;
+  opacity: 1;
   padding: 0 20px 20px 20px;
+  position: relative;
+  width: 80%;
 }
 body .side-menu .side-menu-con .close-menu {
   background: #363062;
@@ -290,12 +332,12 @@ body .bottom-nav .nav a i {
 
 .app-con {
   background: #ececec;
-  box-shadow: 0 32px 99px #ececec33;
   border-radius: 16px;
-  overflow: hidden;
+  box-shadow: 0 32px 99px #ececec33;
   min-height: calc(100vh - 200px);
-  position: relative;
+  overflow: hidden;
   padding-bottom: 83px;
+  position: relative;
 }
 @media screen and (max-width: 767px) {
   .app-con {
@@ -353,169 +395,177 @@ body .bottom-nav .nav a i {
   }
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content > .container {
-    width: 100%;
+  .app-con .page-content > section > .container {
+    margin: 0;
     max-width: 100%;
     padding: 0;
-    margin: 0;
+    width: 100%;
   }
 }
-.app-con .page-content .welcoming h1 {
+.app-con .page-content .landing-page .welcoming h1 {
   color: #363062;
   font-size: 50px;
   margin-bottom: 25px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .welcoming h1 {
+  .app-con .page-content .landing-page .welcoming h1 {
     font-size: 32px;
   }
 }
-.app-con .page-content .statistics {
+.app-con .page-content .landing-page .statistics {
   margin: 80px 0;
 }
-.app-con .page-content .statistics .statistic-box {
+.app-con .page-content .landing-page .statistics .statistic-box {
   background-color: #f5f5f5;
-  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 0 8px #36306266;
+  overflow: hidden;
   padding-top: 100%;
   /* 1:1 Aspect Ratio */
   position: relative;
   /* If you want text inside of it */
-  box-shadow: 0 0 8px #36306266;
-  border-radius: 24px;
-  overflow: hidden;
+  width: 100%;
 }
-.app-con .page-content .statistics .statistic-box.rotated .statistic-content .box-bg {
+.app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .box-bg {
   transform: rotate(180deg);
 }
-.app-con .page-content .statistics .statistic-box.rotated .statistic-content .text {
-  text-align: end;
+.app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .text {
+  bottom: 0;
   padding-inline-end: 15px;
   padding-inline-start: 0;
+  text-align: end;
   top: 15px;
-  bottom: 0;
 }
-.app-con .page-content .statistics .statistic-box .statistic-content {
+.app-con .page-content .landing-page .statistics .statistic-box .statistic-content {
+  bottom: 0;
+  left: 0;
   position: absolute;
+  right: 0;
   top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
 }
-.app-con .page-content .statistics .statistic-box .statistic-content .box-bg {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
+.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .box-bg {
   background: url("../images/boxes-bg.png") no-repeat center;
   background-size: cover;
-}
-.app-con .page-content .statistics .statistic-box .statistic-content .text {
+  bottom: 0;
+  height: 100%;
+  left: 0;
   position: absolute;
-  z-index: 2;
-  padding-inline-start: 15px;
-  text-align: start;
-  top: auto;
   right: 0;
+  width: 100%;
+  z-index: 1;
+}
+.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text {
   bottom: 15px;
   left: 0;
+  padding-inline-start: 15px;
+  position: absolute;
+  right: 0;
+  text-align: start;
+  top: auto;
+  z-index: 2;
 }
-.app-con .page-content .statistics .statistic-box .statistic-content .text p {
+.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
+  color: #f5f5f5;
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 0;
-  color: #f5f5f5;
 }
 @media screen and (max-width: 992px) {
-  .app-con .page-content .statistics .statistic-box .statistic-content .text p {
+  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
     font-size: 24px;
   }
 }
-.app-con .page-content .statistics .statistic-box .statistic-content .text p:first-of-type {
+.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
   margin-bottom: 15px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .statistics div[class^=col] div[class^=col]:last-child {
+  .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child {
     margin-top: 30px;
   }
-  .app-con .page-content .statistics div[class^=col] div[class^=col]:last-child .statistic-box {
+  .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child .statistic-box {
     padding-top: 35%;
     text-align: center;
   }
-  .app-con .page-content .statistics div[class^=col] div[class^=col]:last-child .statistic-box .text {
+  .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child .statistic-box .text {
     text-align: center;
   }
 }
-.app-con .page-content .steps h2 {
+.app-con .page-content .landing-page .steps h2 {
   color: #363062;
   font-size: 40px;
   margin-bottom: 40px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .steps h2 {
+  .app-con .page-content .landing-page .steps h2 {
     font-size: 28px;
   }
 }
-.app-con .page-content .steps h3 {
-  font-size: 24px;
+.app-con .page-content .landing-page .steps h3 {
   color: #363062;
-  margin: 0 auto 5px auto;
+  font-size: 24px;
   height: 65px;
   line-height: 30px;
+  margin: 0 auto 5px auto;
   overflow: hidden;
 }
-.app-con .page-content .steps .step-box {
+.app-con .page-content .landing-page .steps .step-box {
   background-color: #f5f5f5;
-  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #36306266;
+  overflow: hidden;
   padding-top: 100%;
   /* 1:1 Aspect Ratio */
   position: relative;
   /* If you want text inside of it */
-  box-shadow: 0 0 8px #36306266;
-  border-radius: 50%;
-  overflow: hidden;
+  width: 100%;
 }
-.app-con .page-content .steps .step-box .step-content {
-  position: absolute;
-  top: 0;
-  right: 0;
+.app-con .page-content .landing-page .steps .step-box .step-content {
   bottom: 0;
+  height: 100%;
   left: 0;
   margin-top: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
   transform: translate(0, -30%);
-  height: 100%;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .steps .step-box .step-content .img-con {
-    max-width: 80%;
+  .app-con .page-content .landing-page .steps .step-box .step-content .img-con {
     margin: auto;
+    max-width: 80%;
   }
 }
-.app-con .page-content .steps .btn-con {
-  text-align: center;
+.app-con .page-content .landing-page .steps .btn-con {
   margin-top: 60px;
+  text-align: center;
 }
-.app-con .page-content .steps .btn-con a.btn {
-  font-size: 34px;
-  padding: 10px 80px;
-  font-weight: 700;
+.app-con .page-content .landing-page .steps .btn-con a.btn {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
-  border-radius: 100px;
-  color: #f5f5f5;
   border: none;
+  border-radius: 100px;
   box-shadow: none;
+  color: #f5f5f5;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 10px 80px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .steps .btn-con a.btn {
-    padding: 8px 40px;
+  .app-con .page-content .landing-page .steps .btn-con a.btn {
     font-size: 20px;
+    padding: 8px 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .steps div[class^=col] div[class^=col]:last-child {
+  .app-con .page-content .landing-page .steps div[class^=col] div[class^=col]:last-child {
     margin-top: 30px;
+  }
+}
+.app-con .page-content .register-page {
+  padding: 0 40px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .register-page {
+    padding: 0 20px;
   }
 }
 .app-con .page-content .register-page h1 {
@@ -526,62 +576,15 @@ body .bottom-nav .nav a i {
 }
 .app-con .page-content .register-page .register-box {
   background: #f5f5f5;
+  border-radius: 16px;
   box-shadow: 0 0 8px #36306266;
   padding: 40px;
-  border-radius: 16px;
 }
 .app-con .page-content .register-page .register-box h2 {
   font-size: 20px;
   margin-bottom: 25px;
   text-align: center;
   color: #363062;
-}
-.app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .register-page .register-box form .input-group {
-  margin-bottom: 15px;
-}
-.app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
-  position: relative;
-  height: 38px;
-}
-.app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
-  position: absolute;
-  top: 0;
-  right: auto;
-  bottom: 0;
-  left: 0;
-  margin-left: 0;
-}
-.app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
-  border: none;
-  background: none;
-}
-.app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
-  color: #363062;
-  font-size: 24px;
-}
-.app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
-  background: rgba(34, 40, 49, 0.1);
-  border-radius: 4px;
-  border: none;
-  color: #222831;
-  padding: 8px 15px;
-}
-.app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
-  box-shadow: 0 0 8px #36306266;
-}
-.app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
-  color: rgba(34, 40, 49, 0.5);
-}
-.app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender] {
-  padding: 0 15px;
-  color: #222831;
 }
 .app-con .page-content .register-page .register-box form .btn {
   display: block;
@@ -594,40 +597,513 @@ body .bottom-nav .nav a i {
   color: #f5f5f5;
 }
 .app-con .page-content .register-page .register-box .social-login .btn {
-  display: block;
-  text-align: center;
-  width: 100%;
-  box-shadow: 0 0 8px #36306266;
+  background: #ececec #f5f5f5;
   border-radius: 4px;
+  box-shadow: 0 0 8px #36306266;
+  color: #222831;
+  display: block;
   font-size: 18px;
   font-weight: 700;
-  color: #f5f5f5;
+  text-align: center;
+  width: 100%;
 }
-.app-con .page-content .register-page .register-box .social-login .btn i {
-  font-size: 24px;
+.app-con .page-content .register-page .register-box .social-login .btn i, .app-con .page-content .register-page .register-box .social-login .btn svg {
   color: inherit;
-  vertical-align: middle;
+  font-size: 24px;
   margin-inline-start: 20px;
+  vertical-align: middle;
+}
+.app-con .page-content .register-page .register-box .social-login .btn i.fa-facebook-square, .app-con .page-content .register-page .register-box .social-login .btn svg.fa-facebook-square {
+  color: #3b5998;
 }
 .app-con .page-content .register-page .register-box .social-login .btn.google {
-  background: #4285f4;
   margin-bottom: 25px;
 }
-.app-con .page-content .register-page .register-box .social-login .btn.facebook {
-  background: #3b5998;
-}
 .app-con .page-content .register-page .register-box .login-now {
+  color: #222831;
   margin-top: 25px;
   text-align: center;
-  color: #222831;
 }
 .app-con .page-content .register-page .register-box .login-now a {
   display: block;
-  width: fit-content;
   margin: auto;
+  width: fit-content;
 }
 .app-con .page-content .register-page .register-box .login-now a:first-of-type {
   margin-bottom: 25px;
+}
+.app-con .page-content .home-page {
+  padding: 0 40px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .home-page {
+    padding: 0 20px;
+  }
+}
+.app-con .page-content .home-page .search-box h2 {
+  color: #363062;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.app-con .page-content .home-page .search-box .search-form {
+  background: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #36306233;
+  margin-bottom: 20px;
+  padding: 25px 25px;
+  position: relative;
+  text-align: start;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .home-page .search-box .search-form {
+    height: 174px;
+    overflow: hidden;
+  }
+  .app-con .page-content .home-page .search-box .search-form.small-search div[class^=col]:not(:first-of-type) {
+    display: none;
+  }
+  .app-con .page-content .home-page .search-box .search-form.small-search .form-group {
+    border: none !important;
+  }
+}
+.app-con .page-content .home-page .search-box .search-form span.expand {
+  bottom: auto;
+  display: block;
+  left: 10px;
+  position: absolute;
+  right: auto;
+  top: 10px;
+  transition: 0.4s ease-in-out all;
+  z-index: 9;
+}
+@media screen and (min-width: 768px) {
+  .app-con .page-content .home-page .search-box .search-form span.expand {
+    display: none;
+  }
+}
+.app-con .page-content .home-page .search-box .search-form span.expand i {
+  color: rgba(34, 40, 49, 0.5);
+  font-size: 24px;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group {
+  border-bottom: 1px solid rgba(34, 40, 49, 0.2) !important;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group .form-control {
+  background: none;
+  padding: 0 !important;
+}
+.app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus {
+  box-shadow: none;
+}
+.app-con .page-content .home-page .search-box .search-form .btn-con {
+  text-align: center;
+}
+.app-con .page-content .home-page .search-box .search-form .btn-con button {
+  background: #363062;
+  border-radius: 8px;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 60px;
+}
+.app-con .page-content .home-page .search-box .search-form .btn-con button i {
+  color: inherit;
+  font-size: 28px;
+  margin-inline-end: 10px;
+  vertical-align: middle;
+}
+.app-con .page-content .home-page .search-box .search-results h2 {
+  color: #363062;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box {
+  background: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #36306266;
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  text-align: center;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box .img-con {
+  margin-bottom: 15px;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box .img-con img {
+  border-radius: 4px;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box h6 {
+  color: #363062;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box p {
+  color: #222831;
+  margin-bottom: 10px;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con {
+  text-align: center;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button {
+  background: #363062;
+  border-radius: 8px;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 15px;
+}
+.app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button i {
+  color: inherit;
+  font-size: 28px;
+  margin-inline-end: 5px;
+  vertical-align: middle;
+}
+.app-con .page-content .home-page .new-post .form-group {
+  height: 190px;
+  position: relative;
+}
+.app-con .page-content .home-page .new-post .form-group .form-control {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  bottom: 0;
+  box-shadow: 0 7px 10px #36306266;
+  height: 190px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  resize: none;
+  right: 0;
+  top: 0;
+}
+.app-con .page-content .home-page .new-post .form-group .form-control::placeholder {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .page-content .home-page .new-post .form-group .input-group-append {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: auto;
+  top: auto;
+}
+.app-con .page-content .home-page .new-post .form-group .input-group-append button.multi-media {
+  margin-inline-end: 20px;
+}
+.app-con .page-content .home-page .new-post .form-group .input-group-append button.multi-media i {
+  color: #363062;
+  font-size: 24px;
+  margin-inline-end: 5px;
+}
+.app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post {
+  background: #363062;
+  border: none;
+  border-radius: 0 8px 0 8px;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 10px;
+}
+.app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post i {
+  color: inherit;
+  font-size: 24px;
+  margin-inline-end: 5px;
+}
+.app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post span {
+  color: inherit;
+  font-weight: 700;
+}
+.app-con .page-content .home-page .posts-con h2 {
+  color: #363062;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.app-con .page-content .home-page .posts-con .post {
+  background: #f5f5f5;
+  box-shadow: 0 0 8px #36306266;
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .home-page .posts-con .post {
+    margin: 0 -20px 20px -20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .app-con .page-content .home-page .posts-con .post {
+    border-radius: 8px;
+    margin: 0 auto 20px auto;
+  }
+}
+.app-con .page-content .home-page .posts-con .post .post-head {
+  margin-bottom: 15px;
+  text-align: start;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .row div[class^=col]:last-child {
+  margin-inline-start: auto;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type {
+  color: #363062;
+  text-decoration: none;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type span {
+  color: inherit;
+  font-weight: 700;
+  margin-inline-start: 15px;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type img {
+  height: 64px;
+  vertical-align: top;
+  width: 64px;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .user-data a:last-of-type {
+  display: block;
+  margin-inline-start: 79px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 9;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .group-data {
+  text-align: end;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown, .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name {
+  display: block;
+  margin-inline-start: auto;
+  width: fit-content;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown a i, .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name a i {
+  color: #363062;
+  font-size: 24px;
+}
+.app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown .dropdown-menu, .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name .dropdown-menu {
+  background: #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0 0 6px #36306266;
+  color: #222831;
+  text-align: start;
+}
+.app-con .page-content .home-page .posts-con .post .post-content p {
+  text-align: start;
+}
+.app-con .page-content .home-page .posts-con .post .post-content .img-fluid {
+  width: 80%;
+}
+.app-con .page-content .home-page .posts-con .post .post-content hr {
+  border-top: 2px solid #2228311a;
+  margin: 15px -20px;
+}
+.app-con .page-content .home-page .posts-con .post .post-interaction button {
+  border: none;
+  padding: 8px 10px;
+}
+.app-con .page-content .home-page .posts-con .post .post-interaction button i {
+  color: #363062;
+  font-size: 24px;
+  margin-inline-end: 5px;
+  vertical-align: middle;
+}
+.app-con .page-content .home-page .posts-con .post .post-interaction button span {
+  vertical-align: middle;
+}
+.app-con .page-content .home-page .posts-con .post .post-interaction button:first-of-type {
+  margin-inline-end: 10px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments {
+  padding-top: 35px;
+  position: relative;
+  text-align: start;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments h6 {
+  margin-bottom: 15px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments h6 i {
+  color: #363062;
+  font-size: 24px;
+  margin-inline-end: 10px;
+  vertical-align: middle;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments h6 span {
+  color: #222831;
+  font-weight: 700;
+  vertical-align: middle;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment {
+  margin-bottom: 20px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .user-data a img, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .user-data a img {
+  height: 53px;
+  margin-inline-end: 10px;
+  width: 53px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .user-data a span, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .user-data a span {
+  color: #363062;
+  font-weight: 700;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .row div[class^=col]:last-child, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .row div[class^=col]:last-child {
+  margin-inline-start: auto;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-interactions, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-interactions {
+  text-align: end;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-interactions button i, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-interactions button i {
+  color: #363062;
+  font-size: 24px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-replies {
+  margin-top: 20px;
+  padding-inline-start: 40px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-replies .reply {
+  margin-bottom: 15px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input {
+  margin-top: 10px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input.comment-input, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input.comment-input {
+  margin-bottom: 10px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group {
+  height: 50px;
+  margin-bottom: 0;
+  position: relative;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control {
+  background: #ececec;
+  border: none;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  padding-inline-start: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control:focus, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control:focus {
+  box-shadow: 0 0 8px #36306266;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control::placeholder, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control::placeholder {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: auto;
+  top: 0;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn {
+  background: #363062;
+  border-radius: 4px 0 0 4px;
+  color: #f5f5f5;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn i, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn i {
+  color: inherit;
+  font-size: 24px;
+}
+.app-con .page-content .home-page .posts-con .post .post-comments:before {
+  border-top: 2px solid #2228311a;
+  bottom: auto;
+  content: "";
+  left: 0;
+  margin: 15px -20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.app-con .page-content .home-page .groups, .app-con .page-content .home-page .stories {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .home-page .groups, .app-con .page-content .home-page .stories {
+    margin: 0 -20px 20px -20px;
+  }
+}
+.app-con .page-content .home-page .groups h5, .app-con .page-content .home-page .stories h5 {
+  color: #363062;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.app-con .page-content .home-page .groups .owl-carousel, .app-con .page-content .home-page .stories .owl-carousel {
+  background: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #36306266;
+  overflow: hidden;
+  padding: 15px 0;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .home-page .groups .owl-carousel, .app-con .page-content .home-page .stories .owl-carousel {
+    border-radius: 0;
+  }
+}
+.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev {
+  background: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  padding: 0 10px !important;
+  text-align: center;
+}
+.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next i, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev i {
+  color: #363062;
+  font-size: 24px;
+  padding-top: 60%;
+}
+.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.owl-prev, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.owl-prev, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.owl-prev, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.owl-prev {
+  bottom: 0;
+  left: auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.owl-next, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.owl-next, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.owl-next, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.owl-next {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.disabled i, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.disabled i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.disabled i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.disabled i {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .page-content .home-page .groups.stories .story, .app-con .page-content .home-page .groups.stories .add-story, .app-con .page-content .home-page .stories.stories .story, .app-con .page-content .home-page .stories.stories .add-story {
+  background: #f5f5f5;
+  border: 2px solid #363062;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #36306266;
+  height: 86px;
+  width: 86px;
+}
+.app-con .page-content .home-page .groups.stories .story a, .app-con .page-content .home-page .groups.stories .add-story a, .app-con .page-content .home-page .stories.stories .story a, .app-con .page-content .home-page .stories.stories .add-story a {
+  display: block;
+  text-align: center;
+}
+.app-con .page-content .home-page .groups.stories .story a i, .app-con .page-content .home-page .groups.stories .add-story a i, .app-con .page-content .home-page .stories.stories .story a i, .app-con .page-content .home-page .stories.stories .add-story a i {
+  font-size: 28px;
+  margin-top: 50%;
+  transform: translate(0, -50%);
+}
+.app-con .page-content .home-page .groups.stories .story a img, .app-con .page-content .home-page .groups.stories .add-story a img, .app-con .page-content .home-page .stories.stories .story a img, .app-con .page-content .home-page .stories.stories .add-story a img {
+  height: 100%;
+  width: 100%;
+}
+.app-con .story-modal .modal-content .btn:first-of-type {
+  margin-bottom: 25px;
+}
+.app-con .story-modal .modal-content .btn i {
+  color: #363062;
+  font-size: 24px;
+  margin-inline-end: 5px;
+  vertical-align: middle;
 }
 .app-con footer {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);

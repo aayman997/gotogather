@@ -44,4 +44,48 @@ if (window.location.href.indexOf('home') > -1) {
 	$('.bottom-nav .fa-user').parent('.nav-link')
 		.addClass('active')
 		.siblings().removeClass('active');
+} else {
+	$('.bottom-nav .fa-user').parent('.nav-link').siblings().removeClass('active');
 }
+$('span.expand').on('click', function () {
+	if ($('.search-form').hasClass('small-search')) {
+		showSearch();
+	} else {
+		$('.search-form')
+			.addClass('small-search')
+			.css({overflow: 'hidden'})
+			.animate({height: '174px'})
+			.children('span').css({transform: 'rotateX(0)'});
+	}
+});
+const showSearch = function () {
+	$('.search-form')
+		.removeClass('small-search')
+		.css({overflow: 'visible'})
+		.animate({height: '408px'})
+		.children('span').css({transform: 'rotateX(180deg)'});
+};
+$('.owl-carousel').owlCarousel({
+	rtl: true,
+	loop: false,
+	margin: -20,
+	stagePadding: 40,
+	nav: true,
+	dots: false,
+	items: 6,
+	navText: ['<i class="fas fa-chevron-right">', '<i class="fas fa-chevron-left">'],
+	responsive: {
+		// breakpoint from 0 up
+		0: {
+			items: 3,
+		},
+		// breakpoint from 480 up
+		480: {
+			items: 5,
+		},
+		// breakpoint from 768 up
+		768: {
+			items: 6,
+		}
+	}
+});

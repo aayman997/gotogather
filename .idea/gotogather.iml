@@ -13,5 +13,6 @@
     <orderEntry type="library" name="@types/jquery" level="application" />
     <orderEntry type="library" name="@types/jquery" level="application" />
     <orderEntry type="library" name="@types/jqueryui" level="application" />
+    <orderEntry type="library" name="@types/owlcarousel" level="application" />
   </component>
 </module>

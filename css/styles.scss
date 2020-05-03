@@ -35,21 +35,77 @@ button {
   }
 }
 
-a,
-span,
-img,
-i {
+p {
+  //line-height : 1.1;
+}
+
+a, span, img, i, label {
   display : inline-block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight    : 700;
   text-transform : capitalize;
+}
+
+%form-group-style {
+  .form-group, .input-group {
+	margin-bottom : 15px;
+	
+	&.password {
+	  height   : 38px;
+	  position : relative;
+	  
+	  .form-control {
+		bottom   : 0;
+		left     : 0;
+		position : absolute;
+		right    : 0;
+		top      : 0;
+	  }
+	  
+	  .input-group-append {
+		bottom      : 0;
+		left        : 0;
+		margin-left : 0;
+		position    : absolute;
+		right       : auto;
+		top         : 0;
+		
+		span {
+		  background : none;
+		  border     : none;
+		  
+		  i {
+			color     : $primary;
+			font-size : 24px;
+			opacity   : 0.75;
+		  }
+		}
+	  }
+	}
+	
+	.form-control {
+	  background    : rgba(34, 40, 49, 0.1);
+	  border        : none;
+	  border-radius : 4px;
+	  color         : $textDark;
+	  padding       : 8px 15px;
+	  
+	  &:focus {
+		box-shadow : 0 0 8px $shadowColor;
+	  }
+	  
+	  &::placeholder {
+		color : rgba(34, 40, 49, 0.5);
+	  }
+	  
+	  &[title='gender'], &[title='country'], &[title='city'], &[title='district'] {
+		color   : $textDark;
+		padding : 0 15px;
+	  }
+	}
+  }
 }
 
 /* FontAwesome Brands Colors */
@@ -114,9 +170,10 @@ h6 {
 
 //	Main Styles
 body {
-  background : $gradient no-repeat;
-  min-height : 100vh;
-  padding    : 100px 0;
+  background  : $gradient no-repeat;
+  line-height : 2;
+  min-height  : 100vh;
+  padding     : 100px 0;
   @media screen and (max-width : 767px) {
 	background : $backGround;
 	padding    : 0;
@@ -135,29 +192,29 @@ body {
   
   //	Side Menu Styles
   .side-menu {
-	position                : fixed;
-	top                     : 0;
-	right                   : -100vw;
-	bottom                  : 0;
-	left                    : auto;
-	z-index                 : 99;
-	backdrop-filter         : blur(10px);
 	-webkit-backdrop-filter : blur(10px);
+	backdrop-filter         : blur(10px);
+	bottom                  : 0;
+	height                  : 100%;
+	left                    : auto;
 	min-height              : 100vh;
-	width                   : 100vw;
 	overflow-x              : hidden;
 	overflow-y              : scroll;
-	height                  : 100%;
-	
+	position                : fixed;
+	right                   : -100vw;
+	top                     : 0;
+	width                   : 100vw;
+	z-index                 : 99;
+ 
 	.side-menu-con {
-	  opacity    : 1;
-	  position   : relative;
-	  min-height : 100%;
 	  background : $textWhite;
-	  box-shadow : -5px -5px 10px rgba(54, 48, 98, 0.4);
-	  width      : 80%;
+	  box-shadow : -5px -5px 10px $shadowColor;
+	  min-height : 100%;
+	  opacity    : 1;
 	  padding    : 0 20px 20px 20px;
-	  
+	  position   : relative;
+	  width      : 80%;
+	
 	  .close-menu {
 		background    : $primary;
 		text-align    : start;
@@ -334,12 +391,12 @@ body {
 //	App Container Styles
 .app-con {
   background     : $backGround;
-  box-shadow     : 0 32px 99px #ececec33;
   border-radius  : 16px;
-  overflow       : hidden;
+  box-shadow     : 0 32px 99px #ececec33;
   min-height     : calc(100vh - 200px);
-  position       : relative;
+  overflow       : hidden;
   padding-bottom : 83px; //	Footer Height
+  position       : relative;
   @media screen and (max-width : 767px) {
 	box-shadow    : none;
 	border-radius : 0;
@@ -401,281 +458,236 @@ body {
 	@media screen and (max-width : 768px) {
 	  padding : 40px 0;
 	}
-	
-	> .container {
-	  @media screen and (min-width : 768px) {
-		width     : 100%;
-		max-width : 100%;
-		padding   : 0;
-		margin    : 0;
-	  }
-	}
-	
-	//	Welcoming Section Styles
-	.welcoming {
-	  h1 {
-		color         : $primary;
-		font-size     : 50px;
-		margin-bottom : 25px;
-		@media screen and (max-width : 767px) {
-		  font-size : 32px;
+ 
+	> section {
+	  > .container {
+		@media screen and (min-width : 768px) {
+		  margin    : 0;
+		  max-width : 100%;
+		  padding   : 0;
+		  width     : 100%;
 		}
 	  }
 	}
-	
-	//	Statistics Section Styles
-	.statistics {
-	  margin : 80px 0;
-	  
-	  .statistic-box {
-		background-color : $textWhite;
-		width            : 100%;
-		padding-top      : 100%; /* 1:1 Aspect Ratio */
-		position         : relative; /* If you want text inside of it */
-		box-shadow       : 0 0 8px #36306266;
-		border-radius    : 24px;
-		overflow         : hidden;
-		
-		&.rotated {
-		  .statistic-content {
-			.box-bg {
-			  transform : rotate(180deg);
-			}
-			
-			.text {
-			  text-align           : end;
-			  padding-inline-end   : 15px;
-			  padding-inline-start : 0;
-			  top                  : 15px;
-			  bottom               : 0;
-			}
-		  }
-		}
-		
-		.statistic-content {
-		  position : absolute;
-		  top      : 0;
-		  left     : 0;
-		  bottom   : 0;
-		  right    : 0;
-		  
-		  .box-bg {
-			position        : absolute;
-			left            : 0;
-			bottom          : 0;
-			right           : 0;
-			z-index         : 1;
-			width           : 100%;
-			height          : 100%;
-			background      : url('../images/boxes-bg.png') no-repeat center;
-			background-size : cover;
-		  }
-		  
-		  .text {
-			position             : absolute;
-			z-index              : 2;
-			//margin-top           : 50%;
-			//transform            : translate(0, -50%);
-			padding-inline-start : 15px;
-			text-align           : start;
-			top                  : auto;
-			right                : 0;
-			bottom               : 15px;
-			left                 : 0;
-			
-			p {
-			  //font-size     : 150%;
-			  font-size     : 35px;
-			  font-weight   : 700;
-			  margin-bottom : 0;
-			  color         : $textWhite;
-			  //color         : $textDark;
-			  //width         : 80%;
-			  @media screen and (max-width : 992px) {
-				font-size : 24px;
-			  }
-			  
-			  &:first-of-type {
-				margin-bottom : 15px;
-			  }
-			}
+ 
+ 
+	.landing-page {
+	  //	Welcoming Section Styles
+	  .welcoming {
+		h1 {
+		  color         : $primary;
+		  font-size     : 50px;
+		  margin-bottom : 25px;
+		  @media screen and (max-width : 767px) {
+			font-size : 32px;
 		  }
 		}
 	  }
-	  
-	  @media screen and (max-width : 767px) {
-		div[class^='col'] {
-		  div[class^='col']:last-child {
-			margin-top : 30px;
+	
+	  //	Statistics Section Styles
+	  .statistics {
+		margin : 80px 0;
+	 
+		.statistic-box {
+		  background-color : $textWhite;
+		  border-radius    : 24px;
+		  box-shadow       : 0 0 8px $shadowColor;
+		  overflow         : hidden;
+		  padding-top      : 100%; /* 1:1 Aspect Ratio */
+		  position         : relative; /* If you want text inside of it */
+		  width            : 100%;
+		
+		  &.rotated {
+			.statistic-content {
+			  .box-bg {
+				transform : rotate(180deg);
+			  }
 			
-			.statistic-box {
-			  padding-top : 35%;
-			  text-align  : center;
-			  
 			  .text {
-				text-align : center;
+				bottom               : 0;
+				padding-inline-end   : 15px;
+				padding-inline-start : 0;
+				text-align           : end;
+				top                  : 15px;
+			  }
+			}
+		  }
+		
+		  .statistic-content {
+			bottom   : 0;
+			left     : 0;
+			position : absolute;
+			right    : 0;
+			top      : 0;
+		 
+			.box-bg {
+			  background      : url('../images/boxes-bg.png') no-repeat center;
+			  background-size : cover;
+			  bottom          : 0;
+			  height          : 100%;
+			  left            : 0;
+			  position        : absolute;
+			  right           : 0;
+			  width           : 100%;
+			  z-index         : 1;
+			}
+		 
+			.text {
+			  bottom               : 15px;
+			  left                 : 0;
+			  //margin-top           : 50%;
+			  //transform            : translate(0, -50%);
+			  padding-inline-start : 15px;
+			  position             : absolute;
+			  right                : 0;
+			  text-align           : start;
+			  top                  : auto;
+			  z-index              : 2;
+			
+			  p {
+				//font-size     : 150%;
+				color         : $textWhite;
+				font-size     : 35px;
+				font-weight   : 700;
+				margin-bottom : 0;
+				//color         : $textDark;
+				//width         : 80%;
+				@media screen and (max-width : 992px) {
+				  font-size : 24px;
+				}
+			 
+				&:first-of-type {
+				  margin-bottom : 15px;
+				}
+			  }
+			}
+		  }
+		}
+	 
+		@media screen and (max-width : 767px) {
+		  div[class^='col'] {
+			div[class^='col']:last-child {
+			  margin-top : 30px;
+			
+			  .statistic-box {
+				padding-top : 35%;
+				text-align  : center;
+			 
+				.text {
+				  text-align : center;
+				}
 			  }
 			}
 		  }
 		}
 	  }
-	}
 	
-	//	Steps Section Styles
-	.steps {
-	  h2 {
-		color         : $primary;
-		font-size     : 40px;
-		margin-bottom : 40px;
-		@media screen and (max-width : 767px) {
-		  font-size : 28px;
-		}
-	  }
-	  
-	  h3 {
-		font-size   : 24px;
-		color       : $primary;
-		margin      : 0 auto 5px auto;
-		height      : 65px;
-		line-height : 30px;
-		overflow    : hidden;
-	  }
-	  
-	  .step-box {
-		background-color : $textWhite;
-		width            : 100%;
-		padding-top      : 100%; /* 1:1 Aspect Ratio */
-		position         : relative; /* If you want text inside of it */
-		box-shadow       : 0 0 8px #36306266;
-		border-radius    : 50%;
-		overflow         : hidden;
-		
-		.step-content {
-		  position   : absolute;
-		  top        : 0;
-		  right      : 0;
-		  bottom     : 0;
-		  left       : 0;
-		  margin-top : 50%;
-		  transform  : translate(0, -30%);
-		  height     : 100%;
+	  //	Steps Section Styles
+	  .steps {
+		h2 {
+		  color         : $primary;
+		  font-size     : 40px;
+		  margin-bottom : 40px;
 		  @media screen and (max-width : 767px) {
-			.img-con {
-			  max-width : 80%;
-			  margin    : auto;
+			font-size : 28px;
+		  }
+		}
+	 
+		h3 {
+		  color       : $primary;
+		  font-size   : 24px;
+		  height      : 65px;
+		  line-height : 30px;
+		  margin      : 0 auto 5px auto;
+		  overflow    : hidden;
+		}
+	 
+		.step-box {
+		  background-color : $textWhite;
+		  border-radius    : 50%;
+		  box-shadow       : 0 0 8px $shadowColor;
+		  overflow         : hidden;
+		  padding-top      : 100%; /* 1:1 Aspect Ratio */
+		  position         : relative; /* If you want text inside of it */
+		  width            : 100%;
+		
+		  .step-content {
+			bottom     : 0;
+			height     : 100%;
+			left       : 0;
+			margin-top : 50%;
+			position   : absolute;
+			right      : 0;
+			top        : 0;
+			transform  : translate(0, -30%);
+			@media screen and (max-width : 767px) {
+			  .img-con {
+				margin    : auto;
+				max-width : 80%;
+			  }
+			}
+		  }
+		}
+	 
+		.btn-con {
+		  margin-top : 60px;
+		  text-align : center;
+		
+		  a.btn {
+			background    : $gradient;
+			border        : none;
+			border-radius : 100px;
+			box-shadow    : none;
+			color         : $textWhite;
+			font-size     : 34px;
+			font-weight   : 700;
+			padding       : 10px 80px;
+			@media screen and (max-width : 767px) {
+			  font-size : 20px;
+			  padding   : 8px 40px;
+			}
+		  }
+		}
+	 
+		@media screen and (max-width : 767px) {
+		  div[class^='col'] {
+			div[class^='col']:last-child {
+			  margin-top : 30px;
 			}
 		  }
 		}
 	  }
-	  
-	  .btn-con {
-		text-align : center;
-		margin-top : 60px;
-		
-		a.btn {
-		  font-size     : 34px;
-		  padding       : 10px 80px;
-		  font-weight   : 700;
-		  background    : $gradient;
-		  border-radius : 100px;
-		  color         : $textWhite;
-		  border        : none;
-		  box-shadow    : none;
-		  @media screen and (max-width : 767px) {
-			padding   : 8px 40px;
-			font-size : 20px;
-		  }
-		}
-	  }
-	  
-	  @media screen and (max-width : 767px) {
-		div[class^='col'] {
-		  div[class^='col']:last-child {
-			margin-top : 30px;
-		  }
-		}
-	  }
 	}
-	
+ 
 	.register-page {
+	  padding : 0 40px;
+	  @media screen and (max-width : 767px) {
+		padding : 0 20px;
+	  }
+	
 	  h1 {
 		font-size     : 32px;
 		text-align    : center;
 		color         : $primary;
 		margin-bottom : 40px;
 	  }
-	  
+	
 	  .register-box {
 		background    : $textWhite;
-		box-shadow    : 0 0 8px #36306266;
-		padding       : 40px;
 		border-radius : 16px;
-		
+		box-shadow    : 0 0 8px $shadowColor;
+		padding       : 40px;
+	 
 		h2 {
 		  font-size     : 20px;
 		  margin-bottom : 25px;
 		  text-align    : center;
 		  color         : $primary;
 		}
-		
+	 
 		form {
-		  .form-group, .input-group {
-			margin-bottom : 15px;
-			
-			&.password {
-			  position : relative;
-			  height   : 38px;
-			  
-			  .form-control {
-				position : absolute;
-				top      : 0;
-				right    : 0;
-				bottom   : 0;
-				left     : 0;
-			  }
-			  
-			  .input-group-append {
-				position    : absolute;
-				top         : 0;
-				right       : auto;
-				bottom      : 0;
-				left        : 0;
-				margin-left : 0;
-				
-				span {
-				  border     : none;
-				  background : none;
-				  
-				  i {
-					color     : $primary;
-					font-size : 24px;
-				  }
-				}
-			  }
-			}
-			
-			.form-control {
-			  background    : rgba(34, 40, 49, 0.1);
-			  border-radius : 4px;
-			  border        : none;
-			  color         : $textDark;
-			  padding       : 8px 15px;
-			  
-			  &:focus {
-				box-shadow : 0 0 8px #36306266;
-			  }
-			  
-			  &::placeholder {
-				color : rgba(34, 40, 49, 0.5);
-			  }
-			  
-			  &[title='gender'] {
-				padding : 0 15px;
-				color   : $textDark;
-			  }
-			}
-		  }
-		  
+		  @extend %form-group-style;
+		
 		  .btn {
 			display     : block;
 			width       : 100%;
@@ -690,47 +702,645 @@ body {
 		
 		.social-login {
 		  .btn {
-			display       : block;
-			text-align    : center;
-			width         : 100%;
-			box-shadow    : 0 0 8px #36306266;
+			background    : $backGround $textWhite;
 			border-radius : 4px;
+			box-shadow    : 0 0 8px $shadowColor;
+			color         : $textDark;
+			display       : block;
 			font-size     : 18px;
 			font-weight   : 700;
-			color         : $textWhite;
-			
-			i {
-			  font-size           : 24px;
+			text-align    : center;
+			width         : 100%;
+		 
+			i, svg {
 			  color               : inherit;
-			  vertical-align      : middle;
+			  font-size           : 24px;
 			  margin-inline-start : 20px;
-			}
+			  vertical-align      : middle;
 			
+			  &.fa-facebook-square {
+				color : #3b5998;
+			  }
+			}
+		 
 			&.google {
-			  background    : #4285f4;
 			  margin-bottom : 25px;
-			}
-			
-			&.facebook {
-			  background : #3b5998;
 			}
 		  }
 		}
 		
 		.login-now {
+		  color      : $textDark;
 		  margin-top : 25px;
 		  text-align : center;
-		  color      : $textDark;
 		  
 		  a {
 			display : block;
-			width   : fit-content;
 			margin  : auto;
+			width   : fit-content;
 			
 			&:first-of-type {
 			  margin-bottom : 25px
 			}
 		  }
+		}
+	  }
+	}
+ 
+	.home-page {
+	  padding : 0 40px;
+	  @media screen and (max-width : 767px) {
+		padding : 0 20px;
+	  }
+	
+	  .search-box {
+		h2 {
+		  color         : $primary;
+		  font-size     : 22px;
+		  font-weight   : 700;
+		  margin-bottom : 20px;
+		  text-align    : center;
+		}
+	 
+		.search-form {
+		  background    : $textWhite;
+		  border-radius : 8px;
+		  box-shadow    : 0 0 15px #36306233;
+		  margin-bottom : 20px;
+		  padding       : 25px 25px;
+		  position      : relative;
+		  text-align    : start;
+		  @media screen and (max-width : 767px) {
+			height   : 174px;
+			overflow : hidden;
+			&.small-search {
+			  div[class^='col']:not(:first-of-type) {
+				display : none;
+			  }
+			
+			  .form-group {
+				border : none !important;
+			  }
+			}
+		  }
+		
+		  span.expand {
+			bottom     : auto;
+			display    : block;
+			left       : 10px;
+			position   : absolute;
+			right      : auto;
+			top        : 10px;
+			transition : 0.4s ease-in-out all;
+			z-index    : 9;
+			@media screen and (min-width : 768px) {
+			  display : none;
+			}
+		 
+			i {
+			  color     : rgba(34, 40, 49, 0.5);
+			  font-size : 24px;
+			}
+		  }
+		
+		  @extend %form-group-style;
+		
+		  .form-group {
+			border-bottom : 1px solid rgba(34, 40, 49, 0.2) !important;
+		 
+			label {
+			  font-size     : 14px;
+			  font-weight   : 700;
+			  margin-bottom : 0;
+			}
+		 
+			.form-control {
+			  background : none;
+			  padding    : 0 !important;
+			
+			  &:focus {
+				box-shadow : none;
+			  }
+			}
+		  }
+		
+		  .btn-con {
+			text-align : center;
+		 
+			button {
+			  background    : $primary;
+			  border-radius : 8px;
+			  color         : $textWhite;
+			  font-size     : 16px;
+			  font-weight   : 700;
+			  padding       : 8px 60px;
+			
+			  i {
+				color             : inherit;
+				font-size         : 28px;
+				margin-inline-end : 10px;
+				vertical-align    : middle;
+			  }
+			}
+		  }
+		}
+	 
+		.search-results {
+		  h2 {
+			color         : $primary;
+			font-size     : 24px;
+			margin-bottom : 15px;
+			text-align    : center;
+		  }
+		
+		  .search-result-box {
+			background    : $textWhite;
+			border-radius : 8px;
+			box-shadow    : 0 0 8px $shadowColor;
+			margin-bottom : 30px;
+			padding       : 20px 10px;
+			text-align    : center;
+		 
+			.img-con {
+			  margin-bottom : 15px;
+			
+			  img {
+				border-radius : 4px;
+			  }
+			}
+		 
+			h6 {
+			  color         : $primary;
+			  margin-bottom : 10px;
+			  text-align    : center;
+			}
+		 
+			p {
+			  color         : $textDark;
+			  margin-bottom : 10px;
+			}
+		 
+			.btn-con {
+			  text-align : center;
+			
+			  button {
+				background    : $primary;
+				border-radius : 8px;
+				color         : $textWhite;
+				font-size     : 16px;
+				font-weight   : 700;
+				padding       : 8px 15px;
+			 
+				i {
+				  color             : inherit;
+				  font-size         : 28px;
+				  margin-inline-end : 5px;
+				  vertical-align    : middle;
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	
+	  .new-post {
+		.form-group {
+		  height   : 190px;
+		  position : relative;
+		
+		  .form-control {
+			background    : $textWhite;
+			border        : none;
+			border-radius : 8px;
+			bottom        : 0;
+			box-shadow    : 0 7px 10px $shadowColor;
+			height        : 190px;
+			left          : 0;
+			padding       : 10px;
+			position      : absolute;
+			resize        : none;
+			right         : 0;
+			top           : 0;
+		 
+			&::placeholder {
+			  color : rgba(34, 40, 49, 0.5);
+			}
+		  }
+		
+		  .input-group-append {
+			bottom   : 0;
+			left     : 0;
+			position : absolute;
+			right    : auto;
+			top      : auto;
+		 
+			button {
+			  &.multi-media {
+				margin-inline-end : 20px;
+			 
+				i {
+				  color             : $primary;
+				  font-size         : 24px;
+				  margin-inline-end : 5px;
+				}
+			  }
+			
+			  &.btn-post {
+				background    : $primary;
+				border        : none;
+				border-radius : 0 8px 0 8px;
+				color         : $textWhite;
+				margin        : 0;
+				padding       : 10px;
+			 
+				i {
+				  color             : inherit;
+				  font-size         : 24px;
+				  margin-inline-end : 5px;
+				}
+			 
+				span {
+				  color       : inherit;
+				  font-weight : 700;
+				}
+			  }
+			
+			
+			}
+		  }
+		}
+	  }
+	
+	  .posts-con {
+		h2 {
+		  color         : $primary;
+		  font-size     : 24px;
+		  margin-bottom : 15px;
+		  text-align    : center;
+		}
+	 
+		.post {
+		  background : $textWhite;
+		  box-shadow : 0 0 8px $shadowColor;
+		  padding    : 20px;
+		  text-align : center;
+		  @media screen and (max-width : 767px) {
+			margin : 0 -20px 20px -20px;
+		  }
+		  @media screen and (min-width : 768px) {
+			//width         : 60%;
+			border-radius : 8px;
+			margin        : 0 auto 20px auto;
+		  }
+		
+		  .post-head {
+			margin-bottom : 15px;
+			text-align    : start;
+		 
+			.row {
+			  div[class^='col']:last-child {
+				margin-inline-start : auto;
+			  }
+			}
+		 
+			.user-data {
+			  a:first-of-type {
+				color           : $primary;
+				text-decoration : none;
+			 
+				span {
+				  color               : inherit;
+				  font-weight         : 700;
+				  margin-inline-start : 15px;
+				}
+			 
+				img {
+				  height         : 64px;
+				  vertical-align : top;
+				  width          : 64px;
+				}
+			  }
+			
+			  a:last-of-type {
+				display             : block;
+				margin-inline-start : 79px;
+				margin-top          : -30px;
+				position            : relative;
+				z-index             : 9;
+			  }
+			}
+		 
+			.group-data {
+			  text-align : end;
+			
+			  .dropdown, .group-name {
+				display             : block;
+				margin-inline-start : auto;
+				width               : fit-content;
+			 
+				a {
+				  i {
+					color     : $primary;
+					font-size : 24px;
+				  }
+				}
+			 
+				.dropdown-menu {
+				  background    : $textWhite;
+				  border-radius : 4px;
+				  box-shadow    : 0 0 6px $shadowColor;
+				  color         : $textDark;
+				  text-align    : start;
+				}
+			  }
+			}
+		  }
+		
+		  .post-content {
+			p {
+			  text-align : start;
+			}
+		 
+			.img-fluid {
+			  width : 80%;
+			}
+		 
+			hr {
+			  border-top : 2px solid #2228311a;
+			  margin     : 15px -20px;
+			}
+		  }
+		
+		  .post-interaction {
+			button {
+			  border  : none;
+			  padding : 8px 10px;
+			
+			  i {
+				color             : $primary;
+				font-size         : 24px;
+				margin-inline-end : 5px;
+				vertical-align    : middle;
+			  }
+			
+			  span {
+				vertical-align : middle;
+			  }
+			
+			  &:first-of-type {
+				margin-inline-end : 10px;
+			  }
+			}
+		  }
+		
+		  .post-comments {
+			padding-top : 35px;
+			position    : relative;
+			text-align  : start;
+		 
+			h6 {
+			  margin-bottom : 15px;
+			
+			  i {
+				color             : $primary;
+				font-size         : 24px;
+				margin-inline-end : 10px;
+				vertical-align    : middle;
+			  }
+			
+			  span {
+				color          : $textDark;
+				font-weight    : 700;
+				vertical-align : middle;
+			  }
+			}
+		 
+			.comment {
+			  margin-bottom : 20px;
+			
+			  .comment-head, .reply-head {
+				.user-data {
+				  a {
+				  
+					img {
+					  height            : 53px;
+					  margin-inline-end : 10px;
+					  width             : 53px;
+					}
+				 
+					span {
+					  color       : $primary;
+					  font-weight : 700;
+					}
+				  }
+				}
+			 
+				.row {
+				  div[class^='col']:last-child {
+					margin-inline-start : auto;
+				  }
+				}
+			  }
+			
+			  .comment-interactions, .reply-interactions {
+				text-align : end;
+			 
+				button {
+				  i {
+					color     : $primary;
+					font-size : 24px;
+				  }
+				}
+			  }
+			
+			  .comment-replies {
+				margin-top           : 20px;
+				padding-inline-start : 40px;
+			 
+				.reply {
+				  margin-bottom : 15px;
+				}
+			  
+			  
+			  }
+			}
+		 
+			.reply-input, .comment-input {
+			  margin-top : 10px;
+			
+			  &.comment-input {
+				margin-bottom : 10px;
+			  }
+			
+			  .form-group {
+				height        : 50px;
+				margin-bottom : 0;
+				position      : relative;
+			 
+				.form-control {
+				  background           : $backGround;
+				  border               : none;
+				  bottom               : 0;
+				  height               : 100%;
+				  left                 : 0;
+				  padding-inline-start : 15px;
+				  position             : absolute;
+				  right                : 0;
+				  top                  : 0;
+				
+				  &:focus {
+					box-shadow : 0 0 8px $shadowColor;
+				  }
+				
+				  &::placeholder {
+					color : rgba(34, 40, 49, 0.5);
+				  }
+				}
+			 
+				.input-group-append {
+				  bottom   : 0;
+				  left     : 0;
+				  position : absolute;
+				  right    : auto;
+				  top      : 0;
+				
+				  .btn {
+					background    : $primary;
+					border-radius : 4px 0 0 4px;
+					color         : $textWhite;
+					padding       : 0;
+					text-align    : center;
+					width         : 50px;
+				 
+					i {
+					  color     : inherit;
+					  font-size : 24px;
+					}
+				  }
+				}
+			  }
+			}
+		 
+			&:before {
+			  border-top : 2px solid #2228311a;
+			  bottom     : auto;
+			  content    : '';
+			  left       : 0;
+			  margin     : 15px -20px;
+			  position   : absolute;
+			  right      : 0;
+			  top        : 0;
+			}
+		  }
+		}
+	  }
+	
+	  .groups, .stories {
+		margin-bottom : 20px;
+		@media screen and (max-width : 767px) {
+		  margin : 0 -20px 20px -20px;
+		}
+	 
+		h5 {
+		  color         : $primary;
+		  margin-bottom : 15px;
+		  text-align    : center;
+		}
+	 
+		.owl-carousel {
+		  background    : $textWhite;
+		  border-radius : 8px;
+		  box-shadow    : 0 0 10px $shadowColor;
+		  overflow      : hidden;
+		  padding       : 15px 0;
+		  position      : relative;
+		  @media screen and (max-width : 767px) {
+			border-radius : 0;
+		  }
+		
+		  .owl-nav {
+			.owl-next, .owl-prev {
+			  background : rgba(255, 255, 255, 0.7);
+			  height     : 100%;
+			  padding    : 0 10px !important;
+			  text-align : center;
+			
+			  i {
+				color       : $primary;
+				font-size   : 24px;
+				padding-top : 60%;
+			  
+			  }
+			
+			  &.owl-prev {
+				bottom    : 0;
+				left      : auto;
+				position  : absolute;
+				right     : 0;
+				top       : 50%;
+				transform : translate(0, -50%);
+			  }
+			
+			  &.owl-next {
+				bottom    : 0;
+				left      : 0;
+				position  : absolute;
+				right     : auto;
+				top       : 50%;
+				transform : translate(0, -50%);
+			  }
+			
+			  &.disabled {
+				i {
+				  color : rgba(34, 40, 49, 0.5);
+				}
+			  }
+			}
+		  }
+		}
+	 
+		&.stories {
+		  .story, .add-story {
+			background    : $textWhite;
+			border        : 2px solid $primary;
+			border-radius : 50%;
+			box-shadow    : 0 0 5px $shadowColor;
+			height        : 86px;
+			width         : 86px;
+		 
+			a {
+			  display    : block;
+			  text-align : center;
+			
+			  i {
+				font-size  : 28px;
+				margin-top : 50%;
+				transform  : translate(0, -50%);
+			  }
+			
+			  img {
+				height : 100%;
+				width  : 100%;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
+  
+  .story-modal {
+	.modal-content {
+	  .btn {
+		&:first-of-type {
+		  margin-bottom : 25px;
+		}
+		
+		i {
+		  color             : $primary;
+		  font-size         : 24px;
+		  margin-inline-end : 5px;
+		  vertical-align    : middle;
 		}
 	  }
 	}
