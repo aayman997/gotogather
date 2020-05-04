@@ -40,52 +40,52 @@
 						<div class='stories'>
 							<h5>الحالات</h5>
 							<div class='owl-carousel'>
-								<div class='add-story' data-target='#storyModal' data-toggle='modal'>
+								<div class='add-story' data-target='#addStoryModal' data-toggle='modal'>
 									<a href='#'>
 										<i class='fas fa-plus'></i>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
 								</div>
-								<div class='story'>
+								<div class='story' data-target='#viewStory' data-toggle='modal'>
 									<a href='#'>
 										<img alt='User Image' class='img-fluid' src='../../images/user.png'>
 									</a>
@@ -425,7 +425,7 @@
 			</section>
 		</main>
 		<!-- Add Story Modal -->
-		<div aria-hidden='true' aria-labelledby='exampleModalLabel' class='modal story-modal fade' id='storyModal' role='dialog' tabindex='-1'>
+		<div aria-hidden='true' aria-labelledby='exampleModalLabel' class='modal add-story-modal fade' id='addStoryModal' role='dialog' tabindex='-1'>
 			<div class='modal-dialog' role='document'>
 				<div class='modal-content'>
 					<button class='btn'>
@@ -436,6 +436,27 @@
 						<i class='fas fa-photo-video'></i>
 						<span>صورة / فيديو</span>
 					</button>
+				</div>
+			</div>
+		</div>
+		<!-- View Story Model -->
+		<div aria-hidden='true' aria-labelledby='exampleModalLabel' class='modal view-story-modal fade' id='viewStory' role='dialog' tabindex='-1'>
+			<div class='modal-dialog' role='document'>
+				<div class='modal-con'>
+					<div class='modal-header'>
+						<div class='user-data'>
+							<a href='#'>
+								<img alt='User Image' src='../../images/user.png'>
+								<span>محمد حسن</span>
+							</a>
+						</div>
+						<button class='btn close-modal' type='button' data-dismiss='viewStory' aria-label='Close'>
+							<i class='fas fa-times'></i>
+						</button>
+					</div>
+					<div class='modal-content'>
+						<div class='img-con'></div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1317,7 +1317,7 @@ body {
 				margin-top : 50%;
 				transform  : translate(0, -50%);
 			  }
-			
+			  
 			  img {
 				height : 100%;
 				width  : 100%;
@@ -1329,18 +1329,107 @@ body {
 	}
   }
   
-  .story-modal {
-	.modal-content {
-	  .btn {
-		&:first-of-type {
-		  margin-bottom : 25px;
+  .modal {
+	.modal-dialog {
+	  background    : $textWhite;
+	  border-radius : 8px;
+	  box-shadow    : 0 7px 10px $shadowColor;
+	  position      : relative;
+	  
+	  .modal-content {
+		background : none;
+		border     : none;
+	  }
+	}
+	
+	&.add-story-modal {
+	  .modal-content {
+		.btn {
+		  &:first-of-type {
+			margin-bottom : 25px;
+		  }
+		  
+		  i {
+			color             : $primary;
+			font-size         : 24px;
+			margin-inline-end : 5px;
+			vertical-align    : middle;
+		  }
+		}
+	  }
+	}
+	
+	&.view-story-modal {
+	  .modal-dialog {
+		overflow    : hidden;
+		padding-top : 56.25%;
+		
+		.modal-con {
+		  bottom   : 0;
+		  left     : 0;
+		  position : absolute;
+		  right    : 0;
+		  top      : 0;
 		}
 		
-		i {
-		  color             : $primary;
-		  font-size         : 24px;
-		  margin-inline-end : 5px;
-		  vertical-align    : middle;
+		.modal-header {
+		  -webkit-backdrop-filter : blur(30px);
+		  backdrop-filter         : blur(30px);
+		  border                  : none;
+		  bottom                  : auto;
+		  //left                    : 0;
+		  position                : relative;
+		  //right                   : 0;
+		  //top                     : 0;
+		  z-index                 : 999;
+		  
+		  .user-data {
+			a {
+			  img {
+				border        : 2px solid $primary;
+				border-radius : 50%;
+				height        : 64px;
+				width         : 64px;
+			  }
+			  
+			  span {
+				color       : $textWhite;
+				font-size   : 18px;
+				font-weight : 700;
+			  }
+			}
+		  }
+		  
+		  .close-modal {
+			bottom   : auto;
+			left     : 5px;
+			position : absolute;
+			right    : auto;
+			top      : 5px;
+			
+			i {
+			  color     : #dc3545;
+			  font-size : 24px;
+			}
+		  }
+		}
+		
+		.modal-content {
+		  bottom   : 0;
+		  left     : 0;
+		  position : absolute;
+		  right    : 0;
+		  top      : 0;
+		  width    : 100%;
+		  z-index  : 1;
+		  
+		  .img-con {
+			background : url('../images/story-preview.png') center / contain no-repeat $textWhite;
+			//background-size : contain;
+			height     : 100%;
+			width      : 100%;
+			z-index    : -1;
+		  }
 		}
 	  }
 	}
