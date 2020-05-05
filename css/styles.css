@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *:not(i) {
   font-family: "Cairo", sans-serif;
   font-weight: 400;
@@ -34,21 +35,21 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
-.app-con .page-content .home-page .search-box .search-form .form-group, .app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .home-page .search-box .search-form .input-group, .app-con .page-content .register-page .register-box form .input-group {
+.app-con .page-content .create-group-page form .form-group, .app-con .page-content .profile-page .user-data .data-edit form .form-group, .app-con .page-content .home-page .search-box .search-form .form-group, .app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .create-group-page form .input-group, .app-con .page-content .profile-page .user-data .data-edit form .input-group, .app-con .page-content .home-page .search-box .search-form .input-group, .app-con .page-content .register-page .register-box form .input-group {
   margin-bottom: 15px;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group.password, .app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .home-page .search-box .search-form .input-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
+.app-con .page-content .create-group-page form .form-group.password, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password, .app-con .page-content .home-page .search-box .search-form .form-group.password, .app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .create-group-page form .input-group.password, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password, .app-con .page-content .home-page .search-box .search-form .input-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
   height: 38px;
   position: relative;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
+.app-con .page-content .create-group-page form .form-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .create-group-page form .input-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
+.app-con .page-content .create-group-page form .form-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .create-group-page form .input-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
   bottom: 0;
   left: 0;
   margin-left: 0;
@@ -56,29 +57,29 @@ h1, h2, h3, h4, h5, h6 {
   right: auto;
   top: 0;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
+.app-con .page-content .create-group-page form .form-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .create-group-page form .input-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
   background: none;
   border: none;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
+.app-con .page-content .create-group-page form .form-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .create-group-page form .input-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
   color: #363062;
   font-size: 24px;
   opacity: 0.75;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group .form-control, .app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .home-page .search-box .search-form .input-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
+.app-con .page-content .create-group-page form .form-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control, .app-con .page-content .home-page .search-box .search-form .form-group .form-control, .app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .create-group-page form .input-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control, .app-con .page-content .home-page .search-box .search-form .input-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
   background: rgba(34, 40, 49, 0.1);
   border: none;
   border-radius: 4px;
   color: #222831;
   padding: 8px 15px;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
+.app-con .page-content .create-group-page form .form-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .create-group-page form .input-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
   box-shadow: 0 0 8px #36306266;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
+.app-con .page-content .create-group-page form .form-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .create-group-page form .input-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
+.app-con .page-content .create-group-page form .form-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .create-group-page form .form-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], .app-con .page-content .create-group-page form .form-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], .app-con .page-content .create-group-page form .form-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], .app-con .page-content .create-group-page form .input-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], .app-con .page-content .create-group-page form .input-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], .app-con .page-content .create-group-page form .input-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], .app-con .page-content .create-group-page form .input-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
   color: #222831;
   padding: 0 15px;
 }
@@ -172,6 +173,7 @@ body .side-menu {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   bottom: 0;
+  display: none;
   height: 100%;
   left: auto;
   min-height: 100vh;
@@ -194,28 +196,28 @@ body .side-menu .side-menu-con {
 }
 body .side-menu .side-menu-con .close-menu {
   background: #363062;
-  text-align: start;
-  padding: 8px 20px;
-  margin-bottom: 15px;
-  position: sticky;
-  top: 0;
   left: 0;
-  z-index: 999;
   margin: 0 -20px 20px -20px;
+  margin-bottom: 15px;
+  padding: 8px 20px;
+  position: sticky;
+  text-align: start;
+  top: 0;
+  z-index: 999;
 }
 body .side-menu .side-menu-con .close-menu button {
   color: #f5f5f5;
-  font-size: 18px;
   cursor: pointer;
+  font-size: 18px;
   vertical-align: middle;
 }
 body .side-menu .side-menu-con .close-menu button i {
-  font-size: 24px;
   color: #dc3545;
-  margin-left: 5px;
-  width: 24px;
+  font-size: 24px;
   height: 24px;
+  margin-left: 5px;
   vertical-align: middle;
+  width: 24px;
 }
 body .side-menu .side-menu-con .logo {
   width: 80%;
@@ -1095,6 +1097,241 @@ body .bottom-nav .nav a i {
 .app-con .page-content .home-page .groups.stories .story a img, .app-con .page-content .home-page .groups.stories .add-story a img, .app-con .page-content .home-page .stories.stories .story a img, .app-con .page-content .home-page .stories.stories .add-story a img {
   height: 100%;
   width: 100%;
+}
+.app-con .page-content .profile-page {
+  padding: 0 40px;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .profile-page {
+    padding: 0 20px;
+  }
+}
+.app-con .page-content .profile-page .user-data {
+  margin-bottom: 15px;
+}
+.app-con .page-content .profile-page .user-data .data-head .img {
+  float: right;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .user-data .data-head .img img {
+  height: 40px;
+  margin-inline-end: 10px;
+  width: 40px;
+}
+.app-con .page-content .profile-page .user-data .data-head .img span {
+  font-size: 18px;
+}
+.app-con .page-content .profile-page .user-data .data-head .edit {
+  border: none;
+  box-shadow: none;
+  color: #363062;
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .user-data .data-edit {
+  border-bottom: 3px solid #36306266;
+  display: none;
+  padding: 10px 0;
+}
+.app-con .page-content .profile-page .user-data .data-edit form button {
+  background: #363062;
+  color: #f5f5f5;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+  padding: 8px 60px;
+  width: auto;
+}
+.app-con .page-content .profile-page .groups {
+  margin-bottom: 15px;
+}
+.app-con .page-content .profile-page .groups .groups-head i {
+  color: #363062;
+  font-size: 32px;
+  height: 40px;
+  margin-inline-end: 10px;
+  vertical-align: middle;
+  width: 40px;
+}
+.app-con .page-content .profile-page .groups .groups-body {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 10px;
+}
+.app-con .page-content .profile-page .groups .groups-body li:first-child {
+  margin-top: 10px;
+}
+.app-con .page-content .profile-page .groups .groups-body li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.app-con .page-content .profile-page .groups .groups-body li.clearfix a {
+  float: right;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .groups .groups-body li.clearfix button {
+  float: left;
+}
+.app-con .page-content .profile-page .groups .groups-body li button {
+  color: #dc3545;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .groups .groups-body li button i {
+  color: inherit;
+  font-size: 18px;
+  margin-inline-end: 5px;
+  transform: rotateY(180deg);
+}
+.app-con .page-content .profile-page .groups .groups-body li button i.fa-plus {
+  font-size: 24px;
+}
+.app-con .page-content .profile-page .groups .groups-body li button span {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 700;
+}
+.app-con .page-content .profile-page .notifications {
+  margin-bottom: 15px;
+}
+.app-con .page-content .profile-page .notifications .notifications-head i {
+  color: #363062;
+  font-size: 32px;
+  height: 40px;
+  margin-inline-end: 10px;
+  vertical-align: middle;
+  width: 40px;
+}
+.app-con .page-content .profile-page .notifications .notifications-body {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 10px;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li:first-child {
+  margin-top: 10px;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li:not(:last-child) {
+  margin-bottom: 10px;
+  position: relative;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li:not(:last-child):after {
+  border-bottom: 1px solid #36306266;
+  content: "";
+  margin: auto;
+  padding-top: 20px;
+  width: 80%;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li:last-child a {
+  font-weight: 700;
+  text-decoration: none;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a {
+  float: right;
+  max-width: calc(100% - 48px);
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a i.fa-user-circle {
+  color: #363062;
+  font-size: 32px;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a img {
+  height: 32px;
+  vertical-align: middle;
+  width: 32px;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a span {
+  margin-inline-start: 10px;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns {
+  float: left;
+  vertical-align: middle;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button {
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button {
+    display: block;
+    width: 48px;
+  }
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i {
+  color: inherit;
+  font-size: 24px;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-check-circle {
+  color: #28a745;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-times-circle {
+  color: #dc3545;
+}
+.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-plus {
+  font-size: 24px;
+}
+.app-con .page-content .create-group-page {
+  padding: 0 40px;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .create-group-page {
+    padding: 0 20px;
+  }
+}
+.app-con .page-content .create-group-page h2 {
+  color: #363062;
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.app-con .page-content .create-group-page form .input-group {
+  margin-bottom: 15px;
+}
+.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-input {
+  background: none;
+  border-radius: 0;
+}
+.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label {
+  background: rgba(34, 40, 49, 0.1);
+  border: none;
+  border-radius: 4px;
+  color: rgba(34, 40, 49, 0.5);
+  height: 38px;
+  padding: 8px 15px;
+  text-align: start;
+}
+.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label::placeholder {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label:after {
+  background: none;
+  color: #363062;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-size: 17px;
+  font-weight: 900;
+  left: 0;
+  right: auto;
+}
+.app-con .page-content .create-group-page form .form-group textarea {
+  height: 90px;
+  resize: none;
+}
+.app-con .page-content .create-group-page form button {
+  background: #363062;
+  color: #f5f5f5;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+  padding: 8px 60px;
+  width: auto;
 }
 .app-con .add-story-modal .modal-dialog {
   background: #f5f5f5;

@@ -192,21 +192,22 @@ body {
   
   //	Side Menu Styles
   .side-menu {
-	-webkit-backdrop-filter : blur(10px);
-	backdrop-filter         : blur(10px);
-	bottom                  : 0;
-	height                  : 100%;
-	left                    : auto;
-	min-height              : 100vh;
-	overflow-x              : hidden;
-	overflow-y              : scroll;
-	position                : fixed;
-	right                   : -100vw;
-	top                     : 0;
-	width                   : 100vw;
-	z-index                 : 99;
- 
-	.side-menu-con {
+     -webkit-backdrop-filter : blur(10px);
+     backdrop-filter         : blur(10px);
+     bottom                  : 0;
+     display                 : none;
+     height                  : 100%;
+     left                    : auto;
+     min-height              : 100vh;
+     overflow-x              : hidden;
+     overflow-y              : scroll;
+     position                : fixed;
+     right                   : -100vw;
+     top                     : 0;
+     width                   : 100vw;
+     z-index                 : 99;
+   
+     .side-menu-con {
 	  background : $textWhite;
 	  box-shadow : -5px -5px 10px $shadowColor;
 	  min-height : 100%;
@@ -216,29 +217,29 @@ body {
 	  width      : 80%;
 	
 	  .close-menu {
-		background    : $primary;
-		text-align    : start;
-		padding       : 8px 20px;
-		margin-bottom : 15px;
-		position      : sticky;
-		top           : 0;
-		left          : 0;
-		z-index       : 999;
-		margin        : 0 -20px 20px -20px;
-		
-		button {
+	     background    : $primary;
+	     left          : 0;
+	     margin        : 0 -20px 20px -20px;
+	     margin-bottom : 15px;
+	     padding       : 8px 20px;
+	     position      : sticky;
+	     text-align    : start;
+	     top           : 0;
+	     z-index       : 999;
+	   
+	     button {
 		  color          : $textWhite;
-		  font-size      : 18px;
 		  cursor         : pointer;
+		  font-size      : 18px;
 		  vertical-align : middle;
-		  
+		
 		  i {
-			font-size      : 24px;
-			color          : #dc3545;
-			margin-left    : 5px;
-			width          : 24px;
-			height         : 24px;
-			vertical-align : middle;
+		     color          : #dc3545;
+		     font-size      : 24px;
+		     height         : 24px;
+		     margin-left    : 5px;
+		     vertical-align : middle;
+		     width          : 24px;
 		  }
 		}
 	  }
@@ -330,7 +331,6 @@ body {
 			}
 		  }
 		}
-		
 	  }
 	  
 	  .side-menu-footer {
@@ -1309,24 +1309,327 @@ body {
 			width         : 86px;
 		 
 			a {
-			  display    : block;
-			  text-align : center;
-			
-			  i {
+			   display    : block;
+			   text-align : center;
+			   
+			   i {
 				font-size  : 28px;
 				margin-top : 50%;
 				transform  : translate(0, -50%);
-			  }
-			  
-			  img {
+			   }
+			   
+			   img {
 				height : 100%;
 				width  : 100%;
-			  }
+			   }
 			}
 		  }
 		}
 	  }
 	}
+   
+     .profile-page {
+	  padding    : 0 40px;
+	  text-align : right;
+	  @media screen and (max-width : 767px) {
+	     padding : 0 20px;
+	  }
+	
+	  .user-data {
+	     margin-bottom : 15px;
+	   
+	     .data-head {
+		  .img {
+		     float          : right;
+		     vertical-align : middle;
+		   
+		     img {
+			  height            : 40px;
+			  margin-inline-end : 10px;
+			  width             : 40px;
+		     }
+		   
+		     span {
+			  font-size : 18px;
+		     }
+		  }
+		
+		  .edit {
+		     border         : none;
+		     box-shadow     : none;
+		     color          : $primary;
+		     float          : left;
+		     font-size      : 14px;
+		     font-weight    : 700;
+		     line-height    : 40px;
+		     vertical-align : middle;
+		  }
+	     }
+	   
+	     .data-edit {
+		  border-bottom : 3px solid $shadowColor;
+		  display       : none;
+		  padding       : 10px 0;
+		
+		  form {
+		     @extend %form-group-style;
+		   
+		     button {
+			  background  : $primary;
+			  color       : $textWhite;
+			  display     : block;
+			  font-size   : 18px;
+			  font-weight : 700;
+			  margin      : auto;
+			  padding     : 8px 60px;
+			  width       : auto;
+		     }
+		  }
+	     }
+	  }
+	
+	  .groups {
+	     margin-bottom : 15px;
+	   
+	     .groups-head {
+		  i {
+		     color             : $primary;
+		     font-size         : 32px;
+		     height            : 40px;
+		     margin-inline-end : 10px;
+		     vertical-align    : middle;
+		     width             : 40px;
+		  }
+	     }
+	   
+	     .groups-body {
+		  list-style           : none;
+		  margin               : 0;
+		  padding              : 0;
+		  padding-inline-start : 10px;
+		
+		  li {
+		     &:first-child {
+			  margin-top : 10px;
+		     }
+		   
+		     &:not(:last-child) {
+			  margin-bottom : 10px;
+		     }
+		   
+		     &.clearfix {
+			  a {
+			     float          : right;
+			     vertical-align : middle;
+			  }
+			
+			  button {
+			     float : left;
+			  }
+		     }
+		   
+		     button {
+			  color          : $danger;
+			  vertical-align : middle;
+			
+			  i {
+			     color             : inherit;
+			     font-size         : 18px;
+			     margin-inline-end : 5px;
+			     transform         : rotateY(180deg);
+			   
+			     &.fa-plus {
+				  font-size : 24px;
+			     }
+			  }
+			
+			  span {
+			     color       : inherit;
+			     font-size   : 14px;
+			     font-weight : 700;
+			  }
+		     }
+		  }
+	     }
+	  }
+	
+	  .notifications {
+	     margin-bottom : 15px;
+	   
+	     .notifications-head {
+		  i {
+		     color             : $primary;
+		     font-size         : 32px;
+		     height            : 40px;
+		     margin-inline-end : 10px;
+		     vertical-align    : middle;
+		     width             : 40px;
+		  }
+	     }
+	   
+	     .notifications-body {
+		  list-style           : none;
+		  margin               : 0;
+		  padding              : 0;
+		  padding-inline-start : 10px;
+		
+		  li {
+		     &:first-child {
+			  margin-top : 10px;
+		     }
+		   
+		     &:not(:last-child) {
+			  margin-bottom : 10px;
+			  position      : relative;
+			
+			  &:after {
+			     border-bottom : 1px solid $shadowColor;
+			     content       : '';
+			     margin        : auto;
+			     padding-top   : 20px;
+			     width         : 80%;
+			  }
+		     }
+		   
+		     &:last-child {
+			  a {
+			     font-weight     : 700;
+			     text-decoration : none;
+			  }
+		     }
+		   
+		   
+		     &.clearfix {
+			  a {
+			     float          : right;
+			     max-width      : calc(100% - 48px);
+			     vertical-align : middle;
+			   
+			     i.fa-user-circle {
+				  color          : $primary;
+				  font-size      : 32px;
+				  vertical-align : middle;
+			     }
+			   
+			     img {
+				  height         : 32px;
+				  vertical-align : middle;
+				  width          : 32px;
+			     }
+			   
+			     span {
+				  margin-inline-start : 10px;
+				  vertical-align      : middle;
+			     }
+			  }
+			
+			  .btns {
+			     float          : left;
+			     vertical-align : middle;
+			   
+			     button {
+				  border : none;
+				  @media screen and (max-width : 768px) {
+				     display : block;
+				     width   : 48px;
+				  }
+				
+				  i {
+				     color     : inherit;
+				     font-size : 24px;
+				   
+				     &.fa-check-circle {
+					  color : #28a745;
+				     }
+				   
+				     &.fa-times-circle {
+					  color : $danger;
+				     }
+				   
+				     &.fa-plus {
+					  font-size : 24px;
+				     }
+				  }
+			     }
+			  }
+		     }
+		  }
+	     }
+	  }
+     }
+   
+     .create-group-page {
+	  padding    : 0 40px;
+	  text-align : right;
+	  @media screen and (max-width : 767px) {
+	     padding : 0 20px;
+	  }
+	
+	  h2 {
+	     color         : $primary;
+	     font-size     : 24px;
+	     margin-bottom : 25px;
+	     text-align    : center;
+	  }
+	
+	  form {
+	     @extend %form-group-style;
+	   
+	     .input-group {
+		  margin-bottom : 15px;
+		
+		  .custom-file {
+		     .custom-file-input {
+			  background    : none;
+			  border-radius : 0;
+		     }
+		   
+		     .custom-file-label {
+			  background    : rgba(34, 40, 49, 0.1);
+			  border        : none;
+			  border-radius : 4px;
+			  color         : rgba(34, 40, 49, 0.5);
+			  height        : 38px;
+			  padding       : 8px 15px;
+			  text-align    : start;
+			
+			  &::placeholder {
+			     color : rgba(34, 40, 49, 0.5);
+			  }
+			
+			  &:after {
+			     background  : none;
+			     color       : $primary;
+			     content     : '\f1c5';
+			     font-family : 'Font Awesome 5 Free';
+			     font-size   : 17px;
+			     font-weight : 900;
+			     left        : 0;
+			     right       : auto;
+			  }
+		     }
+		  }
+	     }
+	   
+	     .form-group {
+		  textarea {
+		     height : 90px;
+		     resize : none;
+		  }
+	     }
+	   
+	     button {
+		  background  : $primary;
+		  color       : $textWhite;
+		  display     : block;
+		  font-size   : 18px;
+		  font-weight : 700;
+		  margin      : auto;
+		  padding     : 8px 60px;
+		  width       : auto;
+	     }
+	  }
+     }
   }
   
   .add-story-modal {

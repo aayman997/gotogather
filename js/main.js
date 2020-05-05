@@ -5,13 +5,19 @@ const DomElements = {
 };
 
 function menuOpen() {
-	$('#sideMenu').animate({right: '0'}, 400);
+	// $('#sideMenu').css();
+	$('#sideMenu')
+		.css('display', 'block')
+		.animate({right: '0'}, 400);
 	$('body').css('overflow', 'hidden');
 }
 
 function menuClose() {
-	$(this).parents('.side-menu').animate({right: '-100vw'}, 400);
-	$('body').css('overflow', 'scroll');
+	$(this).parents('.side-menu').animate({right: '-100vw'}, 400).delay(400).queue(function (next) {
+		$('.side-menu').css('display', 'none');
+		$('body').css('overflow', 'hidden');
+		next();
+	});
 }
 
 DomElements.navBarBtn.addEventListener('click', menuOpen);
@@ -88,4 +94,8 @@ $('.owl-carousel').owlCarousel({
 			items: 6,
 		}
 	}
+});
+
+$('.data-head').on('click', function () {
+	$('.data-edit').slideToggle(400);
 });
