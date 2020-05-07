@@ -36,7 +36,7 @@
 			<section class='home-page'>
 				<div class='search-box'>
 					<h2>ابحث عن مجموعتك الان</h2>
-					<form class='search-form small-search'>
+					<form class='search-form search-home small-search'>
 						<span class='btn expand'>
 							<i class='fas fa-angle-double-down'></i>
 						</span>
@@ -96,7 +96,7 @@
 									<h6>مجموعه نادى الشمس</h6>
 									<p>عدد الأعضاء 22,520 عضو</p>
 									<div class='btn-con'>
-										<button class='btn'>
+										<button class='btn' data-target='#joinGroupModal' data-toggle='modal'>
 											<i class='fas fa-plus'></i>
 											انضمام
 										</button>
@@ -111,7 +111,7 @@
 									<h6>مجموعه نادى الشمس</h6>
 									<p>عدد الأعضاء 22,520 عضو</p>
 									<div class='btn-con'>
-										<button class='btn'>
+										<button class='btn' data-target='#joinGroupModal' data-toggle='modal'>
 											<i class='fas fa-plus'></i>
 											انضمام
 										</button>
@@ -126,7 +126,7 @@
 									<h6>مجموعه نادى الشمس</h6>
 									<p>عدد الأعضاء 22,520 عضو</p>
 									<div class='btn-con'>
-										<button class='btn'>
+										<button class='btn' data-target='#joinGroupModal' data-toggle='modal'>
 											<i class='fas fa-plus'></i>
 											انضمام
 										</button>
@@ -141,7 +141,7 @@
 									<h6>مجموعه نادى الشمس</h6>
 									<p>عدد الأعضاء 22,520 عضو</p>
 									<div class='btn-con'>
-										<button class='btn'>
+										<button class='btn' data-target='#joinGroupModal' data-toggle='modal'>
 											<i class='fas fa-plus'></i>
 											انضمام
 										</button>
@@ -466,6 +466,21 @@
 				</div>
 			</section>
 		</main>
+		<!-- Join Group Modal -->
+		<div aria-hidden='true' aria-labelledby='exampleModalLabel' class='modal join-group-modal fade' id='joinGroupModal' role='dialog' tabindex='-1'>
+			<div class='modal-dialog' role='document'>
+				<div class='modal-content'>
+					<h4>برجاء الاجابة على سؤال الانضمام</h4>
+					<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في
+					   الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى
+					   نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء.</p>
+					<div class='form-group'>
+						<textarea class='form-control' placeholder='أجابة سؤال الانضمام' title='Joining Question Answer'></textarea>
+					</div>
+					<button class='btn'>إرسال الاجابة</button>
+				</div>
+			</div>
+		</div>
 		<footer>
 			<nav class='navbar'>
 				<a class='navbar-brand' href='#'>

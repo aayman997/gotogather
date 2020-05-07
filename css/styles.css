@@ -35,21 +35,21 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
-.app-con .page-content .create-group-page form .form-group, .app-con .page-content .profile-page .user-data .data-edit form .form-group, .app-con .page-content .home-page .search-box .search-form .form-group, .app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .create-group-page form .input-group, .app-con .page-content .profile-page .user-data .data-edit form .input-group, .app-con .page-content .home-page .search-box .search-form .input-group, .app-con .page-content .register-page .register-box form .input-group {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group, .app-con .page-content .create-group-page form .form-group, .app-con .page-content .profile-page .user-data .data-edit form .form-group, .app-con .page-content .home-page .search-box .search-form .form-group, .app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group, .app-con .page-content .create-group-page form .input-group, .app-con .page-content .profile-page .user-data .data-edit form .input-group, .app-con .page-content .home-page .search-box .search-form .input-group, .app-con .page-content .register-page .register-box form .input-group {
   margin-bottom: 15px;
 }
-.app-con .page-content .create-group-page form .form-group.password, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password, .app-con .page-content .home-page .search-box .search-form .form-group.password, .app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .create-group-page form .input-group.password, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password, .app-con .page-content .home-page .search-box .search-form .input-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password, .app-con .page-content .create-group-page form .form-group.password, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password, .app-con .page-content .home-page .search-box .search-form .form-group.password, .app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password, .app-con .page-content .create-group-page form .input-group.password, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password, .app-con .page-content .home-page .search-box .search-form .input-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
   height: 38px;
   position: relative;
 }
-.app-con .page-content .create-group-page form .form-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .create-group-page form .input-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .form-control, .app-con .page-content .create-group-page form .form-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .form-control, .app-con .page-content .create-group-page form .input-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
 }
-.app-con .page-content .create-group-page form .form-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .create-group-page form .input-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append, .app-con .page-content .create-group-page form .form-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append, .app-con .page-content .create-group-page form .input-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
   bottom: 0;
   left: 0;
   margin-left: 0;
@@ -57,29 +57,29 @@ h1, h2, h3, h4, h5, h6 {
   right: auto;
   top: 0;
 }
-.app-con .page-content .create-group-page form .form-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .create-group-page form .input-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append span, .app-con .page-content .create-group-page form .form-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append span, .app-con .page-content .create-group-page form .input-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
   background: none;
   border: none;
 }
-.app-con .page-content .create-group-page form .form-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .create-group-page form .input-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append span i, .app-con .page-content .create-group-page form .form-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append span i, .app-con .page-content .create-group-page form .input-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
   color: #363062;
   font-size: 24px;
   opacity: 0.75;
 }
-.app-con .page-content .create-group-page form .form-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control, .app-con .page-content .home-page .search-box .search-form .form-group .form-control, .app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .create-group-page form .input-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control, .app-con .page-content .home-page .search-box .search-form .input-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control, .app-con .page-content .create-group-page form .form-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control, .app-con .page-content .home-page .search-box .search-form .form-group .form-control, .app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control, .app-con .page-content .create-group-page form .input-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control, .app-con .page-content .home-page .search-box .search-form .input-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
   background: rgba(34, 40, 49, 0.1);
   border: none;
   border-radius: 4px;
   color: #222831;
   padding: 8px 15px;
 }
-.app-con .page-content .create-group-page form .form-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .create-group-page form .input-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control:focus, .app-con .page-content .create-group-page form .form-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control:focus, .app-con .page-content .create-group-page form .input-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
   box-shadow: 0 0 8px #36306266;
 }
-.app-con .page-content .create-group-page form .form-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .create-group-page form .input-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control::placeholder, .app-con .page-content .create-group-page form .form-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control::placeholder, .app-con .page-content .create-group-page form .input-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .create-group-page form .form-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .create-group-page form .form-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], .app-con .page-content .create-group-page form .form-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], .app-con .page-content .create-group-page form .form-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], .app-con .page-content .create-group-page form .input-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], .app-con .page-content .create-group-page form .input-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], .app-con .page-content .create-group-page form .input-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], .app-con .page-content .create-group-page form .input-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=gender], .app-con .page-content .create-group-page form .form-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=country], .app-con .page-content .create-group-page form .form-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=city], .app-con .page-content .create-group-page form .form-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=district], .app-con .page-content .create-group-page form .form-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=gender], .app-con .page-content .create-group-page form .input-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=country], .app-con .page-content .create-group-page form .input-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=city], .app-con .page-content .create-group-page form .input-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=district], .app-con .page-content .create-group-page form .input-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
   color: #222831;
   padding: 0 15px;
 }
@@ -438,6 +438,12 @@ body .bottom-nav .nav a i {
   text-align: end;
   top: 15px;
 }
+@media screen and (max-width: 425px) {
+  .app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .text {
+    padding-inline-end: 5px;
+    top: 5px;
+  }
+}
 .app-con .page-content .landing-page .statistics .statistic-box .statistic-content {
   bottom: 0;
   left: 0;
@@ -466,6 +472,12 @@ body .bottom-nav .nav a i {
   top: auto;
   z-index: 2;
 }
+@media screen and (max-width: 425px) {
+  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text {
+    bottom: 5px;
+    padding-inline-start: 5px;
+  }
+}
 .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
   color: #f5f5f5;
   font-size: 35px;
@@ -477,8 +489,18 @@ body .bottom-nav .nav a i {
     font-size: 24px;
   }
 }
+@media screen and (max-width: 425px) {
+  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
+    font-size: 20px;
+  }
+}
 .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
   margin-bottom: 15px;
+}
+@media screen and (max-width: 425px) {
+  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
+    margin-bottom: 5px;
+  }
 }
 @media screen and (max-width: 767px) {
   .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child {
@@ -589,19 +611,21 @@ body .bottom-nav .nav a i {
   color: #363062;
 }
 .app-con .page-content .register-page .register-box form .btn {
+  background: #363062;
+  box-shadow: none;
+  color: #f5f5f5;
   display: block;
-  width: 100%;
-  text-align: center;
   font-size: 18px;
   font-weight: 700;
   padding: 6px 0;
-  background: #363062;
-  color: #f5f5f5;
+  text-align: center;
+  width: 100%;
 }
 .app-con .page-content .register-page .register-box .social-login .btn {
   background: #ececec #f5f5f5;
   border-radius: 4px;
   box-shadow: 0 0 8px #36306266;
+  box-shadow: none;
   color: #222831;
   display: block;
   font-size: 18px;
@@ -659,14 +683,14 @@ body .bottom-nav .nav a i {
   text-align: start;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .home-page .search-box .search-form {
+  .app-con .page-content .home-page .search-box .search-form.search-home {
     height: 174px;
     overflow: hidden;
   }
-  .app-con .page-content .home-page .search-box .search-form.small-search div[class^=col]:not(:first-of-type) {
+  .app-con .page-content .home-page .search-box .search-form.search-home.small-search div[class^=col]:not(:first-of-type) {
     display: none;
   }
-  .app-con .page-content .home-page .search-box .search-form.small-search .form-group {
+  .app-con .page-content .home-page .search-box .search-form.search-home.small-search .form-group {
     border: none !important;
   }
 }
@@ -710,6 +734,7 @@ body .bottom-nav .nav a i {
 .app-con .page-content .home-page .search-box .search-form .btn-con button {
   background: #363062;
   border-radius: 8px;
+  box-shadow: none;
   color: #f5f5f5;
   font-size: 16px;
   font-weight: 700;
@@ -756,6 +781,7 @@ body .bottom-nav .nav a i {
 .app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button {
   background: #363062;
   border-radius: 8px;
+  box-shadow: none;
   color: #f5f5f5;
   font-size: 16px;
   font-weight: 700;
@@ -807,6 +833,7 @@ body .bottom-nav .nav a i {
   background: #363062;
   border: none;
   border-radius: 0 8px 0 8px;
+  box-shadow: none;
   color: #f5f5f5;
   margin: 0;
   padding: 10px;
@@ -1002,6 +1029,7 @@ body .bottom-nav .nav a i {
 .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn {
   background: #363062;
   border-radius: 4px 0 0 4px;
+  box-shadow: none;
   color: #f5f5f5;
   padding: 0;
   text-align: center;
@@ -1020,6 +1048,22 @@ body .bottom-nav .nav a i {
   position: absolute;
   right: 0;
   top: 0;
+}
+.app-con .page-content .home-page .group-description {
+  background: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #36306266;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  text-align: center;
+}
+.app-con .page-content .home-page .group-description h2 {
+  color: #363062;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.app-con .page-content .home-page .group-description p {
+  margin-bottom: 0;
 }
 .app-con .page-content .home-page .groups, .app-con .page-content .home-page .stories {
   margin-bottom: 20px;
@@ -1333,24 +1377,326 @@ body .bottom-nav .nav a i {
   padding: 8px 60px;
   width: auto;
 }
-.app-con .add-story-modal .modal-dialog {
+.app-con .page-content .messenger-page {
+  padding: 0 40px;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page {
+    padding: 0;
+  }
+}
+.app-con .page-content .messenger-page h1 {
+  color: #363062;
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.app-con .page-content .messenger-page .messenger-con {
+  background: #ececec;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #36306266;
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con {
+    border-radius: 0;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type {
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type {
+    padding-inline-end: 0;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con {
+  box-shadow: -3px 0 8px #36306266;
+  padding: 0 10px 15px 10px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con {
+    margin-bottom: 25px;
+    padding-bottom: 0;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 {
+  border-bottom: 1px solid #36306266;
+  color: #363062;
+  font-size: 20px;
+  height: 63px;
+  margin: 0 -10px;
+  padding: 18px 15px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 {
+    border-bottom: none;
+    position: relative;
+    text-align: start;
+  }
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span {
+    bottom: auto;
+    display: block;
+    left: 30px;
+    position: absolute;
+    right: auto;
+    top: 10px;
+    transform: rotateX(0);
+    transition: 0.4s ease-in-out all;
+  }
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span i {
+    color: #363062;
+    font-size: 24px;
+    font-weight: 900;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span {
+  display: none;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts {
+  height: 600px;
+  overflow: hidden auto;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts {
+    display: none;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact {
+  cursor: pointer;
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.active {
+  background: #f5f5f5;
+  margin: 0 -10px;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.new-message {
+  position: relative;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.new-message:after {
+  bottom: auto;
+  color: #dc3545;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-size: 17px;
+  font-weight: 900;
+  left: 5px;
+  position: absolute;
+  right: auto;
+  top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:first-of-type {
+    padding-inline-end: 5px;
+    padding-inline-start: 10px;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:first-of-type img {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+}
+@media screen and (min-width: 768px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type {
+    padding-inline-end: 10px;
+    padding-inline-start: 5px;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type h6 {
+  color: #363062;
+  margin-bottom: 5px;
+  text-align: start;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type p {
+  height: 32px;
+  margin-bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type {
+    padding-inline-start: 0;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con {
+  background: #f5f5f5;
+  height: 100%;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name {
+  background: #363062;
+  height: 63px;
+  padding: 5px 15px;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name img {
+  border-radius: 50%;
+  height: 53px;
+  margin-inline-end: 10px;
+  width: 53px;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name h6 {
+  color: #f5f5f5;
+  display: inline-block;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box {
+  height: 600px;
+  overflow: hidden auto;
+  position: relative;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages {
+  bottom: 58px;
+  left: 0;
+  overflow: hidden auto;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received {
+  max-width: 90%;
+  padding: 5px 15px;
+  width: max-content;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent:not(:last-child), .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received:not(:last-child) {
+  margin-bottom: 15px;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent.sent, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received.sent {
+  background: #ececec;
+  border-radius: 8px 0 8px 8px;
+  margin-inline-end: auto;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent.received, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received.received {
+  background: #363062;
+  border-radius: 0 8px 8px 8px;
+  color: #f5f5f5;
+  margin-inline-start: auto;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: auto;
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input {
+    width: 100%;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form {
+  font-size: 0;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group {
+  display: inline-block;
+  height: 58px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  width: calc(100% - 102px);
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group {
+    width: calc(100% - 50px);
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control {
+  border-radius: 0 4px 4px 0;
+  height: 58px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control {
+    border-radius: 0;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn {
+  background: #363062;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  box-shadow: none;
+  color: #f5f5f5;
+  height: 58px;
+  padding: 15px 12px;
+  vertical-align: middle;
+  width: 102px;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn {
+    border-radius: 0;
+    width: 50px;
+  }
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn i, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn span {
+  color: inherit;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn i {
+  font-size: 24px;
+  margin-inline-end: 5px;
+}
+.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn span {
+  font-size: 18px;
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn span {
+    display: none;
+  }
+}
+.app-con .add-story-modal .modal-dialog, .app-con .join-group-modal .modal-dialog {
   background: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 7px 10px #36306266;
   position: relative;
 }
-.app-con .add-story-modal .modal-dialog .modal-content {
+.app-con .add-story-modal .modal-dialog .modal-content, .app-con .join-group-modal .modal-dialog .modal-content {
   background: none;
   border: none;
 }
-.app-con .add-story-modal .modal-content .btn:first-of-type {
+.app-con .add-story-modal .modal-content .btn:first-of-type, .app-con .join-group-modal .modal-content .btn:first-of-type {
   margin-bottom: 25px;
 }
-.app-con .add-story-modal .modal-content .btn i {
+.app-con .add-story-modal .modal-content .btn i, .app-con .join-group-modal .modal-content .btn i {
   color: #363062;
   font-size: 24px;
   margin-inline-end: 5px;
   vertical-align: middle;
+}
+.app-con .add-story-modal.join-group-modal .modal-dialog, .app-con .join-group-modal.join-group-modal .modal-dialog {
+  max-width: 60%;
+  padding: 40px 20px;
+  text-align: start;
+}
+.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content h4, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content h4 {
+  color: #363062;
+  font-size: 24px;
+  text-align: center;
+}
+.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control {
+  background: rgba(34, 40, 49, 0.1);
+  border: none;
+  border-radius: 4px;
+  color: #222831;
+  height: 100px;
+  padding: 8px 15px;
+  resize: none;
+}
+.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control:focus, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control:focus {
+  box-shadow: 0 0 8px #36306266;
+}
+.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control::placeholder, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control::placeholder {
+  color: rgba(34, 40, 49, 0.5);
+}
+.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .btn, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .btn {
+  background: #363062;
+  box-shadow: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+  padding: 15px 60px;
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .app-con .view-story-modal .modal-dialog {
@@ -1419,12 +1765,12 @@ body .bottom-nav .nav a i {
 }
 .app-con footer {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
-  padding: 10px 60px;
-  position: absolute;
-  top: auto;
-  right: 0;
   bottom: 0;
   left: 0;
+  padding: 10px 60px;
+  position: absolute;
+  right: 0;
+  top: auto;
 }
 @media screen and (max-width: 767px) {
   .app-con footer {
@@ -1435,8 +1781,8 @@ body .bottom-nav .nav a i {
   display: flex;
 }
 .app-con footer nav .navbar-brand {
-  width: 225px;
   margin: 0;
+  width: 225px;
 }
 .app-con footer nav .navbar-nav {
   padding: 0;
