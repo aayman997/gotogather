@@ -717,7 +717,6 @@ body {
 			  background    : $backGround $textWhite;
 			  border-radius : 4px;
 			  box-shadow    : 0 0 8px $shadowColor;
-			  box-shadow    : none;
 			  color         : $textDark;
 			  display       : block;
 			  font-size     : 18px;
@@ -1639,14 +1638,14 @@ body {
 			  }
 			
 			  &:after {
-			     background  : none;
-			     color       : $primary;
-			     content     : '\f1c5';
-			     font-family : 'Font Awesome 5 Free';
-			     font-size   : 17px;
-			     font-weight : 900;
-			     left        : 0;
-			     right       : auto;
+				  background  : none;
+				  color       : $primary;
+				  content     : '\f1c5';
+				  font-family : 'Font Awesome 5 Free', sans-serif;
+				  font-size   : 17px;
+				  font-weight : 900;
+				  left        : 0;
+				  right       : auto;
 			  }
 		     }
 		  }
@@ -1772,7 +1771,7 @@ body {
 											  bottom      : auto;
 											  color       : #dc3545;
 											  content     : '\f192';
-											  font-family : 'Font Awesome 5 Free';
+											  font-family : 'Font Awesome 5 Free', sans-serif;
 											  font-size   : 17px;
 											  font-weight : 900;
 											  left        : 5px;

@@ -625,7 +625,6 @@ body .bottom-nav .nav a i {
   background: #ececec #f5f5f5;
   border-radius: 4px;
   box-shadow: 0 0 8px #36306266;
-  box-shadow: none;
   color: #222831;
   display: block;
   font-size: 18px;
@@ -1357,7 +1356,7 @@ body .bottom-nav .nav a i {
   background: none;
   color: #363062;
   content: "";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", sans-serif;
   font-size: 17px;
   font-weight: 900;
   left: 0;
@@ -1481,7 +1480,7 @@ body .bottom-nav .nav a i {
   bottom: auto;
   color: #dc3545;
   content: "";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", sans-serif;
   font-size: 17px;
   font-weight: 900;
   left: 5px;
