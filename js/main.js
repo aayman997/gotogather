@@ -3,20 +3,39 @@ const DomElements = {
 	navBarBtn: document.querySelector('.navbar-toggler'),
 	sideMenuClose: document.querySelector('.side-menu .close-menu button')
 };
+const dirLTR = $('body').attr('dir') === 'ltr';
+const dirRTL = $('body').attr('dir') === 'rtl';
 
 function menuOpen() {
-	$('#sideMenu')
-		.css('display', 'block')
-		.animate({right: '0'}, 400);
-	$('body').css('overflow', 'hidden');
+	if (dirRTL) {
+		$('#sideMenu')
+			.css('display', 'block')
+			.animate({right: '0'}, 400);
+		$('body').css('overflow', 'hidden');
+	} else if (dirLTR) {
+		$('#sideMenu')
+			.css('display', 'block')
+			.animate({left: '0'}, 400);
+		$('body').css('overflow', 'hidden');
+	}
+
 }
 
 function menuClose() {
-	$('.side-menu').animate({right: '-100vw'}, 400).delay(400).queue(function (next) {
-		$('.side-menu').css('display', 'none');
-		$('body').css('overflow', 'auto');
-		next();
-	});
+	if (dirRTL) {
+		$('.side-menu').animate({right: '-100vw'}, 400).delay(400).queue(function (next) {
+			$('.side-menu').css('display', 'none');
+			$('body').css('overflow', 'auto');
+			next();
+		});
+	} else if (dirLTR) {
+		$('.side-menu').animate({left: '-100vw'}, 400).delay(400).queue(function (next) {
+			$('.side-menu').css('display', 'none');
+			$('body').css('overflow', 'auto');
+			next();
+		});
+	}
+
 }
 
 DomElements.navBarBtn.addEventListener('click', menuOpen);
@@ -84,15 +103,16 @@ const hideSearch = function () {
 //	End Search Toggle Expand
 
 //	Start Stories Carousel Options
+rtl = dirRTL;
 if (window.location.href.indexOf('group') > -1) {
 	$('.owl-carousel').owlCarousel({
-		rtl: true,
+		rtl: rtl,
 		loop: false,
 		margin: -20,
 		stagePadding: 40,
 		nav: true,
 		dots: false,
-		items: 6,
+		items: 5,
 		navText: ['<i class="fas fa-chevron-right">', '<i class="fas fa-chevron-left">'],
 		responsive: {
 			// breakpoint from 0 up
@@ -102,10 +122,6 @@ if (window.location.href.indexOf('group') > -1) {
 			// breakpoint from 480 up
 			'480': {
 				items: 5
-			},
-			// breakpoint from 768 up
-			'768': {
-				items: 6
 			}
 		}
 	});

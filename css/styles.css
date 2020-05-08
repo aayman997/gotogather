@@ -5,8 +5,8 @@
 }
 
 * {
-  text-transform: capitalize;
   color: #222831;
+  text-transform: capitalize;
 }
 
 input, textarea {
@@ -15,9 +15,9 @@ input, textarea {
 
 a,
 button {
-  text-transform: capitalize;
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
   transition: 0.2s opacity ease-in-out !important;
 }
 a:hover,
@@ -35,21 +35,21 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group, .app-con .page-content .create-group-page form .form-group, .app-con .page-content .profile-page .user-data .data-edit form .form-group, .app-con .page-content .home-page .search-box .search-form .form-group, .app-con .page-content .register-page .register-box form .form-group, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group, .app-con .page-content .create-group-page form .input-group, .app-con .page-content .profile-page .user-data .data-edit form .input-group, .app-con .page-content .home-page .search-box .search-form .input-group, .app-con .page-content .register-page .register-box form .input-group {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group, body .app-con .page-content .create-group-page form .form-group, body .app-con .page-content .profile-page .user-data .data-edit form .form-group, body .app-con .page-content .home-page .search-box .search-form .form-group, body .app-con .page-content .register-page .register-box form .form-group, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group, body .app-con .page-content .create-group-page form .input-group, body .app-con .page-content .profile-page .user-data .data-edit form .input-group, body .app-con .page-content .home-page .search-box .search-form .input-group, body .app-con .page-content .register-page .register-box form .input-group {
   margin-bottom: 15px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password, .app-con .page-content .create-group-page form .form-group.password, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password, .app-con .page-content .home-page .search-box .search-form .form-group.password, .app-con .page-content .register-page .register-box form .form-group.password, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password, .app-con .page-content .create-group-page form .input-group.password, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password, .app-con .page-content .home-page .search-box .search-form .input-group.password, .app-con .page-content .register-page .register-box form .input-group.password {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password, body .app-con .page-content .create-group-page form .form-group.password, body .app-con .page-content .profile-page .user-data .data-edit form .form-group.password, body .app-con .page-content .home-page .search-box .search-form .form-group.password, body .app-con .page-content .register-page .register-box form .form-group.password, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password, body .app-con .page-content .create-group-page form .input-group.password, body .app-con .page-content .profile-page .user-data .data-edit form .input-group.password, body .app-con .page-content .home-page .search-box .search-form .input-group.password, body .app-con .page-content .register-page .register-box form .input-group.password {
   height: 38px;
   position: relative;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .form-control, .app-con .page-content .create-group-page form .form-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, .app-con .page-content .register-page .register-box form .form-group.password .form-control, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .form-control, .app-con .page-content .create-group-page form .input-group.password .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .form-control, .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, .app-con .page-content .register-page .register-box form .input-group.password .form-control {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .form-control, body .app-con .page-content .create-group-page form .form-group.password .form-control, body .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .form-control, body .app-con .page-content .home-page .search-box .search-form .form-group.password .form-control, body .app-con .page-content .register-page .register-box form .form-group.password .form-control, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .form-control, body .app-con .page-content .create-group-page form .input-group.password .form-control, body .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .form-control, body .app-con .page-content .home-page .search-box .search-form .input-group.password .form-control, body .app-con .page-content .register-page .register-box form .input-group.password .form-control {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append, .app-con .page-content .create-group-page form .form-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append, .app-con .page-content .create-group-page form .input-group.password .input-group-append, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append, body .app-con .page-content .create-group-page form .form-group.password .input-group-append, body .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append, body .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append, body .app-con .page-content .register-page .register-box form .form-group.password .input-group-append, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append, body .app-con .page-content .create-group-page form .input-group.password .input-group-append, body .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append, body .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append, body .app-con .page-content .register-page .register-box form .input-group.password .input-group-append {
   bottom: 0;
   left: 0;
   margin-left: 0;
@@ -57,29 +57,29 @@ h1, h2, h3, h4, h5, h6 {
   right: auto;
   top: 0;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append span, .app-con .page-content .create-group-page form .form-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append span, .app-con .page-content .create-group-page form .input-group.password .input-group-append span, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append span, body .app-con .page-content .create-group-page form .form-group.password .input-group-append span, body .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span, body .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span, body .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append span, body .app-con .page-content .create-group-page form .input-group.password .input-group-append span, body .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span, body .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span, body .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span {
   background: none;
   border: none;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append span i, .app-con .page-content .create-group-page form .form-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append span i, .app-con .page-content .create-group-page form .input-group.password .input-group-append span i, .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span i, .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group.password .input-group-append span i, body .app-con .page-content .create-group-page form .form-group.password .input-group-append span i, body .app-con .page-content .profile-page .user-data .data-edit form .form-group.password .input-group-append span i, body .app-con .page-content .home-page .search-box .search-form .form-group.password .input-group-append span i, body .app-con .page-content .register-page .register-box form .form-group.password .input-group-append span i, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group.password .input-group-append span i, body .app-con .page-content .create-group-page form .input-group.password .input-group-append span i, body .app-con .page-content .profile-page .user-data .data-edit form .input-group.password .input-group-append span i, body .app-con .page-content .home-page .search-box .search-form .input-group.password .input-group-append span i, body .app-con .page-content .register-page .register-box form .input-group.password .input-group-append span i {
   color: #363062;
   font-size: 24px;
   opacity: 0.75;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control, .app-con .page-content .create-group-page form .form-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control, .app-con .page-content .home-page .search-box .search-form .form-group .form-control, .app-con .page-content .register-page .register-box form .form-group .form-control, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control, .app-con .page-content .create-group-page form .input-group .form-control, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control, .app-con .page-content .home-page .search-box .search-form .input-group .form-control, .app-con .page-content .register-page .register-box form .input-group .form-control {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control, body .app-con .page-content .create-group-page form .form-group .form-control, body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control, body .app-con .page-content .home-page .search-box .search-form .form-group .form-control, body .app-con .page-content .register-page .register-box form .form-group .form-control, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control, body .app-con .page-content .create-group-page form .input-group .form-control, body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control, body .app-con .page-content .home-page .search-box .search-form .input-group .form-control, body .app-con .page-content .register-page .register-box form .input-group .form-control {
   background: rgba(34, 40, 49, 0.1);
   border: none;
   border-radius: 4px;
   color: #222831;
   padding: 8px 15px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control:focus, .app-con .page-content .create-group-page form .form-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, .app-con .page-content .register-page .register-box form .form-group .form-control:focus, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control:focus, .app-con .page-content .create-group-page form .input-group .form-control:focus, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control:focus, .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control:focus, body .app-con .page-content .create-group-page form .form-group .form-control:focus, body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control:focus, body .app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus, body .app-con .page-content .register-page .register-box form .form-group .form-control:focus, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control:focus, body .app-con .page-content .create-group-page form .input-group .form-control:focus, body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control:focus, body .app-con .page-content .home-page .search-box .search-form .input-group .form-control:focus, body .app-con .page-content .register-page .register-box form .input-group .form-control:focus {
   box-shadow: 0 0 8px #36306266;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control::placeholder, .app-con .page-content .create-group-page form .form-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control::placeholder, .app-con .page-content .create-group-page form .input-group .form-control::placeholder, .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control::placeholder, .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control::placeholder, body .app-con .page-content .create-group-page form .form-group .form-control::placeholder, body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control::placeholder, body .app-con .page-content .home-page .search-box .search-form .form-group .form-control::placeholder, body .app-con .page-content .register-page .register-box form .form-group .form-control::placeholder, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control::placeholder, body .app-con .page-content .create-group-page form .input-group .form-control::placeholder, body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control::placeholder, body .app-con .page-content .home-page .search-box .search-form .input-group .form-control::placeholder, body .app-con .page-content .register-page .register-box form .input-group .form-control::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=gender], .app-con .page-content .create-group-page form .form-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=country], .app-con .page-content .create-group-page form .form-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=city], .app-con .page-content .create-group-page form .form-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=district], .app-con .page-content .create-group-page form .form-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=gender], .app-con .page-content .create-group-page form .input-group .form-control[title=gender], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=gender], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=country], .app-con .page-content .create-group-page form .input-group .form-control[title=country], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=country], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=city], .app-con .page-content .create-group-page form .input-group .form-control[title=city], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=city], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=district], .app-con .page-content .create-group-page form .input-group .form-control[title=district], .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=district], .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=gender], body .app-con .page-content .create-group-page form .form-group .form-control[title=gender], body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=gender], body .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=gender], body .app-con .page-content .register-page .register-box form .form-group .form-control[title=gender], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=country], body .app-con .page-content .create-group-page form .form-group .form-control[title=country], body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=country], body .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=country], body .app-con .page-content .register-page .register-box form .form-group .form-control[title=country], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=city], body .app-con .page-content .create-group-page form .form-group .form-control[title=city], body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=city], body .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=city], body .app-con .page-content .register-page .register-box form .form-group .form-control[title=city], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control[title=district], body .app-con .page-content .create-group-page form .form-group .form-control[title=district], body .app-con .page-content .profile-page .user-data .data-edit form .form-group .form-control[title=district], body .app-con .page-content .home-page .search-box .search-form .form-group .form-control[title=district], body .app-con .page-content .register-page .register-box form .form-group .form-control[title=district], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=gender], body .app-con .page-content .create-group-page form .input-group .form-control[title=gender], body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=gender], body .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=gender], body .app-con .page-content .register-page .register-box form .input-group .form-control[title=gender], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=country], body .app-con .page-content .create-group-page form .input-group .form-control[title=country], body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=country], body .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=country], body .app-con .page-content .register-page .register-box form .input-group .form-control[title=country], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=city], body .app-con .page-content .create-group-page form .input-group .form-control[title=city], body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=city], body .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=city], body .app-con .page-content .register-page .register-box form .input-group .form-control[title=city], body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .input-group .form-control[title=district], body .app-con .page-content .create-group-page form .input-group .form-control[title=district], body .app-con .page-content .profile-page .user-data .data-edit form .input-group .form-control[title=district], body .app-con .page-content .home-page .search-box .search-form .input-group .form-control[title=district], body .app-con .page-content .register-page .register-box form .input-group .form-control[title=district] {
   color: #222831;
   padding: 0 15px;
 }
@@ -150,6 +150,7 @@ body {
   line-height: 2;
   min-height: 100vh;
   padding: 100px 0;
+  text-align: right;
 }
 @media screen and (max-width: 767px) {
   body {
@@ -163,10 +164,10 @@ body > .container {
 }
 @media screen and (max-width: 767px) {
   body > .container {
-    max-width: 100vw;
-    width: 100vw;
-    padding: 0;
     margin: 0;
+    max-width: 100vw;
+    padding: 0;
+    width: 100vw;
   }
 }
 body .side-menu {
@@ -201,7 +202,7 @@ body .side-menu .side-menu-con .close-menu {
   margin-bottom: 15px;
   padding: 8px 20px;
   position: sticky;
-  text-align: start;
+  text-align: end;
   top: 0;
   z-index: 999;
 }
@@ -220,27 +221,27 @@ body .side-menu .side-menu-con .close-menu button i {
   width: 24px;
 }
 body .side-menu .side-menu-con .logo {
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 body .side-menu .side-menu-con .logo h4 {
   font-size: 18px;
-  text-align: center;
   padding: 15px 20px;
+  text-align: center;
 }
 body .side-menu .side-menu-con .sections {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   text-align: start;
 }
 body .side-menu .side-menu-con .sections .section-con > a i {
   color: #363062;
-  width: 40px;
-  height: 40px;
   font-size: 40px;
+  height: 40px;
   margin-inline-end: 10px;
   vertical-align: middle;
+  width: 40px;
 }
 body .side-menu .side-menu-con .sections .section-con > a i.fa-users {
   font-size: 32px;
@@ -250,8 +251,8 @@ body .side-menu .side-menu-con .sections .section-con:not(:last-child) {
 }
 body .side-menu .side-menu-con .sections .section-con .section-list {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   padding-inline-start: 10px;
 }
 body .side-menu .side-menu-con .sections .section-con .section-list li:first-child {
@@ -272,37 +273,37 @@ body .side-menu .side-menu-con .sections .section-con .section-list li button {
   vertical-align: middle;
 }
 body .side-menu .side-menu-con .sections .section-con .section-list li button i {
-  transform: rotateY(180deg);
+  color: inherit;
   font-size: 18px;
   margin-inline-end: 5px;
-  color: inherit;
+  transform: rotateY(180deg);
 }
 body .side-menu .side-menu-con .sections .section-con .section-list li button i.fa-plus {
   font-size: 24px;
 }
 body .side-menu .side-menu-con .sections .section-con .section-list li button span {
+  color: inherit;
   font-size: 14px;
   font-weight: 700;
-  color: inherit;
 }
 body .side-menu .side-menu-con .side-menu-footer {
   font-size: 14px;
-  text-align: center;
   margin-top: 25px;
+  text-align: center;
 }
 body .side-menu .side-menu-con .side-menu-footer a {
   color: #363062;
   text-decoration: underline;
 }
 body .bottom-nav {
-  position: fixed;
-  top: auto;
-  right: 0;
+  background: #363062;
   bottom: 0;
   left: 0;
-  z-index: 10;
   padding: 10px 0;
-  background: #363062;
+  position: fixed;
+  right: 0;
+  top: auto;
+  z-index: 10;
 }
 @media screen and (min-width: 768px) {
   body .bottom-nav {
@@ -313,26 +314,25 @@ body .bottom-nav .nav {
   place-content: space-between;
 }
 body .bottom-nav .nav a {
-  color: #f5f5f5;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
   background: #363062;
-  text-align: center;
+  border-radius: 50%;
+  color: #f5f5f5;
+  height: 50px;
   padding: 0;
+  text-align: center;
+  width: 50px;
 }
 body .bottom-nav .nav a.active {
   background: #f5f5f5;
   color: #363062;
 }
 body .bottom-nav .nav a i {
-  font-size: 28px;
   color: inherit;
+  font-size: 28px;
   margin-top: 50%;
   transform: translate(0, -50%);
 }
-
-.app-con {
+body .app-con {
   background: #ececec;
   border-radius: 16px;
   box-shadow: 0 32px 99px #ececec33;
@@ -342,82 +342,82 @@ body .bottom-nav .nav a i {
   position: relative;
 }
 @media screen and (max-width: 767px) {
-  .app-con {
-    box-shadow: none;
+  body .app-con {
     border-radius: 0;
+    box-shadow: none;
     overflow: auto;
   }
 }
-.app-con > .navbar {
+body .app-con > .navbar {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
   padding: 10px 60px;
 }
 @media screen and (max-width: 767px) {
-  .app-con > .navbar {
-    padding: 8px 15px;
+  body .app-con > .navbar {
     direction: ltr;
+    padding: 8px 15px;
   }
 }
-.app-con > .navbar .navbar-brand {
-  width: 340px;
-  padding: 0;
+body .app-con > .navbar .navbar-brand {
   margin: 0;
+  padding: 0;
+  width: 340px;
 }
 @media screen and (max-width: 767px) {
-  .app-con > .navbar .navbar-brand {
+  body .app-con > .navbar .navbar-brand {
     width: 150px;
   }
 }
-.app-con > .navbar .navbar-toggler i {
-  font-size: 28px;
+body .app-con > .navbar .navbar-toggler i {
   color: #f5f5f5;
+  font-size: 28px;
 }
-.app-con > .navbar .navbar-collapse .navbar-nav {
+body .app-con > .navbar .navbar-collapse .navbar-nav {
   margin-inline-start: auto;
   padding: 0;
 }
-.app-con > .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-of-type) {
+body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-of-type) {
   margin-inline-end: 30px;
 }
-.app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-  font-size: 18px;
+body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #f5f5f5;
+  font-size: 18px;
 }
-.app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.register-btn {
+body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.register-btn {
   border: 1px solid #f5f5f5;
   border-radius: 4px;
   padding: 5px 15px;
 }
-.app-con .page-content {
+body .app-con .page-content {
   padding: 80px 0;
 }
 @media screen and (max-width: 768px) {
-  .app-con .page-content {
+  body .app-con .page-content {
     padding: 40px 0;
   }
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content > section > .container {
+  body .app-con .page-content > section > .container {
     margin: 0;
     max-width: 100%;
     padding: 0;
     width: 100%;
   }
 }
-.app-con .page-content .landing-page .welcoming h1 {
+body .app-con .page-content .landing-page .welcoming h1 {
   color: #363062;
   font-size: 50px;
   margin-bottom: 25px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .landing-page .welcoming h1 {
+  body .app-con .page-content .landing-page .welcoming h1 {
     font-size: 32px;
   }
 }
-.app-con .page-content .landing-page .statistics {
+body .app-con .page-content .landing-page .statistics {
   margin: 80px 0;
 }
-.app-con .page-content .landing-page .statistics .statistic-box {
+body .app-con .page-content .landing-page .statistics .statistic-box {
   background-color: #f5f5f5;
   border-radius: 24px;
   box-shadow: 0 0 8px #36306266;
@@ -428,30 +428,30 @@ body .bottom-nav .nav a i {
   /* If you want text inside of it */
   width: 100%;
 }
-.app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .box-bg {
+body .app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .box-bg {
   transform: rotate(180deg);
 }
-.app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .text {
+body .app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .text {
   bottom: 0;
   padding-inline-end: 15px;
   padding-inline-start: 0;
-  text-align: end;
+  text-align: left;
   top: 15px;
 }
 @media screen and (max-width: 425px) {
-  .app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .text {
+  body .app-con .page-content .landing-page .statistics .statistic-box.rotated .statistic-content .text {
     padding-inline-end: 5px;
     top: 5px;
   }
 }
-.app-con .page-content .landing-page .statistics .statistic-box .statistic-content {
+body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
 }
-.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .box-bg {
+body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .box-bg {
   background: url("../images/boxes-bg.png") no-repeat center;
   background-size: cover;
   bottom: 0;
@@ -462,69 +462,69 @@ body .bottom-nav .nav a i {
   width: 100%;
   z-index: 1;
 }
-.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text {
+body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text {
   bottom: 15px;
   left: 0;
   padding-inline-start: 15px;
   position: absolute;
   right: 0;
-  text-align: start;
+  text-align: right;
   top: auto;
   z-index: 2;
 }
 @media screen and (max-width: 425px) {
-  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text {
+  body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text {
     bottom: 5px;
     padding-inline-start: 5px;
   }
 }
-.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
+body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
   color: #f5f5f5;
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 0;
 }
 @media screen and (max-width: 992px) {
-  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
+  body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 425px) {
-  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
+  body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
     font-size: 20px;
   }
 }
-.app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
+body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
   margin-bottom: 15px;
 }
 @media screen and (max-width: 425px) {
-  .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
+  body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p:first-of-type {
     margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child {
+  body .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child {
     margin-top: 30px;
   }
-  .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child .statistic-box {
+  body .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child .statistic-box {
     padding-top: 35%;
     text-align: center;
   }
-  .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child .statistic-box .text {
+  body .app-con .page-content .landing-page .statistics div[class^=col] div[class^=col]:last-child .statistic-box .text {
     text-align: center;
   }
 }
-.app-con .page-content .landing-page .steps h2 {
+body .app-con .page-content .landing-page .steps h2 {
   color: #363062;
   font-size: 40px;
   margin-bottom: 40px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .landing-page .steps h2 {
+  body .app-con .page-content .landing-page .steps h2 {
     font-size: 28px;
   }
 }
-.app-con .page-content .landing-page .steps h3 {
+body .app-con .page-content .landing-page .steps h3 {
   color: #363062;
   font-size: 24px;
   height: 65px;
@@ -532,7 +532,12 @@ body .bottom-nav .nav a i {
   margin: 0 auto 5px auto;
   overflow: hidden;
 }
-.app-con .page-content .landing-page .steps .step-box {
+@media screen and (max-width: 767px) {
+  body .app-con .page-content .landing-page .steps h3 {
+    height: auto;
+  }
+}
+body .app-con .page-content .landing-page .steps .step-box {
   background-color: #f5f5f5;
   border-radius: 50%;
   box-shadow: 0 0 8px #36306266;
@@ -543,7 +548,7 @@ body .bottom-nav .nav a i {
   /* If you want text inside of it */
   width: 100%;
 }
-.app-con .page-content .landing-page .steps .step-box .step-content {
+body .app-con .page-content .landing-page .steps .step-box .step-content {
   bottom: 0;
   height: 100%;
   left: 0;
@@ -554,16 +559,16 @@ body .bottom-nav .nav a i {
   transform: translate(0, -30%);
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .landing-page .steps .step-box .step-content .img-con {
+  body .app-con .page-content .landing-page .steps .step-box .step-content .img-con {
     margin: auto;
     max-width: 80%;
   }
 }
-.app-con .page-content .landing-page .steps .btn-con {
+body .app-con .page-content .landing-page .steps .btn-con {
   margin-top: 60px;
   text-align: center;
 }
-.app-con .page-content .landing-page .steps .btn-con a.btn {
+body .app-con .page-content .landing-page .steps .btn-con a.btn {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
   border: none;
   border-radius: 100px;
@@ -574,43 +579,43 @@ body .bottom-nav .nav a i {
   padding: 10px 80px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .landing-page .steps .btn-con a.btn {
+  body .app-con .page-content .landing-page .steps .btn-con a.btn {
     font-size: 20px;
     padding: 8px 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .landing-page .steps div[class^=col] div[class^=col]:last-child {
+  body .app-con .page-content .landing-page .steps div[class^=col] div[class^=col]:last-child {
     margin-top: 30px;
   }
 }
-.app-con .page-content .register-page {
+body .app-con .page-content .register-page {
   padding: 0 40px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .register-page {
+  body .app-con .page-content .register-page {
     padding: 0 20px;
   }
 }
-.app-con .page-content .register-page h1 {
-  font-size: 32px;
-  text-align: center;
+body .app-con .page-content .register-page h1 {
   color: #363062;
+  font-size: 32px;
   margin-bottom: 40px;
+  text-align: center;
 }
-.app-con .page-content .register-page .register-box {
+body .app-con .page-content .register-page .register-box {
   background: #f5f5f5;
   border-radius: 16px;
   box-shadow: 0 0 8px #36306266;
   padding: 40px;
 }
-.app-con .page-content .register-page .register-box h2 {
+body .app-con .page-content .register-page .register-box h2 {
+  color: #363062;
   font-size: 20px;
   margin-bottom: 25px;
   text-align: center;
-  color: #363062;
 }
-.app-con .page-content .register-page .register-box form .btn {
+body .app-con .page-content .register-page .register-box form .btn {
   background: #363062;
   box-shadow: none;
   color: #f5f5f5;
@@ -621,7 +626,7 @@ body .bottom-nav .nav a i {
   text-align: center;
   width: 100%;
 }
-.app-con .page-content .register-page .register-box .social-login .btn {
+body .app-con .page-content .register-page .register-box .social-login .btn {
   background: #ececec #f5f5f5;
   border-radius: 4px;
   box-shadow: 0 0 8px #36306266;
@@ -632,47 +637,47 @@ body .bottom-nav .nav a i {
   text-align: center;
   width: 100%;
 }
-.app-con .page-content .register-page .register-box .social-login .btn i, .app-con .page-content .register-page .register-box .social-login .btn svg {
+body .app-con .page-content .register-page .register-box .social-login .btn i, body .app-con .page-content .register-page .register-box .social-login .btn svg {
   color: inherit;
   font-size: 24px;
   margin-inline-start: 20px;
   vertical-align: middle;
 }
-.app-con .page-content .register-page .register-box .social-login .btn i.fa-facebook-square, .app-con .page-content .register-page .register-box .social-login .btn svg.fa-facebook-square {
+body .app-con .page-content .register-page .register-box .social-login .btn i.fa-facebook-square, body .app-con .page-content .register-page .register-box .social-login .btn svg.fa-facebook-square {
   color: #3b5998;
 }
-.app-con .page-content .register-page .register-box .social-login .btn.google {
+body .app-con .page-content .register-page .register-box .social-login .btn.google {
   margin-bottom: 25px;
 }
-.app-con .page-content .register-page .register-box .login-now {
+body .app-con .page-content .register-page .register-box .login-now {
   color: #222831;
   margin-top: 25px;
   text-align: center;
 }
-.app-con .page-content .register-page .register-box .login-now a {
+body .app-con .page-content .register-page .register-box .login-now a {
   display: block;
   margin: auto;
   width: fit-content;
 }
-.app-con .page-content .register-page .register-box .login-now a:first-of-type {
+body .app-con .page-content .register-page .register-box .login-now a:first-of-type {
   margin-bottom: 25px;
 }
-.app-con .page-content .home-page {
+body .app-con .page-content .home-page {
   padding: 0 40px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .home-page {
+  body .app-con .page-content .home-page {
     padding: 0 20px;
   }
 }
-.app-con .page-content .home-page .search-box h2 {
+body .app-con .page-content .home-page .search-box h2 {
   color: #363062;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
 }
-.app-con .page-content .home-page .search-box .search-form {
+body .app-con .page-content .home-page .search-box .search-form {
   background: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 0 15px #36306233;
@@ -682,18 +687,18 @@ body .bottom-nav .nav a i {
   text-align: start;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .home-page .search-box .search-form.search-home {
+  body .app-con .page-content .home-page .search-box .search-form.search-home {
     height: 174px;
     overflow: hidden;
   }
-  .app-con .page-content .home-page .search-box .search-form.search-home.small-search div[class^=col]:not(:first-of-type) {
+  body .app-con .page-content .home-page .search-box .search-form.search-home.small-search div[class^=col]:not(:first-of-type) {
     display: none;
   }
-  .app-con .page-content .home-page .search-box .search-form.search-home.small-search .form-group {
+  body .app-con .page-content .home-page .search-box .search-form.search-home.small-search .form-group {
     border: none !important;
   }
 }
-.app-con .page-content .home-page .search-box .search-form span.expand {
+body .app-con .page-content .home-page .search-box .search-form span.expand {
   bottom: auto;
   display: block;
   left: 10px;
@@ -704,33 +709,33 @@ body .bottom-nav .nav a i {
   z-index: 9;
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content .home-page .search-box .search-form span.expand {
+  body .app-con .page-content .home-page .search-box .search-form span.expand {
     display: none;
   }
 }
-.app-con .page-content .home-page .search-box .search-form span.expand i {
+body .app-con .page-content .home-page .search-box .search-form span.expand i {
   color: rgba(34, 40, 49, 0.5);
   font-size: 24px;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group {
+body .app-con .page-content .home-page .search-box .search-form .form-group {
   border-bottom: 1px solid rgba(34, 40, 49, 0.2) !important;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group label {
+body .app-con .page-content .home-page .search-box .search-form .form-group label {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 0;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group .form-control {
+body .app-con .page-content .home-page .search-box .search-form .form-group .form-control {
   background: none;
   padding: 0 !important;
 }
-.app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus {
+body .app-con .page-content .home-page .search-box .search-form .form-group .form-control:focus {
   box-shadow: none;
 }
-.app-con .page-content .home-page .search-box .search-form .btn-con {
+body .app-con .page-content .home-page .search-box .search-form .btn-con {
   text-align: center;
 }
-.app-con .page-content .home-page .search-box .search-form .btn-con button {
+body .app-con .page-content .home-page .search-box .search-form .btn-con button {
   background: #363062;
   border-radius: 8px;
   box-shadow: none;
@@ -739,19 +744,19 @@ body .bottom-nav .nav a i {
   font-weight: 700;
   padding: 8px 60px;
 }
-.app-con .page-content .home-page .search-box .search-form .btn-con button i {
+body .app-con .page-content .home-page .search-box .search-form .btn-con button i {
   color: inherit;
   font-size: 28px;
   margin-inline-end: 10px;
   vertical-align: middle;
 }
-.app-con .page-content .home-page .search-box .search-results h2 {
+body .app-con .page-content .home-page .search-box .search-results h2 {
   color: #363062;
   font-size: 24px;
   margin-bottom: 15px;
   text-align: center;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box {
   background: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 0 8px #36306266;
@@ -759,25 +764,25 @@ body .bottom-nav .nav a i {
   padding: 20px 10px;
   text-align: center;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box .img-con {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box .img-con {
   margin-bottom: 15px;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box .img-con img {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box .img-con img {
   border-radius: 4px;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box h6 {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box h6 {
   color: #363062;
   margin-bottom: 10px;
   text-align: center;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box p {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box p {
   color: #222831;
   margin-bottom: 10px;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con {
   text-align: center;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button {
   background: #363062;
   border-radius: 8px;
   box-shadow: none;
@@ -786,17 +791,17 @@ body .bottom-nav .nav a i {
   font-weight: 700;
   padding: 8px 15px;
 }
-.app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button i {
+body .app-con .page-content .home-page .search-box .search-results .search-result-box .btn-con button i {
   color: inherit;
   font-size: 28px;
   margin-inline-end: 5px;
   vertical-align: middle;
 }
-.app-con .page-content .home-page .new-post .form-group {
+body .app-con .page-content .home-page .new-post .form-group {
   height: 190px;
   position: relative;
 }
-.app-con .page-content .home-page .new-post .form-group .form-control {
+body .app-con .page-content .home-page .new-post .form-group .form-control {
   background: #f5f5f5;
   border: none;
   border-radius: 8px;
@@ -810,25 +815,25 @@ body .bottom-nav .nav a i {
   right: 0;
   top: 0;
 }
-.app-con .page-content .home-page .new-post .form-group .form-control::placeholder {
+body .app-con .page-content .home-page .new-post .form-group .form-control::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .home-page .new-post .form-group .input-group-append {
+body .app-con .page-content .home-page .new-post .form-group .input-group-append {
   bottom: 0;
   left: 0;
   position: absolute;
   right: auto;
   top: auto;
 }
-.app-con .page-content .home-page .new-post .form-group .input-group-append button.multi-media {
+body .app-con .page-content .home-page .new-post .form-group .input-group-append button.multi-media {
   margin-inline-end: 20px;
 }
-.app-con .page-content .home-page .new-post .form-group .input-group-append button.multi-media i {
+body .app-con .page-content .home-page .new-post .form-group .input-group-append button.multi-media i {
   color: #363062;
   font-size: 24px;
   margin-inline-end: 5px;
 }
-.app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post {
+body .app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post {
   background: #363062;
   border: none;
   border-radius: 0 8px 0 8px;
@@ -837,171 +842,171 @@ body .bottom-nav .nav a i {
   margin: 0;
   padding: 10px;
 }
-.app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post i {
+body .app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post i {
   color: inherit;
   font-size: 24px;
   margin-inline-end: 5px;
 }
-.app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post span {
+body .app-con .page-content .home-page .new-post .form-group .input-group-append button.btn-post span {
   color: inherit;
   font-weight: 700;
 }
-.app-con .page-content .home-page .posts-con h2 {
+body .app-con .page-content .home-page .posts-con h2 {
   color: #363062;
   font-size: 24px;
   margin-bottom: 15px;
   text-align: center;
 }
-.app-con .page-content .home-page .posts-con .post {
+body .app-con .page-content .home-page .posts-con .post {
   background: #f5f5f5;
   box-shadow: 0 0 8px #36306266;
   padding: 20px;
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .home-page .posts-con .post {
+  body .app-con .page-content .home-page .posts-con .post {
     margin: 0 -20px 20px -20px;
   }
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content .home-page .posts-con .post {
+  body .app-con .page-content .home-page .posts-con .post {
     border-radius: 8px;
     margin: 0 auto 20px auto;
   }
 }
-.app-con .page-content .home-page .posts-con .post .post-head {
+body .app-con .page-content .home-page .posts-con .post .post-head {
   margin-bottom: 15px;
   text-align: start;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .row div[class^=col]:last-child {
+body .app-con .page-content .home-page .posts-con .post .post-head .row div[class^=col]:last-child {
   margin-inline-start: auto;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type {
+body .app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type {
   color: #363062;
   text-decoration: none;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type span {
+body .app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type span {
   color: inherit;
   font-weight: 700;
   margin-inline-start: 15px;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type img {
+body .app-con .page-content .home-page .posts-con .post .post-head .user-data a:first-of-type img {
   height: 64px;
   vertical-align: top;
   width: 64px;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .user-data a:last-of-type {
+body .app-con .page-content .home-page .posts-con .post .post-head .user-data a:last-of-type {
   display: block;
   margin-inline-start: 79px;
   margin-top: -30px;
   position: relative;
   z-index: 9;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .group-data {
+body .app-con .page-content .home-page .posts-con .post .post-head .group-data {
   text-align: end;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown, .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name {
+body .app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown, body .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name {
   display: block;
   margin-inline-start: auto;
   width: fit-content;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown a i, .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name a i {
+body .app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown a i, body .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name a i {
   color: #363062;
   font-size: 24px;
 }
-.app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown .dropdown-menu, .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name .dropdown-menu {
+body .app-con .page-content .home-page .posts-con .post .post-head .group-data .dropdown .dropdown-menu, body .app-con .page-content .home-page .posts-con .post .post-head .group-data .group-name .dropdown-menu {
   background: #f5f5f5;
   border-radius: 4px;
   box-shadow: 0 0 6px #36306266;
   color: #222831;
   text-align: start;
 }
-.app-con .page-content .home-page .posts-con .post .post-content p {
+body .app-con .page-content .home-page .posts-con .post .post-content p {
   text-align: start;
 }
-.app-con .page-content .home-page .posts-con .post .post-content .img-fluid {
+body .app-con .page-content .home-page .posts-con .post .post-content .img-fluid {
   width: 80%;
 }
-.app-con .page-content .home-page .posts-con .post .post-content hr {
+body .app-con .page-content .home-page .posts-con .post .post-content hr {
   border-top: 2px solid #2228311a;
   margin: 15px -20px;
 }
-.app-con .page-content .home-page .posts-con .post .post-interaction button {
+body .app-con .page-content .home-page .posts-con .post .post-interaction button {
   border: none;
   padding: 8px 10px;
 }
-.app-con .page-content .home-page .posts-con .post .post-interaction button i {
+body .app-con .page-content .home-page .posts-con .post .post-interaction button i {
   color: #363062;
   font-size: 24px;
   margin-inline-end: 5px;
   vertical-align: middle;
 }
-.app-con .page-content .home-page .posts-con .post .post-interaction button span {
+body .app-con .page-content .home-page .posts-con .post .post-interaction button span {
   vertical-align: middle;
 }
-.app-con .page-content .home-page .posts-con .post .post-interaction button:first-of-type {
+body .app-con .page-content .home-page .posts-con .post .post-interaction button:first-of-type {
   margin-inline-end: 10px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments {
+body .app-con .page-content .home-page .posts-con .post .post-comments {
   padding-top: 35px;
   position: relative;
   text-align: start;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments h6 {
+body .app-con .page-content .home-page .posts-con .post .post-comments h6 {
   margin-bottom: 15px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments h6 i {
+body .app-con .page-content .home-page .posts-con .post .post-comments h6 i {
   color: #363062;
   font-size: 24px;
   margin-inline-end: 10px;
   vertical-align: middle;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments h6 span {
+body .app-con .page-content .home-page .posts-con .post .post-comments h6 span {
   color: #222831;
   font-weight: 700;
   vertical-align: middle;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment {
   margin-bottom: 20px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .user-data a img, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .user-data a img {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .user-data a img, body .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .user-data a img {
   height: 53px;
   margin-inline-end: 10px;
   width: 53px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .user-data a span, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .user-data a span {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .user-data a span, body .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .user-data a span {
   color: #363062;
   font-weight: 700;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .row div[class^=col]:last-child, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .row div[class^=col]:last-child {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-head .row div[class^=col]:last-child, body .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-head .row div[class^=col]:last-child {
   margin-inline-start: auto;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-interactions, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-interactions {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-interactions, body .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-interactions {
   text-align: end;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-interactions button i, .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-interactions button i {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-interactions button i, body .app-con .page-content .home-page .posts-con .post .post-comments .comment .reply-interactions button i {
   color: #363062;
   font-size: 24px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-replies {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-replies {
   margin-top: 20px;
   padding-inline-start: 40px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-replies .reply {
+body .app-con .page-content .home-page .posts-con .post .post-comments .comment .comment-replies .reply {
   margin-bottom: 15px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input {
   margin-top: 10px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input.comment-input, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input.comment-input {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input.comment-input, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input.comment-input {
   margin-bottom: 10px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group {
   height: 50px;
   margin-bottom: 0;
   position: relative;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control {
   background: #ececec;
   border: none;
   bottom: 0;
@@ -1012,20 +1017,20 @@ body .bottom-nav .nav a i {
   right: 0;
   top: 0;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control:focus, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control:focus {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control:focus, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control:focus {
   box-shadow: 0 0 8px #36306266;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control::placeholder, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control::placeholder {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .form-control::placeholder, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .form-control::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append {
   bottom: 0;
   left: 0;
   position: absolute;
   right: auto;
   top: 0;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn {
   background: #363062;
   border-radius: 4px 0 0 4px;
   box-shadow: none;
@@ -1034,11 +1039,11 @@ body .bottom-nav .nav a i {
   text-align: center;
   width: 50px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn i, .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn i {
+body .app-con .page-content .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn i, body .app-con .page-content .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn i {
   color: inherit;
   font-size: 24px;
 }
-.app-con .page-content .home-page .posts-con .post .post-comments:before {
+body .app-con .page-content .home-page .posts-con .post .post-comments:before {
   border-top: 2px solid #2228311a;
   bottom: auto;
   content: "";
@@ -1048,7 +1053,7 @@ body .bottom-nav .nav a i {
   right: 0;
   top: 0;
 }
-.app-con .page-content .home-page .group-description {
+body .app-con .page-content .home-page .group-description {
   background: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 0 10px #36306266;
@@ -1056,28 +1061,28 @@ body .bottom-nav .nav a i {
   padding: 40px 20px;
   text-align: center;
 }
-.app-con .page-content .home-page .group-description h2 {
+body .app-con .page-content .home-page .group-description h2 {
   color: #363062;
   font-size: 22px;
   margin-bottom: 15px;
 }
-.app-con .page-content .home-page .group-description p {
+body .app-con .page-content .home-page .group-description p {
   margin-bottom: 0;
 }
-.app-con .page-content .home-page .groups, .app-con .page-content .home-page .stories {
+body .app-con .page-content .home-page .groups, body .app-con .page-content .home-page .stories {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .home-page .groups, .app-con .page-content .home-page .stories {
+  body .app-con .page-content .home-page .groups, body .app-con .page-content .home-page .stories {
     margin: 0 -20px 20px -20px;
   }
 }
-.app-con .page-content .home-page .groups h5, .app-con .page-content .home-page .stories h5 {
+body .app-con .page-content .home-page .groups h5, body .app-con .page-content .home-page .stories h5 {
   color: #363062;
   margin-bottom: 15px;
   text-align: center;
 }
-.app-con .page-content .home-page .groups .owl-carousel, .app-con .page-content .home-page .stories .owl-carousel {
+body .app-con .page-content .home-page .groups .owl-carousel, body .app-con .page-content .home-page .stories .owl-carousel {
   background: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 0 10px #36306266;
@@ -1086,22 +1091,22 @@ body .bottom-nav .nav a i {
   position: relative;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .home-page .groups .owl-carousel, .app-con .page-content .home-page .stories .owl-carousel {
+  body .app-con .page-content .home-page .groups .owl-carousel, body .app-con .page-content .home-page .stories .owl-carousel {
     border-radius: 0;
   }
 }
-.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev {
+body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next, body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev {
   background: rgba(255, 255, 255, 0.7);
   height: 100%;
   padding: 0 10px !important;
   text-align: center;
 }
-.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next i, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev i {
+body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next i, body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev i, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next i, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev i {
   color: #363062;
   font-size: 24px;
   padding-top: 60%;
 }
-.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.owl-prev, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.owl-prev, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.owl-prev, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.owl-prev {
+body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.owl-prev, body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.owl-prev, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.owl-prev, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.owl-prev {
   bottom: 0;
   left: auto;
   position: absolute;
@@ -1109,7 +1114,7 @@ body .bottom-nav .nav a i {
   top: 50%;
   transform: translate(0, -50%);
 }
-.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.owl-next, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.owl-next, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.owl-next, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.owl-next {
+body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.owl-next, body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.owl-next, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.owl-next, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.owl-next {
   bottom: 0;
   left: 0;
   position: absolute;
@@ -1117,10 +1122,10 @@ body .bottom-nav .nav a i {
   top: 50%;
   transform: translate(0, -50%);
 }
-.app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.disabled i, .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.disabled i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.disabled i, .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.disabled i {
+body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-next.disabled i, body .app-con .page-content .home-page .groups .owl-carousel .owl-nav .owl-prev.disabled i, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-next.disabled i, body .app-con .page-content .home-page .stories .owl-carousel .owl-nav .owl-prev.disabled i {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .home-page .groups.stories .story, .app-con .page-content .home-page .groups.stories .add-story, .app-con .page-content .home-page .stories.stories .story, .app-con .page-content .home-page .stories.stories .add-story {
+body .app-con .page-content .home-page .groups.stories .story, body .app-con .page-content .home-page .groups.stories .add-story, body .app-con .page-content .home-page .stories.stories .story, body .app-con .page-content .home-page .stories.stories .add-story {
   background: #f5f5f5;
   border: 2px solid #363062;
   border-radius: 50%;
@@ -1128,44 +1133,44 @@ body .bottom-nav .nav a i {
   height: 86px;
   width: 86px;
 }
-.app-con .page-content .home-page .groups.stories .story a, .app-con .page-content .home-page .groups.stories .add-story a, .app-con .page-content .home-page .stories.stories .story a, .app-con .page-content .home-page .stories.stories .add-story a {
+body .app-con .page-content .home-page .groups.stories .story a, body .app-con .page-content .home-page .groups.stories .add-story a, body .app-con .page-content .home-page .stories.stories .story a, body .app-con .page-content .home-page .stories.stories .add-story a {
   display: block;
   text-align: center;
 }
-.app-con .page-content .home-page .groups.stories .story a i, .app-con .page-content .home-page .groups.stories .add-story a i, .app-con .page-content .home-page .stories.stories .story a i, .app-con .page-content .home-page .stories.stories .add-story a i {
+body .app-con .page-content .home-page .groups.stories .story a i, body .app-con .page-content .home-page .groups.stories .add-story a i, body .app-con .page-content .home-page .stories.stories .story a i, body .app-con .page-content .home-page .stories.stories .add-story a i {
   font-size: 28px;
   margin-top: 50%;
   transform: translate(0, -50%);
 }
-.app-con .page-content .home-page .groups.stories .story a img, .app-con .page-content .home-page .groups.stories .add-story a img, .app-con .page-content .home-page .stories.stories .story a img, .app-con .page-content .home-page .stories.stories .add-story a img {
+body .app-con .page-content .home-page .groups.stories .story a img, body .app-con .page-content .home-page .groups.stories .add-story a img, body .app-con .page-content .home-page .stories.stories .story a img, body .app-con .page-content .home-page .stories.stories .add-story a img {
   height: 100%;
   width: 100%;
 }
-.app-con .page-content .profile-page {
+body .app-con .page-content .profile-page {
   padding: 0 40px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .profile-page {
+  body .app-con .page-content .profile-page {
     padding: 0 20px;
   }
 }
-.app-con .page-content .profile-page .user-data {
+body .app-con .page-content .profile-page .user-data {
   margin-bottom: 15px;
 }
-.app-con .page-content .profile-page .user-data .data-head .img {
+body .app-con .page-content .profile-page .user-data .data-head .img {
   float: right;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .user-data .data-head .img img {
+body .app-con .page-content .profile-page .user-data .data-head .img img {
   height: 40px;
   margin-inline-end: 10px;
   width: 40px;
 }
-.app-con .page-content .profile-page .user-data .data-head .img span {
+body .app-con .page-content .profile-page .user-data .data-head .img span {
   font-size: 18px;
 }
-.app-con .page-content .profile-page .user-data .data-head .edit {
+body .app-con .page-content .profile-page .user-data .data-head .edit {
   border: none;
   box-shadow: none;
   color: #363062;
@@ -1175,12 +1180,12 @@ body .bottom-nav .nav a i {
   line-height: 40px;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .user-data .data-edit {
+body .app-con .page-content .profile-page .user-data .data-edit {
   border-bottom: 3px solid #36306266;
   display: none;
   padding: 10px 0;
 }
-.app-con .page-content .profile-page .user-data .data-edit form button {
+body .app-con .page-content .profile-page .user-data .data-edit form button {
   background: #363062;
   color: #f5f5f5;
   display: block;
@@ -1190,10 +1195,13 @@ body .bottom-nav .nav a i {
   padding: 8px 60px;
   width: auto;
 }
-.app-con .page-content .profile-page .groups {
+body .app-con .page-content .profile-page .groups {
   margin-bottom: 15px;
 }
-.app-con .page-content .profile-page .groups .groups-head i {
+body .app-con .page-content .profile-page .groups .groups-head {
+  text-align: start;
+}
+body .app-con .page-content .profile-page .groups .groups-head i {
   color: #363062;
   font-size: 32px;
   height: 40px;
@@ -1201,47 +1209,50 @@ body .bottom-nav .nav a i {
   vertical-align: middle;
   width: 40px;
 }
-.app-con .page-content .profile-page .groups .groups-body {
+body .app-con .page-content .profile-page .groups .groups-body {
   list-style: none;
   margin: 0;
   padding: 0;
   padding-inline-start: 10px;
 }
-.app-con .page-content .profile-page .groups .groups-body li:first-child {
+body .app-con .page-content .profile-page .groups .groups-body li:first-child {
   margin-top: 10px;
 }
-.app-con .page-content .profile-page .groups .groups-body li:not(:last-child) {
+body .app-con .page-content .profile-page .groups .groups-body li:not(:last-child) {
   margin-bottom: 10px;
 }
-.app-con .page-content .profile-page .groups .groups-body li.clearfix a {
+body .app-con .page-content .profile-page .groups .groups-body li.clearfix a {
   float: right;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .groups .groups-body li.clearfix button {
+body .app-con .page-content .profile-page .groups .groups-body li.clearfix button {
   float: left;
 }
-.app-con .page-content .profile-page .groups .groups-body li button {
+body .app-con .page-content .profile-page .groups .groups-body li button {
   color: #dc3545;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .groups .groups-body li button i {
+body .app-con .page-content .profile-page .groups .groups-body li button i {
   color: inherit;
   font-size: 18px;
   margin-inline-end: 5px;
   transform: rotateY(180deg);
 }
-.app-con .page-content .profile-page .groups .groups-body li button i.fa-plus {
+body .app-con .page-content .profile-page .groups .groups-body li button i.fa-plus {
   font-size: 24px;
 }
-.app-con .page-content .profile-page .groups .groups-body li button span {
+body .app-con .page-content .profile-page .groups .groups-body li button span {
   color: inherit;
   font-size: 14px;
   font-weight: 700;
 }
-.app-con .page-content .profile-page .notifications {
+body .app-con .page-content .profile-page .notifications {
   margin-bottom: 15px;
 }
-.app-con .page-content .profile-page .notifications .notifications-head i {
+body .app-con .page-content .profile-page .notifications .notifications-head {
+  text-align: start;
+}
+body .app-con .page-content .profile-page .notifications .notifications-head i {
   color: #363062;
   font-size: 32px;
   height: 40px;
@@ -1249,98 +1260,98 @@ body .bottom-nav .nav a i {
   vertical-align: middle;
   width: 40px;
 }
-.app-con .page-content .profile-page .notifications .notifications-body {
+body .app-con .page-content .profile-page .notifications .notifications-body {
   list-style: none;
   margin: 0;
   padding: 0;
   padding-inline-start: 10px;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li:first-child {
+body .app-con .page-content .profile-page .notifications .notifications-body li:first-child {
   margin-top: 10px;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li:not(:last-child) {
+body .app-con .page-content .profile-page .notifications .notifications-body li:not(:last-child) {
   margin-bottom: 10px;
   position: relative;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li:not(:last-child):after {
+body .app-con .page-content .profile-page .notifications .notifications-body li:not(:last-child):after {
   border-bottom: 1px solid #36306266;
   content: "";
   margin: auto;
   padding-top: 20px;
   width: 80%;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li:last-child a {
+body .app-con .page-content .profile-page .notifications .notifications-body li:last-child a {
   font-weight: 700;
   text-decoration: none;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix a {
   float: right;
   max-width: calc(100% - 48px);
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a i.fa-user-circle {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix a i.fa-user-circle {
   color: #363062;
   font-size: 32px;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a img {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix a img {
   height: 32px;
   vertical-align: middle;
   width: 32px;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix a span {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix a span {
   margin-inline-start: 10px;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns {
   float: left;
   vertical-align: middle;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button {
   border: none;
 }
 @media screen and (max-width: 768px) {
-  .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button {
+  body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button {
     display: block;
     width: 48px;
   }
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i {
   color: inherit;
   font-size: 24px;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-check-circle {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-check-circle {
   color: #28a745;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-times-circle {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-times-circle {
   color: #dc3545;
 }
-.app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-plus {
+body .app-con .page-content .profile-page .notifications .notifications-body li.clearfix .btns button i.fa-plus {
   font-size: 24px;
 }
-.app-con .page-content .create-group-page {
+body .app-con .page-content .create-group-page {
   padding: 0 40px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .create-group-page {
+  body .app-con .page-content .create-group-page {
     padding: 0 20px;
   }
 }
-.app-con .page-content .create-group-page h2 {
+body .app-con .page-content .create-group-page h2 {
   color: #363062;
   font-size: 24px;
   margin-bottom: 25px;
   text-align: center;
 }
-.app-con .page-content .create-group-page form .input-group {
+body .app-con .page-content .create-group-page form .input-group {
   margin-bottom: 15px;
 }
-.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-input {
+body .app-con .page-content .create-group-page form .input-group .custom-file .custom-file-input {
   background: none;
   border-radius: 0;
 }
-.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label {
+body .app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label {
   background: rgba(34, 40, 49, 0.1);
   border: none;
   border-radius: 4px;
@@ -1349,10 +1360,10 @@ body .bottom-nav .nav a i {
   padding: 8px 15px;
   text-align: start;
 }
-.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label::placeholder {
+body .app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label:after {
+body .app-con .page-content .create-group-page form .input-group .custom-file .custom-file-label:after {
   background: none;
   color: #363062;
   content: "";
@@ -1362,11 +1373,11 @@ body .bottom-nav .nav a i {
   left: 0;
   right: auto;
 }
-.app-con .page-content .create-group-page form .form-group textarea {
+body .app-con .page-content .create-group-page form .form-group textarea {
   height: 90px;
   resize: none;
 }
-.app-con .page-content .create-group-page form button {
+body .app-con .page-content .create-group-page form button {
   background: #363062;
   color: #f5f5f5;
   display: block;
@@ -1376,51 +1387,51 @@ body .bottom-nav .nav a i {
   padding: 8px 60px;
   width: auto;
 }
-.app-con .page-content .messenger-page {
+body .app-con .page-content .messenger-page {
   padding: 0 40px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page {
+  body .app-con .page-content .messenger-page {
     padding: 0;
   }
 }
-.app-con .page-content .messenger-page h1 {
+body .app-con .page-content .messenger-page h1 {
   color: #363062;
   font-size: 24px;
   margin-bottom: 25px;
   text-align: center;
 }
-.app-con .page-content .messenger-page .messenger-con {
+body .app-con .page-content .messenger-page .messenger-con {
   background: #ececec;
   border-radius: 8px;
   box-shadow: 0 0 8px #36306266;
   overflow: hidden;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con {
+  body .app-con .page-content .messenger-page .messenger-con {
     border-radius: 0;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type {
   z-index: 1;
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type {
     padding-inline-end: 0;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con {
   box-shadow: -3px 0 8px #36306266;
   padding: 0 10px 15px 10px;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con {
     margin-bottom: 25px;
     padding-bottom: 0;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 {
   border-bottom: 1px solid #36306266;
   color: #363062;
   font-size: 20px;
@@ -1430,12 +1441,12 @@ body .bottom-nav .nav a i {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 {
     border-bottom: none;
     position: relative;
     text-align: start;
   }
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span {
     bottom: auto;
     display: block;
     left: 30px;
@@ -1445,38 +1456,38 @@ body .bottom-nav .nav a i {
     transform: rotateX(0);
     transition: 0.4s ease-in-out all;
   }
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span i {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span i {
     color: #363062;
     font-size: 24px;
     font-weight: 900;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con h2 span {
   display: none;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts {
   height: 600px;
   overflow: hidden auto;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts {
     display: none;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact {
   cursor: pointer;
   display: block;
   margin: 10px 0;
   padding: 5px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.active {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.active {
   background: #f5f5f5;
   margin: 0 -10px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.new-message {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.new-message {
   position: relative;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.new-message:after {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact.new-message:after {
   bottom: auto;
   color: #dc3545;
   content: "";
@@ -1489,63 +1500,64 @@ body .bottom-nav .nav a i {
   top: 5px;
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:first-of-type {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:first-of-type {
     padding-inline-end: 5px;
     padding-inline-start: 10px;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:first-of-type img {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:first-of-type img {
   border-radius: 50%;
   height: 64px;
   width: 64px;
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type {
     padding-inline-end: 10px;
     padding-inline-start: 5px;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type h6 {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type h6 {
   color: #363062;
   margin-bottom: 5px;
   text-align: start;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type p {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:first-of-type .contacts-con .contacts .contact > div[class*=row] div[class*=col]:last-of-type p {
   height: 32px;
   margin-bottom: 0;
   max-width: 100%;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type {
     padding-inline-start: 0;
   }
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con {
   background: #f5f5f5;
   height: 100%;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name {
   background: #363062;
   height: 63px;
   padding: 5px 15px;
+  text-align: start;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name img {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name img {
   border-radius: 50%;
   height: 53px;
   margin-inline-end: 10px;
   width: 53px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name h6 {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .sender-name h6 {
   color: #f5f5f5;
   display: inline-block;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box {
   height: 600px;
   overflow: hidden auto;
   position: relative;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages {
   bottom: 58px;
   left: 0;
   overflow: hidden auto;
@@ -1554,125 +1566,114 @@ body .bottom-nav .nav a i {
   right: 0;
   top: 0;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received {
   max-width: 90%;
   padding: 5px 15px;
   width: max-content;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent:not(:last-child), .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received:not(:last-child) {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent:not(:last-child), body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received:not(:last-child) {
   margin-bottom: 15px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent.sent, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received.sent {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent.sent, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received.sent {
   background: #ececec;
   border-radius: 8px 0 8px 8px;
   margin-inline-end: auto;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent.received, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received.received {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .sent.received, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .messages .received.received {
   background: #363062;
   border-radius: 0 8px 8px 8px;
   color: #f5f5f5;
   margin-inline-start: auto;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input {
   bottom: 0;
   margin: auto;
   position: absolute;
   right: 0;
   top: auto;
-  width: 90%;
+  width: 100%;
 }
-@media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input {
-    width: 100%;
-  }
-}
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form {
   font-size: 0;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group {
-  display: inline-block;
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group {
+  background: #f5f5f5;
   height: 58px;
   margin-bottom: 0;
-  vertical-align: middle;
-  width: calc(100% - 102px);
+  position: relative;
 }
-@media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group {
-    width: calc(100% - 50px);
-  }
-}
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control {
-  border-radius: 0 4px 4px 0;
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control {
+  bottom: 0;
   height: 58px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-@media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .form-control {
-    border-radius: 0;
-  }
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append {
+  bottom: 0;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  right: auto;
+  top: 0;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append .btn {
+  background: #363062;
   background: #363062;
   border: none;
-  border-radius: 4px 0 0 4px;
+  border-radius: 0;
   box-shadow: none;
   color: #f5f5f5;
-  height: 58px;
   padding: 15px 12px;
   vertical-align: middle;
-  width: 102px;
 }
-@media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn {
-    border-radius: 0;
-    width: 50px;
-  }
-}
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn i, .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn span {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append .btn span, body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append .btn i {
   color: inherit;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn i {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append .btn i {
   font-size: 24px;
   margin-inline-end: 5px;
 }
-.app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn span {
+body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append .btn span {
   font-size: 18px;
   font-weight: 700;
 }
 @media screen and (max-width: 767px) {
-  .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .btn span {
+  body .app-con .page-content .messenger-page .messenger-con > div[class*=row] div[class*=col]:last-of-type .message-con .messages-box .message-input form .form-group .input-group-append .btn span {
     display: none;
   }
 }
-.app-con .add-story-modal .modal-dialog, .app-con .join-group-modal .modal-dialog {
+body .add-story-modal .modal-dialog, body .join-group-modal .modal-dialog {
   background: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 7px 10px #36306266;
   position: relative;
 }
-.app-con .add-story-modal .modal-dialog .modal-content, .app-con .join-group-modal .modal-dialog .modal-content {
+body .add-story-modal .modal-dialog .modal-content, body .join-group-modal .modal-dialog .modal-content {
   background: none;
   border: none;
 }
-.app-con .add-story-modal .modal-content .btn:first-of-type, .app-con .join-group-modal .modal-content .btn:first-of-type {
+body .add-story-modal .modal-content .btn:first-of-type, body .join-group-modal .modal-content .btn:first-of-type {
   margin-bottom: 25px;
 }
-.app-con .add-story-modal .modal-content .btn i, .app-con .join-group-modal .modal-content .btn i {
+body .add-story-modal .modal-content .btn i, body .join-group-modal .modal-content .btn i {
   color: #363062;
   font-size: 24px;
   margin-inline-end: 5px;
   vertical-align: middle;
 }
-.app-con .add-story-modal.join-group-modal .modal-dialog, .app-con .join-group-modal.join-group-modal .modal-dialog {
+body .add-story-modal.join-group-modal .modal-dialog, body .join-group-modal.join-group-modal .modal-dialog {
   max-width: 60%;
   padding: 40px 20px;
   text-align: start;
 }
-.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content h4, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content h4 {
+body .add-story-modal.join-group-modal .modal-dialog .modal-content h4, body .join-group-modal.join-group-modal .modal-dialog .modal-content h4 {
   color: #363062;
   font-size: 24px;
   text-align: center;
 }
-.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control {
+body .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control, body .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control {
   background: rgba(34, 40, 49, 0.1);
   border: none;
   border-radius: 4px;
@@ -1681,13 +1682,13 @@ body .bottom-nav .nav a i {
   padding: 8px 15px;
   resize: none;
 }
-.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control:focus, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control:focus {
+body .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control:focus, body .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control:focus {
   box-shadow: 0 0 8px #36306266;
 }
-.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control::placeholder, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control::placeholder {
+body .add-story-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control::placeholder, body .join-group-modal.join-group-modal .modal-dialog .modal-content .form-group .form-control::placeholder {
   color: rgba(34, 40, 49, 0.5);
 }
-.app-con .add-story-modal.join-group-modal .modal-dialog .modal-content .btn, .app-con .join-group-modal.join-group-modal .modal-dialog .modal-content .btn {
+body .add-story-modal.join-group-modal .modal-dialog .modal-content .btn, body .join-group-modal.join-group-modal .modal-dialog .modal-content .btn {
   background: #363062;
   box-shadow: none;
   color: #f5f5f5;
@@ -1698,57 +1699,57 @@ body .bottom-nav .nav a i {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .app-con .view-story-modal .modal-dialog {
+  body .view-story-modal .modal-dialog {
     height: auto;
     margin: 0;
     max-width: 100vw;
   }
 }
-.app-con .view-story-modal .modal-dialog .modal-content {
+body .view-story-modal .modal-dialog .modal-content {
   background: #ececec;
   border: none;
   border-radius: 0;
   height: 900px;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header {
+body .view-story-modal .modal-dialog .modal-content .modal-header {
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
   border-bottom: none;
   z-index: 9;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header .user-data a {
+body .view-story-modal .modal-dialog .modal-content .modal-header .user-data a {
   text-decoration: none;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header .user-data a img {
+body .view-story-modal .modal-dialog .modal-content .modal-header .user-data a img {
   border: 2px solid #363062;
   border-radius: 50%;
   height: 64px;
   margin-inline-end: 10px;
   width: 64px;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header .user-data a span {
+body .view-story-modal .modal-dialog .modal-content .modal-header .user-data a span {
   color: #f5f5f5;
   font-size: 18px;
   font-weight: 700;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header .close {
+body .view-story-modal .modal-dialog .modal-content .modal-header .close {
   background: rgba(249, 249, 249, 0.4);
   border-radius: 4px;
   margin: 5px auto 0 0;
   padding: 10px;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header .close i {
+body .view-story-modal .modal-dialog .modal-content .modal-header .close i {
   color: #dc3545;
   font-size: 24px;
   height: 24px;
   text-shadow: none;
   width: 24px;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-header .close:hover {
+body .view-story-modal .modal-dialog .modal-content .modal-header .close:hover {
   box-shadow: 0 7px 10px #36306266;
   opacity: 1;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-body {
+body .view-story-modal .modal-dialog .modal-content .modal-body {
   bottom: 0;
   left: 0;
   padding: 0;
@@ -1756,13 +1757,13 @@ body .bottom-nav .nav a i {
   right: 0;
   top: 0;
 }
-.app-con .view-story-modal .modal-dialog .modal-content .modal-body .img-con {
+body .view-story-modal .modal-dialog .modal-content .modal-body .img-con {
   background: url("../images/story-preview.png") top center no-repeat;
   background-size: contain;
   height: 100%;
   width: 100%;
 }
-.app-con footer {
+body footer {
   background: linear-gradient(143deg, #363062 0%, #9992d1 50%, #363062 100%);
   bottom: 0;
   left: 0;
@@ -1772,25 +1773,114 @@ body .bottom-nav .nav a i {
   top: auto;
 }
 @media screen and (max-width: 767px) {
-  .app-con footer {
+  body footer {
     display: none;
   }
 }
-.app-con footer nav {
+body footer nav {
   display: flex;
 }
-.app-con footer nav .navbar-brand {
+body footer nav .navbar-brand {
   margin: 0;
   width: 225px;
 }
-.app-con footer nav .navbar-nav {
+body footer nav .navbar-nav {
   padding: 0;
 }
-.app-con footer nav .navbar-nav .nav-item {
+body footer nav .navbar-nav .nav-item {
   color: #f5f5f5;
 }
-.app-con footer nav .navbar-nav .nav-item a {
+body footer nav .navbar-nav .nav-item a {
   text-decoration: underline;
+}
+
+body[dir=ltr] {
+  text-align: left;
+}
+body[dir=ltr] .landing-page .statistics .statistic-box .statistic-content .text {
+  padding-inline-end: 5px;
+  padding-inline-start: 0 !important;
+}
+body[dir=ltr] .landing-page .statistics .statistic-box.rotated .statistic-content .text {
+  padding-inline-end: 0 !important;
+  padding-inline-start: 15px !important;
+}
+body[dir=ltr] .create-group-page form .input-group .custom-file .custom-file-label:after {
+  left: auto !important;
+  right: 0 !important;
+}
+body[dir=ltr] .home-page .stories .owl-carousel .owl-nav .owl-next, body[dir=ltr] .home-page .groups .owl-carousel .owl-nav .owl-next {
+  left: auto !important;
+  right: 0 !important;
+}
+body[dir=ltr] .home-page .stories .owl-carousel .owl-nav .owl-next i, body[dir=ltr] .home-page .groups .owl-carousel .owl-nav .owl-next i {
+  transform: rotate(180deg);
+}
+body[dir=ltr] .home-page .stories .owl-carousel .owl-nav .owl-prev, body[dir=ltr] .home-page .groups .owl-carousel .owl-nav .owl-prev {
+  left: 0 !important;
+  right: auto !important;
+}
+body[dir=ltr] .home-page .stories .owl-carousel .owl-nav .owl-prev i, body[dir=ltr] .home-page .groups .owl-carousel .owl-nav .owl-prev i {
+  transform: rotate(180deg);
+}
+body[dir=ltr] .home-page .new-post .form-group .input-group-append {
+  left: auto !important;
+  right: 0 !important;
+}
+body[dir=ltr] .home-page .new-post .form-group .input-group-append .btn-post {
+  border-radius: 8px 0 !important;
+}
+body[dir=ltr] .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append, body[dir=ltr] .home-page .posts-con .post .post-comments .comment, body[dir=ltr] .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append {
+  left: auto !important;
+  right: 0 !important;
+}
+body[dir=ltr] .home-page .posts-con .post .post-comments .comment-input .form-group .input-group-append .btn, body[dir=ltr] .home-page .posts-con .post .post-comments .comment .btn, body[dir=ltr] .home-page .posts-con .post .post-comments .reply-input .form-group .input-group-append .btn {
+  border-radius: 0 4px 4px 0 !important;
+}
+body[dir=ltr] .profile-page .user-data .clearfix .img {
+  float: left !important;
+}
+body[dir=ltr] .profile-page .user-data .clearfix .btn {
+  float: right !important;
+}
+body[dir=ltr] .profile-page .groups .groups-body .clearfix a {
+  float: left !important;
+}
+body[dir=ltr] .profile-page .groups .groups-body .clearfix .btn {
+  float: right !important;
+}
+body[dir=ltr] .profile-page .notifications .notifications-body .clearfix a {
+  float: left !important;
+}
+body[dir=ltr] .profile-page .notifications .notifications-body .clearfix .btns {
+  float: right !important;
+}
+body[dir=ltr] .register-page .register-box form .form-group.password .input-group-append {
+  left: auto !important;
+  right: 0 !important;
+}
+body[dir=ltr] .messenger-page .messenger-con .message-con .messages-box .messages .sent {
+  border-radius: 0 8px 8px 8px !important;
+}
+body[dir=ltr] .messenger-page .messenger-con .message-con .messages-box .messages .received {
+  border-radius: 8px 0 8px 8px !important;
+}
+body[dir=ltr] .messenger-page .messenger-con .message-con .messages-box .message-input form .form-group .input-group-append {
+  left: auto !important;
+  right: 0 !important;
+}
+body[dir=ltr] .side-menu {
+  left: -100vw;
+  right: auto !important;
+}
+body[dir=ltr] .side-menu .side-menu-con {
+  margin-inline-end: auto;
+}
+body[dir=ltr] .side-menu .side-menu-con .sections .section-con .section-list .clearfix a {
+  float: left;
+}
+body[dir=ltr] .side-menu .side-menu-con .sections .section-con .section-list .clearfix button {
+  float: right;
 }
 
 /*# sourceMappingURL=styles.css.map */
