@@ -162,6 +162,12 @@ body > .container {
   max-width: 80vw;
   width: 80vw;
 }
+@media screen and (max-width: 1200px) {
+  body > .container {
+    max-width: 95vw;
+    width: 95vw;
+  }
+}
 @media screen and (max-width: 767px) {
   body > .container {
     margin: 0;
@@ -363,9 +369,14 @@ body .app-con > .navbar .navbar-brand {
   padding: 0;
   width: 340px;
 }
+@media screen and (max-width: 1200px) {
+  body .app-con > .navbar .navbar-brand {
+    width: 240px;
+  }
+}
 @media screen and (max-width: 767px) {
   body .app-con > .navbar .navbar-brand {
-    width: 150px;
+    width: 140px;
   }
 }
 body .app-con > .navbar .navbar-toggler i {
@@ -377,7 +388,7 @@ body .app-con > .navbar .navbar-collapse .navbar-nav {
   padding: 0;
 }
 body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-of-type) {
-  margin-inline-end: 30px;
+  margin-inline-end: 20px;
 }
 body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #f5f5f5;
@@ -385,7 +396,7 @@ body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
 }
 body .app-con > .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.register-btn {
   border: 1px solid #f5f5f5;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 5px 15px;
 }
 body .app-con .page-content {
@@ -480,7 +491,7 @@ body .app-con .page-content .landing-page .statistics .statistic-box .statistic-
 }
 body .app-con .page-content .landing-page .statistics .statistic-box .statistic-content .text p {
   color: #f5f5f5;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -607,7 +618,14 @@ body .app-con .page-content .register-page .register-box {
   background: #f5f5f5;
   border-radius: 16px;
   box-shadow: 0 0 8px #36306266;
+  margin-bottom: 40px;
   padding: 40px;
+}
+@media screen and (max-width: 767px) {
+  body .app-con .page-content .register-page .register-box {
+    background: none;
+    box-shadow: none;
+  }
 }
 body .app-con .page-content .register-page .register-box h2 {
   color: #363062;
@@ -1858,6 +1876,10 @@ body[dir=ltr] .profile-page .notifications .notifications-body .clearfix .btns {
 body[dir=ltr] .register-page .register-box form .form-group.password .input-group-append {
   left: auto !important;
   right: 0 !important;
+}
+body[dir=ltr] .messenger-page .messenger-con .contacts-con .contact.new-message:after {
+  left: auto !important;
+  right: 5px !important;
 }
 body[dir=ltr] .messenger-page .messenger-con .message-con .messages-box .messages .sent {
   border-radius: 0 8px 8px 8px !important;

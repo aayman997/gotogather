@@ -183,6 +183,10 @@ body {
 	> .container {
 		max-width : 80vw;
 		width     : 80vw;
+		@media screen and (max-width : 1200px) {
+			max-width : 95vw;
+			width     : 95vw;
+		}
 		@media screen and (max-width : 767px) {
 			margin    : 0;
 			max-width : 100vw;
@@ -416,8 +420,11 @@ body {
 				margin  : 0;
 				padding : 0;
 				width   : 340px;
+				@media screen and (max-width : 1200px) {
+					width : 240px;
+				}
 				@media screen and (max-width : 767px) {
-					width : 150px;
+					width : 140px;
 				}
 			}
 			
@@ -435,7 +442,7 @@ body {
 					
 					.nav-item {
 						&:not(:last-of-type) {
-							margin-inline-end : 30px;
+							margin-inline-end : 20px;
 						}
 						
 						.nav-link {
@@ -444,7 +451,7 @@ body {
 							
 							&.register-btn {
 								border        : 1px solid $textWhite;
-								border-radius : 4px;
+								border-radius : 8px;
 								padding       : 5px 15px;
 							}
 						}
@@ -553,7 +560,7 @@ body {
 								
 								p {
 									color         : $textWhite;
-									font-size     : 35px;
+									font-size     : 30px;
 									font-weight   : 700;
 									margin-bottom : 0;
 									@media screen and (max-width : 992px) {
@@ -689,7 +696,12 @@ body {
 					background    : $textWhite;
 					border-radius : 16px;
 					box-shadow    : 0 0 8px $shadowColor;
+					margin-bottom : 40px;
 					padding       : 40px;
+					@media screen and (max-width : 767px) {
+						background : none;
+						box-shadow : none;
+					}
 					
 					h2 {
 						color         : $primary;
@@ -2268,20 +2280,27 @@ body[dir='ltr'] {
 		}
 	}
 	
-	.messenger-page .messenger-con .message-con .messages-box {
-		.messages {
-			.sent {
-				border-radius : 0 8px 8px 8px !important;
-			}
-			
-			.received {
-				border-radius : 8px 0 8px 8px !important;
-			}
+	.messenger-page .messenger-con {
+		.contacts-con .contact.new-message:after {
+			left  : auto !important;
+			right : 5px !important;
 		}
 		
-		.message-input form .form-group .input-group-append {
-			left  : auto !important;
-			right : 0 !important;
+		.message-con .messages-box {
+			.messages {
+				.sent {
+					border-radius : 0 8px 8px 8px !important;
+				}
+				
+				.received {
+					border-radius : 8px 0 8px 8px !important;
+				}
+			}
+			
+			.message-input form .form-group .input-group-append {
+				left  : auto !important;
+				right : 0 !important;
+			}
 		}
 	}
 	
